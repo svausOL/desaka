@@ -21,15 +21,6 @@
   justify-content: flex-start;
 }
 .dharani-image01 {
-  width: 0px;
-  height: 0px;
-  opacity: 0;
-  align-self: center;
-  margin-top: 0px;
-  object-fit: cover;
-  margin-left: 0px;
-}
-.dharani-image02 {
   width: auto;
   height: var(--dl-size-size-xlarge);
   align-self: center;
@@ -37,7 +28,7 @@
   object-fit: cover;
   margin-left: var(--dl-space-space-oneandhalfunits);
 }
-.dharani-image03 {
+.dharani-image02 {
   width: 100%;
   display: flex;
   position: relative;
@@ -50,7 +41,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.dharani-image04 {
+.dharani-image03 {
   width: auto;
   height: auto;
   display: flex;
@@ -73,7 +64,7 @@
   margin-left: var(--dl-space-space-twounits);
   margin-bottom: 0px;
 }
-.dharani-image05 {
+.dharani-image04 {
   width: var(--dl-size-size-large);
   height: var(--dl-size-size-large);
   align-self: flex-end;
@@ -100,6 +91,7 @@
   align-items: center;
   flex-direction: column;
   background-size: cover;
+  justify-content: flex-end;
   background-image: url('https://user-images.githubusercontent.com/127581878/243078337-51d6483e-aea4-44f3-a640-fcd161f5dad1.jpg');
 }
 .dharani-main {
@@ -111,18 +103,6 @@
   padding-left: 0px;
   padding-right: 0px;
   flex-direction: column;
-}
-.dharani-content {
-  width: 100%;
-  height: 946px;
-  display: flex;
-  position: relative;
-  align-self: center;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  flex-direction: column;
-  padding-bottom: 0px;
-  justify-content: flex-start;
 }
 .dharani-navbar {
   top: 0px;
@@ -292,7 +272,7 @@
   border-radius: var(--dl-radius-radius-radius2);
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.dharani-dropdown-toggle01 {
+.dharani-dropdown-toggle1 {
   fill: #595959;
   color: var(--dl-color-gray-black);
   width: 100%;
@@ -315,10 +295,10 @@
   margin-right: 0px;
   vertical-align: middle;
 }
-.dharani-dropdown-arrow01 {
+.dharani-dropdown-arrow1 {
   transition: 0.3s;
 }
-.dharani-dropdown-list01 {
+.dharani-dropdown-list1 {
   left: 0%;
   width: max-content;
   display: none;
@@ -357,7 +337,7 @@
   border-radius: var(--dl-radius-radius-radius2);
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.dharani-dropdown-toggle02 {
+.dharani-dropdown-toggle2 {
   fill: #595959;
   color: var(--dl-color-gray-black);
   width: 100%;
@@ -380,10 +360,10 @@
   margin-right: 0px;
   vertical-align: middle;
 }
-.dharani-dropdown-arrow02 {
+.dharani-dropdown-arrow2 {
   transition: 0.3s;
 }
-.dharani-dropdown-list02 {
+.dharani-dropdown-list2 {
   left: 0%;
   width: max-content;
   display: none;
@@ -426,7 +406,7 @@
   margin-bottom: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.dharani-dropdown-toggle03 {
+.dharani-dropdown-toggle3 {
   fill: #595959;
   color: var(--dl-color-gray-black);
   width: 100%;
@@ -449,10 +429,10 @@
   margin-right: 0px;
   vertical-align: middle;
 }
-.dharani-dropdown-arrow03 {
+.dharani-dropdown-arrow3 {
   transition: 0.3s;
 }
-.dharani-dropdown-list03 {
+.dharani-dropdown-list3 {
   left: 0%;
   width: max-content;
   display: none;
@@ -487,7 +467,7 @@
   position: relative;
   border-radius: var(--dl-radius-radius-radius2);
 }
-.dharani-dropdown-toggle04 {
+.dharani-dropdown-toggle4 {
   fill: #595959;
   color: var(--dl-color-gray-white);
   width: 100%;
@@ -515,10 +495,10 @@
   margin-right: 4px;
   vertical-align: middle;
 }
-.dharani-dropdown-arrow04 {
+.dharani-dropdown-arrow4 {
   transition: 0.3s;
 }
-.dharani-dropdown-list04 {
+.dharani-dropdown-list4 {
   top: 0;
   left: 100%;
   width: max-content;
@@ -543,7 +523,7 @@
   position: relative;
   border-radius: var(--dl-radius-radius-radius2);
 }
-.dharani-dropdown-toggle05 {
+.dharani-dropdown-toggle5 {
   fill: #595959;
   color: #595959;
   width: 100%;
@@ -556,7 +536,7 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.dharani-dropdown-toggle05:hover {
+.dharani-dropdown-toggle5:hover {
   fill: #fff;
   color: #fff;
   background-color: #595959;
@@ -578,7 +558,7 @@
   position: relative;
   border-radius: var(--dl-radius-radius-radius2);
 }
-.dharani-dropdown-toggle06 {
+.dharani-dropdown-toggle6 {
   fill: #595959;
   color: #595959;
   width: 100%;
@@ -591,7 +571,7 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.dharani-dropdown-toggle06:hover {
+.dharani-dropdown-toggle6:hover {
   fill: #fff;
   color: #fff;
   background-color: #595959;
@@ -613,7 +593,7 @@
   position: relative;
   border-radius: var(--dl-radius-radius-radius2);
 }
-.dharani-dropdown-toggle07 {
+.dharani-dropdown-toggle7 {
   fill: #595959;
   color: #595959;
   width: 100%;
@@ -626,7 +606,7 @@
   padding-right: var(--dl-space-space-unit);
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.dharani-dropdown-toggle07:hover {
+.dharani-dropdown-toggle7:hover {
   fill: #fff;
   color: #fff;
   background-color: #595959;
@@ -642,35 +622,17 @@
   line-height: 16px;
   text-decoration: none;
 }
-.dharani-video2 {
+.dharani-content {
   width: 100%;
-  height: auto;
+  height: 946px;
   display: flex;
-  overflow: hidden;
-  margin-top: 120px;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
   align-items: center;
   flex-direction: column;
-  justify-content: center;
-}
-.dharani-video3 {
-  width: auto;
-  height: auto;
-  opacity: 0;
-  align-self: center;
-}
-.dharani-video4 {
-  width: 85%;
-  height: auto;
-  opacity: 0;
-  align-self: center;
-  margin-top: var(--dl-space-space-threeunits);
-  margin-bottom: TwoUn0its;
-}
-.dharani-video5 {
-  width: auto;
-  height: auto;
-  opacity: 1;
-  align-self: center;
+  padding-bottom: 0px;
+  justify-content: flex-start;
 }
 .dharani-caption {
   color: var(--dl-color-gray-black);
@@ -796,534 +758,8 @@
   margin-right: var(--dl-space-space-oneandhalfunits);
   text-decoration: none;
 }
-.dharani-menu1 {
-  gap: var(--dl-space-space-twounits);
-  width: 0%;
-  height: 0px;
-  display: flex;
-  position: relative;
-  align-self: flex-start;
-  align-items: center;
-  justify-content: flex-start;
-}
-.dharani-hamburger1 {
-  top: -30px;
-  left: 100px;
-  color: var(--dl-color-gray-black);
-  width: 36px;
-  cursor: pointer;
-  height: 36px;
-  display: flex;
-  position: absolute;
-  margin-top: 0px;
-  margin-left: 0px;
-  padding-top: var(--dl-space-space-unit);
-  aspect-ratio: 1;
-  border-width: 0px;
-  margin-right: 0px;
-  padding-left: 0px;
-  border-radius: 0px;
-  margin-bottom: 0px;
-  padding-right: var(--dl-space-space-unit);
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-unit);
-  background-color: transparent;
-}
-.dharani-icon4 {
-  fill: var(--dl-color-gray-black);
-  width: var(--dl-size-size-medium);
-  height: var(--dl-size-size-medium);
-  opacity: 0;
-}
-.dharani-home {
-  color: var(--dl-color-gray-black);
-  width: var(--dl-size-size-medium);
-  height: var(--dl-size-size-medium);
-  opacity: 0;
-  font-size: 16px;
-  font-style: normal;
-  margin-top: 0px;
-  text-align: left;
-  font-weight: 200;
-  margin-left: 0px;
-  margin-right: 0px;
-  vertical-align: middle;
-}
-.dharani-mobile-menu1 {
-  top: var(--dl-space-space-sixunits);
-  left: -73px;
-  width: var(--dl-size-size-xlarge);
-  bottom: -545px;
-  height: auto;
-  display: none;
-  padding: 32px;
-  position: absolute;
-  align-self: center;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.dharani-nav2 {
-  width: var(--dl-size-size-medium);
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.dharani-tangible-logo1 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-threeunits);
-  justify-content: space-between;
-}
-.dharani-menu-close1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.dharani-icon6 {
-  fill: var(--dl-color-gray-white);
-  width: var(--dl-size-size-small);
-  height: var(--dl-size-size-small);
-  align-self: center;
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-}
-.dharani-nav3 {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.dharani-desaka1 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-halfunit);
-  border-radius: var(--dl-radius-radius-radius2);
-  margin-bottom: var(--dl-space-space-halfunit);
-}
-.dharani-dropdown-toggle08 {
-  fill: #595959;
-  color: var(--dl-color-gray-black);
-  width: 100%;
-  display: inline-flex;
-  align-items: center;
-  padding-top: 0px;
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius2);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: 0px;
-  justify-content: center;
-}
-.dharani-title-reference4 {
-  color: var(--dl-color-gray-white);
-  font-size: 16px;
-  font-style: normal;
-  text-align: left;
-  font-family: Arial;
-  font-weight: 500;
-  line-height: 16px;
-  margin-right: 0px;
-  vertical-align: middle;
-}
-.dharani-dropdown-arrow05 {
-  transition: 0.3s;
-}
-.dharani-dropdown-list05 {
-  left: 0%;
-  width: max-content;
-  display: none;
-  z-index: 100;
-  position: absolute;
-  min-width: 100%;
-  transition: 0.3s;
-  align-items: stretch;
-  border-color: #D9D9D9;
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius4);
-  flex-direction: column;
-  list-style-type: none;
-  background-color: var(--dl-color-gray-white);
-  list-style-position: inside;
-}
-.dharani-karuna4 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.dharani-delu4 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.dharani-courses1 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-halfunit);
-  border-radius: var(--dl-radius-radius-radius2);
-  margin-bottom: var(--dl-space-space-halfunit);
-}
-.dharani-dropdown-toggle09 {
-  fill: #595959;
-  color: var(--dl-color-gray-black);
-  width: 100%;
-  display: inline-flex;
-  align-items: center;
-  padding-top: 0px;
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius2);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: 0px;
-  justify-content: center;
-}
-.dharani-title-reference5 {
-  color: var(--dl-color-gray-white);
-  font-size: 16px;
-  font-style: normal;
-  text-align: left;
-  font-family: Arial;
-  font-weight: 500;
-  margin-right: 0px;
-  vertical-align: middle;
-}
-.dharani-dropdown-arrow06 {
-  transition: 0.3s;
-}
-.dharani-dropdown-list06 {
-  left: 0%;
-  width: max-content;
-  display: none;
-  z-index: 100;
-  position: absolute;
-  min-width: 100%;
-  transition: 0.3s;
-  align-items: stretch;
-  border-color: #D9D9D9;
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius4);
-  flex-direction: column;
-  list-style-type: none;
-  background-color: var(--dl-color-gray-white);
-  list-style-position: inside;
-}
-.dharani-karuna5 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.dharani-delu5 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.dharani-blog1 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-halfunit);
-  border-radius: var(--dl-radius-radius-radius2);
-  margin-bottom: var(--dl-space-space-halfunit);
-}
-.dharani-dropdown-toggle10 {
-  fill: #595959;
-  color: var(--dl-color-gray-black);
-  width: 100%;
-  display: inline-flex;
-  align-items: center;
-  padding-top: 0px;
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius2);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: 0px;
-  justify-content: center;
-}
-.dharani-title-reference6 {
-  color: var(--dl-color-gray-white);
-  font-size: 16px;
-  font-style: normal;
-  text-align: left;
-  font-family: Arial;
-  font-weight: 500;
-  margin-right: 0px;
-  vertical-align: middle;
-}
-.dharani-dropdown-arrow07 {
-  transition: 0.3s;
-}
-.dharani-dropdown-list07 {
-  left: 0%;
-  width: max-content;
-  display: none;
-  z-index: 100;
-  position: absolute;
-  min-width: 100%;
-  transition: 0.3s;
-  align-items: stretch;
-  border-color: #D9D9D9;
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius4);
-  flex-direction: column;
-  list-style-type: none;
-  background-color: var(--dl-color-gray-white);
-  list-style-position: inside;
-}
-.dharani-karuna6 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.dharani-delu6 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.dharani-link08 {
-  display: contents;
-}
-.dharani-contact1 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  margin-top: var(--dl-space-space-halfunit);
-  margin-left: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-halfunit);
-  border-radius: var(--dl-radius-radius-radius2);
-  margin-bottom: var(--dl-space-space-halfunit);
-  text-decoration: none;
-}
-.dharani-dropdown-toggle11 {
-  fill: #595959;
-  color: var(--dl-color-gray-black);
-  width: 100%;
-  display: inline-flex;
-  align-items: center;
-  padding-top: 0px;
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius2);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: 0px;
-  justify-content: center;
-}
-.dharani-title-reference7 {
-  color: var(--dl-color-gray-white);
-  font-size: 16px;
-  font-style: normal;
-  text-align: left;
-  font-family: Arial;
-  font-weight: 500;
-  margin-right: 0px;
-  vertical-align: middle;
-}
-.dharani-dropdown-arrow08 {
-  transition: 0.3s;
-}
-.dharani-dropdown-list08 {
-  left: 0%;
-  width: max-content;
-  display: none;
-  z-index: 100;
-  position: absolute;
-  min-width: 100%;
-  transition: 0.3s;
-  align-items: stretch;
-  border-color: #D9D9D9;
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius4);
-  flex-direction: column;
-  list-style-type: none;
-  background-color: var(--dl-color-gray-white);
-  list-style-position: inside;
-}
-.dharani-karuna7 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.dharani-delu7 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.dharani-language1 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.dharani-dropdown-toggle12 {
-  fill: #595959;
-  color: var(--dl-color-gray-white);
-  width: 100%;
-  display: inline-flex;
-  margin-top: var(--dl-space-space-twounits);
-  align-items: center;
-  margin-left: var(--dl-space-space-unit);
-  padding-top: var(--dl-space-space-halfunit);
-  border-color: var(--dl-color-gray-white);
-  border-width: 1px;
-  padding-left: var(--dl-space-space-halfunit);
-  border-radius: var(--dl-radius-radius-radius2);
-  margin-bottom: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-halfunit);
-  padding-bottom: var(--dl-space-space-halfunit);
-  justify-content: center;
-}
-.dharani-english1 {
-  color: var(--dl-color-gray-white);
-  font-size: 16px;
-  font-style: normal;
-  text-align: center;
-  font-weight: 400;
-  line-height: 16px;
-  margin-right: 4px;
-  vertical-align: middle;
-}
-.dharani-dropdown-arrow09 {
-  transition: 0.3s;
-}
-.dharani-dropdown-list09 {
-  top: 0;
-  left: 100%;
-  width: max-content;
-  display: none;
-  z-index: 100;
-  position: absolute;
-  min-width: 100%;
-  transition: 0.3s;
-  align-items: stretch;
-  margin-left: var(--dl-space-space-unit);
-  border-color: transparent;
-  border-width: 1px;
-  border-radius: var(--dl-radius-radius-radius4);
-  flex-direction: column;
-  list-style-type: none;
-  background-color: transparent;
-  list-style-position: inside;
-}
-.dharani-dropdown3 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.dharani-dropdown-toggle13 {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.dharani-dropdown-toggle13:hover {
-  fill: #fff;
-  color: #fff;
-  background-color: #595959;
-}
-.dharani-chn-tw1 {
-  color: var(--dl-color-gray-white);
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px;
-  text-decoration: none;
-}
-.dharani-dropdown4 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.dharani-dropdown-toggle14 {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.dharani-dropdown-toggle14:hover {
-  fill: #fff;
-  color: #fff;
-  background-color: #595959;
-}
-.dharani-chn-cn1 {
-  color: var(--dl-color-gray-white);
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px;
-  text-decoration: underline none;
-}
-.dharani-dropdown5 {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  border-radius: var(--dl-radius-radius-radius2);
-}
-.dharani-dropdown-toggle15 {
-  fill: #595959;
-  color: #595959;
-  width: 100%;
-  display: inline-flex;
-  transition: 0.3s;
-  align-items: center;
-  padding-top: var(--dl-space-space-halfunit);
-  padding-left: var(--dl-space-space-unit);
-  border-radius: var(--dl-radius-radius-radius4);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-}
-.dharani-dropdown-toggle15:hover {
-  fill: #fff;
-  color: #fff;
-  background-color: #595959;
-}
-.dharani-vn1 {
-  color: var(--dl-color-gray-white);
-  width: 100%;
-  cursor: pointer;
-  display: flex;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px;
-  text-decoration: none;
-}
 .dharani-content01 {
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
   margin-top: var(--dl-space-space-sixunits);
@@ -1335,7 +771,7 @@
   padding-bottom: var(--dl-space-space-threeunits);
   background-color: var(--dl-color-gray-white);
 }
-.dharani-video6 {
+.dharani-video2 {
   width: auto;
   height: auto;
   opacity: 1;
@@ -1344,42 +780,18 @@
   margin-bottom: var(--dl-space-space-twounits);
 }
 .dharani-mantra {
-  color: rgb(53, 43, 42);
+  width: 100%;
   height: auto;
-  font-size: 27px;
+  display: flex;
+  position: relative;
   align-self: center;
-  font-style: normal;
-  text-align: center;
-  font-family: Cormorant Infant;
-  font-weight: 500;
-  line-height: 45px;
-  padding-top: var(--dl-space-space-fourunits);
-  padding-left: var(--dl-space-space-sixunits);
-  padding-right: var(--dl-space-space-sixunits);
-  padding-bottom: var(--dl-space-space-fourunits);
-}
-.dharani-video7 {
-  width: auto;
-  height: 450px;
-  opacity: 1;
-  align-self: center;
-  margin-top: var(--dl-space-space-threeunits);
-  margin-bottom: var(--dl-space-space-twounits);
-}
-.dharani-mudra {
-  color: rgb(53, 43, 42);
-  height: auto;
-  font-size: 27px;
-  align-self: center;
-  font-style: normal;
-  text-align: center;
-  font-family: Cormorant Infant;
-  font-weight: 500;
-  line-height: 45px;
-  padding-top: var(--dl-space-space-fourunits);
-  padding-left: var(--dl-space-space-sixunits);
-  padding-right: var(--dl-space-space-sixunits);
-  padding-bottom: var(--dl-space-space-fourunits);
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: center;
+  margin-left: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
 }
 .dharani-mantra1 {
   color: rgb(53, 43, 42);
@@ -1396,7 +808,42 @@
   padding-right: var(--dl-space-space-sixunits);
   padding-bottom: var(--dl-space-space-fourunits);
 }
-.dharani-quote {
+.dharani-mantra-mobile {
+  color: rgb(53, 43, 42);
+  width: auto;
+  height: 0px;
+  opacity: 0;
+  font-size: 27px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Cormorant Infant;
+  font-weight: 500;
+  line-height: 45px;
+}
+.dharani-video3 {
+  width: auto;
+  height: 450px;
+  opacity: 1;
+  align-self: center;
+  margin-top: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.dharani-mutra {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: center;
+  margin-left: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+}
+.dharani-mudra {
   color: rgb(53, 43, 42);
   height: auto;
   font-size: 27px;
@@ -1411,7 +858,103 @@
   padding-right: var(--dl-space-space-sixunits);
   padding-bottom: var(--dl-space-space-fourunits);
 }
-.dharani-karuna8 {
+.dharani-mudra-moblie {
+  color: rgb(53, 43, 42);
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  font-size: 27px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Cormorant Infant;
+  font-weight: 500;
+  line-height: 45px;
+}
+.dharani-alone {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: center;
+  margin-left: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+}
+.dharani-alone1 {
+  color: rgb(53, 43, 42);
+  height: auto;
+  font-size: 27px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Cormorant Infant;
+  font-weight: 500;
+  line-height: 45px;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-sixunits);
+  padding-bottom: 0px;
+}
+.dharani-alone-mobile {
+  color: rgb(53, 43, 42);
+  width: auto;
+  height: 0px;
+  opacity: 0;
+  font-size: 27px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Cormorant Infant;
+  font-weight: 500;
+  line-height: 45px;
+}
+.dharani-dharani {
+  width: auto;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: center;
+  margin-left: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+}
+.dharani-quote {
+  color: rgb(53, 43, 42);
+  height: auto;
+  font-size: 27px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Cormorant Infant;
+  font-weight: 500;
+  line-height: 45px;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-sixunits);
+  padding-bottom: 0px;
+}
+.dharani-quote-mobile {
+  color: rgb(53, 43, 42);
+  height: 0px;
+  opacity: 0;
+  font-size: 27px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Cormorant Infant;
+  font-weight: 500;
+  line-height: 45px;
+}
+.dharani-karuna4 {
   width: 100%;
   display: flex;
   position: relative;
@@ -1445,34 +988,7 @@
   font-weight: 700;
   line-height: 45px;
 }
-.dharani-image06 {
-  width: 100%;
-  display: flex;
-  position: relative;
-  margin-top: 180px;
-  align-items: center;
-  margin-left: 0px;
-  padding-top: 0px;
-  flex-direction: column;
-  justify-content: center;
-}
-.dharani-image07 {
-  width: 0px;
-  height: 0px;
-  opacity: 0;
-  margin-top: 0px;
-  object-fit: cover;
-  margin-left: 0px;
-}
-.dharani-image08 {
-  width: 0px;
-  height: 0px;
-  opacity: 0;
-  margin-top: 0px;
-  object-fit: cover;
-  margin-left: 0px;
-}
-.dharani-blog2 {
+.dharani-blog1 {
   gap: var(--dl-space-space-sixunits);
   width: auto;
   height: auto;
@@ -1502,7 +1018,18 @@
   margin-bottom: 0px;
   padding-bottom: var(--dl-space-space-halfunit);
 }
-.dharani-caption02 {
+.dharani-dharani1 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-top: 0px;
+  align-items: center;
+  margin-left: 0px;
+  padding-top: 0px;
+  flex-direction: column;
+  justify-content: center;
+}
+.dharani-dharani2 {
   color: var(--dl-color-gray-black);
   width: auto;
   height: auto;
@@ -1520,6 +1047,20 @@
   margin-right: var(--dl-space-space-sixunits);
   margin-bottom: 11px;
   padding-bottom: var(--dl-space-space-halfunit);
+}
+.dharani-dharani-mobile {
+  color: var(--dl-color-gray-black);
+  width: auto;
+  height: 0px;
+  opacity: 0;
+  font-size: 27px;
+  max-width: auto;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Cormorant Infant;
+  font-weight: 400;
+  line-height: 45px;
 }
 .dharani-give {
   color: var(--dl-color-gray-black);
@@ -1568,7 +1109,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link09 {
+.dharani-link08 {
   display: contents;
 }
 .dharani-header {
@@ -1582,7 +1123,7 @@
   line-height: 60px;
   text-decoration: none;
 }
-.dharani-caption03 {
+.dharani-caption02 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1592,13 +1133,7 @@
   font-family: Karla;
   line-height: 27px;
 }
-.dharani-text225 {
-  font-size: 27px;
-}
-.dharani-text237 {
-  font-size: 27px;
-}
-.dharani-image09 {
+.dharani-image05 {
   width: 40%;
   display: flex;
   position: relative;
@@ -1607,7 +1142,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-caption04 {
+.dharani-caption03 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1650,7 +1185,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link10 {
+.dharani-link09 {
   display: contents;
 }
 .dharani-header1 {
@@ -1664,7 +1199,7 @@
   line-height: 60px;
   text-decoration: none;
 }
-.dharani-caption05 {
+.dharani-caption04 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1674,16 +1209,7 @@
   font-family: Karla;
   line-height: 27px;
 }
-.dharani-text241 {
-  font-size: 27px;
-}
-.dharani-text242 {
-  font-size: 27px;
-}
-.dharani-text248 {
-  font-size: 27px;
-}
-.dharani-image10 {
+.dharani-image06 {
   width: 40%;
   display: flex;
   position: relative;
@@ -1692,7 +1218,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-caption06 {
+.dharani-caption05 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1735,7 +1261,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link11 {
+.dharani-link10 {
   display: contents;
 }
 .dharani-header2 {
@@ -1749,7 +1275,7 @@
   line-height: 60px;
   text-decoration: none;
 }
-.dharani-caption07 {
+.dharani-caption06 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1759,31 +1285,7 @@
   font-family: Karla;
   line-height: 27px;
 }
-.dharani-text251 {
-  font-size: 27px;
-}
-.dharani-text252 {
-  font-size: 27px;
-}
-.dharani-text253 {
-  font-size: 27px;
-}
-.dharani-text254 {
-  font-size: 27px;
-}
-.dharani-text255 {
-  font-size: 27px;
-}
-.dharani-text256 {
-  font-size: 27px;
-}
-.dharani-text257 {
-  font-size: 27px;
-}
-.dharani-text259 {
-  font-size: 27px;
-}
-.dharani-image11 {
+.dharani-image07 {
   width: 40%;
   display: flex;
   position: relative;
@@ -1792,7 +1294,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-caption08 {
+.dharani-caption07 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1802,6 +1304,17 @@
   text-align: center;
   font-family: Karla;
   line-height: 27px;
+}
+.dharani-dharani3 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-top: 0px;
+  align-items: center;
+  margin-left: 0px;
+  padding-top: 0px;
+  flex-direction: column;
+  justify-content: center;
 }
 .dharani-take {
   color: var(--dl-color-gray-black);
@@ -1825,6 +1338,7 @@
   font-size: 27px;
   max-width: auto;
   align-self: center;
+  margin-top: var(--dl-space-space-oneandhalfunits);
   text-align: center;
   font-family: Cormorant Infant;
   font-weight: 600;
@@ -1832,13 +1346,16 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.dharani-text270 {
-  font-style: normal;
-}
-.dharani-text271 {
+.dharani-text585 {
   font-weight: 500;
 }
-.dharani-text272 {
+.dharani-text586 {
+  font-weight: 500;
+}
+.dharani-text587 {
+  font-weight: 500;
+}
+.dharani-text588 {
   font-style: normal;
 }
 .dharani-care1 {
@@ -1858,22 +1375,22 @@
   display: flex;
   align-self: center;
   align-items: flex-start;
-  margin-left: var(--dl-space-space-twounits);
+  margin-left: 0px;
   flex-direction: column;
   justify-content: center;
 }
 .dharani-heading03 {
   gap: var(--dl-space-space-oneandhalfunits);
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
   max-width: 100%;
-  align-self: center;
+  align-self: flex-start;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link12 {
+.dharani-link11 {
   display: contents;
 }
 .dharani-header3 {
@@ -1887,7 +1404,7 @@
   line-height: 60px;
   text-decoration: none;
 }
-.dharani-caption09 {
+.dharani-caption08 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1897,13 +1414,13 @@
   font-family: Karla;
   line-height: 27px;
 }
-.dharani-text277 {
+.dharani-text593 {
   font-size: 27px;
 }
-.dharani-text288 {
+.dharani-text606 {
   font-size: 27px;
 }
-.dharani-image12 {
+.dharani-image08 {
   width: 40%;
   display: flex;
   position: relative;
@@ -1912,7 +1429,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-caption10 {
+.dharani-caption09 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1940,7 +1457,7 @@
   display: flex;
   align-self: center;
   align-items: flex-start;
-  margin-left: var(--dl-space-space-twounits);
+  margin-left: 0px;
   flex-direction: column;
   justify-content: center;
 }
@@ -1955,7 +1472,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link13 {
+.dharani-link12 {
   display: contents;
 }
 .dharani-header4 {
@@ -1969,7 +1486,7 @@
   line-height: 60px;
   text-decoration: none;
 }
-.dharani-caption11 {
+.dharani-caption10 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1979,7 +1496,7 @@
   font-family: Karla;
   line-height: 27px;
 }
-.dharani-image13 {
+.dharani-image09 {
   width: 40%;
   display: flex;
   position: relative;
@@ -1988,7 +1505,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-caption12 {
+.dharani-caption11 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -2016,7 +1533,7 @@
   display: flex;
   align-self: center;
   align-items: flex-start;
-  margin-left: var(--dl-space-space-twounits);
+  margin-left: 0px;
   flex-direction: column;
   justify-content: center;
 }
@@ -2031,7 +1548,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link14 {
+.dharani-link13 {
   display: contents;
 }
 .dharani-header5 {
@@ -2045,7 +1562,7 @@
   line-height: 60px;
   text-decoration: none;
 }
-.dharani-caption13 {
+.dharani-caption12 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -2055,7 +1572,7 @@
   font-family: Karla;
   line-height: 27px;
 }
-.dharani-image14 {
+.dharani-image10 {
   width: 40%;
   display: flex;
   position: relative;
@@ -2081,7 +1598,7 @@
   display: flex;
   align-self: center;
   align-items: flex-start;
-  margin-left: var(--dl-space-space-twounits);
+  margin-left: 0px;
   flex-direction: column;
   justify-content: center;
 }
@@ -2096,7 +1613,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link15 {
+.dharani-link14 {
   display: contents;
 }
 .dharani-header6 {
@@ -2110,7 +1627,7 @@
   line-height: 60px;
   text-decoration: none;
 }
-.dharani-caption14 {
+.dharani-caption13 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -2120,7 +1637,7 @@
   font-family: Karla;
   line-height: 27px;
 }
-.dharani-image15 {
+.dharani-image11 {
   width: 40%;
   display: flex;
   position: relative;
@@ -2146,7 +1663,7 @@
   display: flex;
   align-self: center;
   align-items: flex-start;
-  margin-left: var(--dl-space-space-twounits);
+  margin-left: 0px;
   flex-direction: column;
   justify-content: center;
 }
@@ -2161,7 +1678,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link16 {
+.dharani-link15 {
   display: contents;
 }
 .dharani-header7 {
@@ -2175,7 +1692,7 @@
   line-height: 60px;
   text-decoration: none;
 }
-.dharani-caption15 {
+.dharani-caption14 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -2185,7 +1702,7 @@
   font-family: Karla;
   line-height: 27px;
 }
-.dharani-image16 {
+.dharani-image12 {
   width: 40%;
   display: flex;
   position: relative;
@@ -2230,7 +1747,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link17 {
+.dharani-link16 {
   display: contents;
 }
 .dharani-header8 {
@@ -2244,7 +1761,7 @@
   line-height: 60px;
   text-decoration: none;
 }
-.dharani-caption16 {
+.dharani-caption15 {
   color: rgb(53, 43, 42);
   width: auto;
   height: auto;
@@ -2256,7 +1773,7 @@
   font-weight: 400;
   line-height: 36px;
 }
-.dharani-image17 {
+.dharani-image13 {
   width: 40%;
   display: flex;
   position: relative;
@@ -2265,7 +1782,7 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.dharani-image18 {
+.dharani-image14 {
   width: var(--dl-size-size-medium);
   object-fit: cover;
 }
@@ -2285,7 +1802,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.dharani-image19 {
+.dharani-image15 {
   width: var(--dl-size-size-xlarge);
   height: auto;
   align-self: center;
@@ -2319,12 +1836,12 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.dharani-image20 {
+.dharani-image16 {
   width: var(--dl-size-size-small);
   align-self: flex-start;
   object-fit: cover;
 }
-.dharani-caption17 {
+.dharani-caption16 {
   color: rgb(53, 43, 42);
   width: auto;
   height: 100%;
@@ -2349,13 +1866,13 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.dharani-image21 {
+.dharani-image17 {
   width: var(--dl-size-size-small);
   height: auto;
   align-self: flex-start;
   object-fit: cover;
 }
-.dharani-caption18 {
+.dharani-caption17 {
   color: rgb(53, 43, 42);
   width: auto;
   height: 100%;
@@ -2381,12 +1898,12 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.dharani-image22 {
+.dharani-image18 {
   width: var(--dl-size-size-small);
   align-self: flex-start;
   object-fit: cover;
 }
-.dharani-caption19 {
+.dharani-caption18 {
   color: rgb(53, 43, 42);
   width: auto;
   height: 100%;
@@ -2411,12 +1928,12 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.dharani-image23 {
+.dharani-image19 {
   width: var(--dl-size-size-small);
   align-self: flex-start;
   object-fit: cover;
 }
-.dharani-caption20 {
+.dharani-caption19 {
   color: rgb(53, 43, 42);
   width: auto;
   height: auto;
@@ -2442,12 +1959,12 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.dharani-image24 {
+.dharani-image20 {
   width: var(--dl-size-size-small);
   align-self: flex-start;
   object-fit: cover;
 }
-.dharani-caption21 {
+.dharani-caption20 {
   color: rgb(53, 43, 42);
   width: auto;
   height: 100%;
@@ -2509,7 +2026,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.dharani-link18 {
+.dharani-link17 {
   display: contents;
 }
 .dharani-heading10 {
@@ -2521,11 +2038,11 @@
   justify-content: flex-start;
   text-decoration: none;
 }
-.dharani-image25 {
+.dharani-image21 {
   height: var(--dl-size-size-small);
   object-fit: cover;
 }
-.dharani-caption22 {
+.dharani-caption21 {
   color: var(--dl-color-danger-300);
   height: 100%;
   font-size: 16px;
@@ -2594,26 +2111,20 @@
     margin-right: 0px;
   }
   .dharani-image01 {
-    width: 0px;
-    height: 0px;
-    margin-top: 0px;
-    padding-top: 0px;
-  }
-  .dharani-image02 {
     width: auto;
     height: var(--dl-size-size-large);
     align-self: flex-start;
     margin-top: 0px;
     padding-top: 0px;
   }
-  .dharani-image03 {
+  .dharani-image02 {
     width: auto;
     height: var(--dl-size-size-large);
     margin-top: 0px;
     margin-left: var(--dl-space-space-unit);
     padding-top: 0px;
   }
-  .dharani-image04 {
+  .dharani-image03 {
     width: auto;
     height: var(--dl-size-size-large);
     margin-top: 0px;
@@ -2630,7 +2141,7 @@
     padding-left: 0px;
     margin-bottom: 0px;
   }
-  .dharani-image05 {
+  .dharani-image04 {
     width: var(--dl-size-size-large);
     height: auto;
     margin-top: 0px;
@@ -2654,11 +2165,6 @@
     height: 100%;
     padding-left: var(--dl-space-space-fiveunits);
     padding-right: var(--dl-space-space-fiveunits);
-  }
-  .dharani-content {
-    height: auto;
-    margin-top: var(--dl-space-space-fourunits);
-    padding-bottom: 0px;
   }
   .dharani-navbar {
     margin-top: -27px;
@@ -2728,7 +2234,7 @@
     font-weight: 500;
     line-height: 12px;
   }
-  .dharani-dropdown-list01 {
+  .dharani-dropdown-list1 {
     left: 0%;
   }
   .dharani-blog {
@@ -2742,7 +2248,7 @@
     font-weight: 500;
     line-height: 12px;
   }
-  .dharani-dropdown-list02 {
+  .dharani-dropdown-list2 {
     left: 0%;
   }
   .dharani-contact {
@@ -2756,10 +2262,10 @@
     font-weight: 500;
     line-height: 12px;
   }
-  .dharani-dropdown-list03 {
+  .dharani-dropdown-list3 {
     left: 0%;
   }
-  .dharani-dropdown-toggle04 {
+  .dharani-dropdown-toggle4 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
     padding-top: 0px;
@@ -2774,11 +2280,11 @@
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  .dharani-dropdown-list04 {
+  .dharani-dropdown-list4 {
     border-color: transparent;
     background-color: transparent;
   }
-  .dharani-dropdown-toggle05 {
+  .dharani-dropdown-toggle5 {
     padding-top: 0px;
   }
   .dharani-chn-tw {
@@ -2786,7 +2292,7 @@
     font-size: 14px;
     line-height: 14px;
   }
-  .dharani-dropdown-toggle06 {
+  .dharani-dropdown-toggle6 {
     padding-top: 0px;
   }
   .dharani-chn-cn {
@@ -2794,7 +2300,7 @@
     font-size: 14px;
     line-height: 14px;
   }
-  .dharani-dropdown-toggle07 {
+  .dharani-dropdown-toggle7 {
     padding-top: 0px;
   }
   .dharani-vn {
@@ -2802,29 +2308,10 @@
     font-size: 14px;
     line-height: 14px;
   }
-  .dharani-video2 {
-    width: 100%;
+  .dharani-content {
     height: auto;
-    position: static;
-    margin-bottom: 0px;
-  }
-  .dharani-video3 {
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-    margin-bottom: var(--dl-space-space-sixunits);
-  }
-  .dharani-video4 {
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-    margin-bottom: var(--dl-space-space-sixunits);
-  }
-  .dharani-video5 {
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-    margin-bottom: var(--dl-space-space-sixunits);
+    margin-top: var(--dl-space-space-fourunits);
+    padding-bottom: 0px;
   }
   .dharani-caption {
     color: var(--dl-color-gray-white);
@@ -2845,187 +2332,26 @@
     align-items: flex-start;
     padding-top: 0px;
   }
-  .dharani-menu1 {
-    right: 0px;
-    width: 100%;
-    bottom: 0px;
-    height: auto;
-    position: absolute;
-    align-self: flex-start;
-    align-items: flex-start;
-  }
-  .dharani-hamburger1 {
-    top: -16px;
-    left: 70px;
-    width: var(--dl-size-size-xsmall);
-    height: var(--dl-size-size-xsmall);
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-  }
-  .dharani-icon4 {
-    width: var(--dl-size-size-xsmall);
-    height: var(--dl-size-size-xsmall);
-    align-self: flex-start;
-  }
-  .dharani-home {
-    top: -16px;
-    left: 90px;
-    bottom: 0px;
-    position: absolute;
-    font-size: 11px;
-    margin-top: 0px;
-    margin-left: 0px;
-  }
-  .dharani-mobile-menu1 {
-    top: var(--dl-space-space-oneandhalfunits);
-    left: -73px;
-    width: var(--dl-size-size-large);
-    bottom: 0px;
-    height: auto;
-    padding: 0px;
-    position: absolute;
-  }
-  .dharani-tangible-logo1 {
-    margin-bottom: var(--dl-space-space-oneandhalfunits);
-  }
-  .dharani-icon6 {
-    width: 27px;
-    height: 27px;
-  }
-  .dharani-desaka1 {
-    margin-top: 0px;
-  }
-  .dharani-title-reference4 {
-    color: var(--dl-color-gray-white);
-    font-size: 12px;
-    font-style: normal;
-    font-family: Arial;
-    font-weight: 500;
-  }
-  .dharani-dropdown-list05 {
-    left: 0%;
-  }
-  .dharani-courses1 {
-    margin-top: 0px;
-  }
-  .dharani-title-reference5 {
-    color: var(--dl-color-gray-white);
-    font-size: 12px;
-    font-style: normal;
-    font-family: Arial;
-    font-weight: 500;
-    line-height: 12px;
-  }
-  .dharani-dropdown-list06 {
-    left: 0%;
-  }
-  .dharani-blog1 {
-    margin-top: 0px;
-  }
-  .dharani-title-reference6 {
-    color: var(--dl-color-gray-white);
-    font-size: 12px;
-    font-style: normal;
-    font-family: Arial;
-    font-weight: 500;
-    line-height: 12px;
-  }
-  .dharani-dropdown-list07 {
-    left: 0%;
-  }
-  .dharani-contact1 {
-    margin-top: 0px;
-  }
-  .dharani-title-reference7 {
-    color: var(--dl-color-gray-white);
-    font-size: 12px;
-    font-style: normal;
-    font-family: Arial;
-    font-weight: 500;
-    line-height: 12px;
-  }
-  .dharani-dropdown-list08 {
-    left: 0%;
-  }
-  .dharani-dropdown-toggle12 {
-    margin-top: var(--dl-space-space-unit);
-    margin-left: 0px;
-    padding-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-  }
-  .dharani-english1 {
-    color: var(--dl-color-gray-white);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  .dharani-dropdown-list09 {
-    border-color: transparent;
-    background-color: transparent;
-  }
-  .dharani-dropdown-toggle13 {
-    padding-top: 0px;
-  }
-  .dharani-chn-tw1 {
-    color: var(--dl-color-gray-white);
-    font-size: 14px;
-    line-height: 14px;
-  }
-  .dharani-dropdown-toggle14 {
-    padding-top: 0px;
-  }
-  .dharani-chn-cn1 {
-    color: var(--dl-color-gray-white);
-    font-size: 14px;
-    line-height: 14px;
-  }
-  .dharani-dropdown-toggle15 {
-    padding-top: 0px;
-  }
-  .dharani-vn1 {
-    color: var(--dl-color-gray-white);
-    font-size: 14px;
-    line-height: 14px;
-  }
   .dharani-content01 {
     height: 100%;
     margin-top: 0px;
     padding-top: var(--dl-space-space-sixunits);
     padding-bottom: var(--dl-space-space-fourunits);
   }
-  .dharani-video6 {
+  .dharani-video2 {
     width: 100%;
     height: 100%;
     opacity: 1;
     margin-bottom: var(--dl-space-space-sixunits);
   }
   .dharani-mantra {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    font-family: Cormorant Infant;
-    font-weight: 600;
-    line-height: 30px;
-  }
-  .dharani-video7 {
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-    margin-bottom: var(--dl-space-space-sixunits);
-  }
-  .dharani-mudra {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    font-family: Cormorant Infant;
-    font-weight: 600;
-    line-height: 30px;
+    width: auto;
+    height: var(--dl-size-size-large);
+    margin-top: 0px;
+    align-items: center;
+    margin-left: 0px;
+    padding-top: 0px;
+    justify-content: flex-end;
   }
   .dharani-mantra1 {
     color: rgb(53, 43, 42);
@@ -3036,6 +2362,84 @@
     font-weight: 600;
     line-height: 30px;
   }
+  .dharani-mantra-mobile {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-family: Cormorant Infant;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .dharani-video3 {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    margin-bottom: var(--dl-space-space-sixunits);
+  }
+  .dharani-mutra {
+    width: auto;
+    height: var(--dl-size-size-large);
+    margin-top: 0px;
+    align-items: center;
+    margin-left: 0px;
+    padding-top: 0px;
+    justify-content: flex-end;
+  }
+  .dharani-mudra {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-family: Cormorant Infant;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .dharani-mudra-moblie {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-family: Cormorant Infant;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .dharani-alone {
+    width: auto;
+    height: var(--dl-size-size-large);
+    margin-top: 0px;
+    align-items: center;
+    margin-left: 0px;
+    padding-top: 0px;
+    justify-content: flex-end;
+  }
+  .dharani-alone1 {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-family: Cormorant Infant;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .dharani-alone-mobile {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-family: Cormorant Infant;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .dharani-dharani {
+    width: auto;
+    height: var(--dl-size-size-large);
+    margin-top: 0px;
+    align-items: center;
+    margin-left: 0px;
+    padding-top: 0px;
+    justify-content: flex-end;
+  }
   .dharani-quote {
     color: rgb(53, 43, 42);
     height: auto;
@@ -3045,7 +2449,16 @@
     font-weight: 600;
     line-height: 30px;
   }
-  .dharani-karuna8 {
+  .dharani-quote-mobile {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-family: Cormorant Infant;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .dharani-karuna4 {
     width: 100%;
     height: var(--dl-size-size-large);
     margin-top: var(--dl-space-space-sixunits);
@@ -3069,25 +2482,7 @@
     font-weight: 600;
     line-height: 30px;
   }
-  .dharani-image06 {
-    width: 100%;
-    height: var(--dl-size-size-large);
-    margin-top: var(--dl-space-space-sixunits);
-    padding-top: var(--dl-space-space-sixunits);
-  }
-  .dharani-image07 {
-    width: var(--dl-size-size-large);
-    height: auto;
-    margin-top: var(--dl-space-space-sixunits);
-    padding-top: var(--dl-space-space-sixunits);
-  }
-  .dharani-image08 {
-    width: var(--dl-size-size-large);
-    height: auto;
-    margin-top: var(--dl-space-space-sixunits);
-    padding-top: var(--dl-space-space-sixunits);
-  }
-  .dharani-blog2 {
+  .dharani-blog1 {
     gap: 135px;
     height: auto;
     align-items: flex-start;
@@ -3104,7 +2499,23 @@
     font-weight: 800;
     line-height: 90px;
   }
-  .dharani-caption02 {
+  .dharani-dharani1 {
+    width: 100%;
+    height: var(--dl-size-size-large);
+    margin-top: var(--dl-space-space-sixunits);
+    padding-top: var(--dl-space-space-sixunits);
+  }
+  .dharani-dharani2 {
+    color: var(--dl-color-gray-black);
+    height: auto;
+    font-size: 90px;
+    font-style: normal;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 800;
+    line-height: 90px;
+  }
+  .dharani-dharani-mobile {
     color: var(--dl-color-gray-black);
     height: auto;
     font-size: 90px;
@@ -3129,10 +2540,10 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .dharani-caption03 {
+  .dharani-caption02 {
     height: auto;
   }
-  .dharani-caption04 {
+  .dharani-caption03 {
     height: auto;
   }
   .dharani-cultivate {
@@ -3140,10 +2551,10 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .dharani-caption05 {
+  .dharani-caption04 {
     height: auto;
   }
-  .dharani-caption06 {
+  .dharani-caption05 {
     height: auto;
   }
   .dharani-care {
@@ -3151,21 +2562,27 @@
     align-items: flex-start;
     flex-direction: column;
   }
+  .dharani-caption06 {
+    height: auto;
+  }
   .dharani-caption07 {
     height: auto;
   }
-  .dharani-caption08 {
-    height: auto;
+  .dharani-dharani3 {
+    width: 100%;
+    height: var(--dl-size-size-large);
+    margin-top: var(--dl-space-space-sixunits);
+    padding-top: var(--dl-space-space-sixunits);
   }
   .dharani-take {
     color: var(--dl-color-gray-black);
     height: auto;
-    font-size: 90px;
+    font-size: 18px;
     font-style: normal;
     text-align: left;
     font-family: Cormorant Infant;
     font-weight: 800;
-    line-height: 90px;
+    line-height: 27px;
   }
   .dharani-take1 {
     color: var(--dl-color-gray-black);
@@ -3182,10 +2599,10 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .dharani-caption09 {
+  .dharani-caption08 {
     height: auto;
   }
-  .dharani-caption10 {
+  .dharani-caption09 {
     height: auto;
   }
   .dharani-care2 {
@@ -3193,10 +2610,10 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .dharani-caption11 {
+  .dharani-caption10 {
     height: auto;
   }
-  .dharani-caption12 {
+  .dharani-caption11 {
     height: auto;
   }
   .dharani-take2 {
@@ -3204,7 +2621,7 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .dharani-caption13 {
+  .dharani-caption12 {
     height: auto;
   }
   .dharani-care3 {
@@ -3212,7 +2629,7 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .dharani-caption14 {
+  .dharani-caption13 {
     height: auto;
   }
   .dharani-care4 {
@@ -3220,7 +2637,7 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .dharani-caption15 {
+  .dharani-caption14 {
     height: auto;
   }
   .dharani-testimony {
@@ -3228,7 +2645,7 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .dharani-caption16 {
+  .dharani-caption15 {
     height: auto;
   }
   .dharani-social-media {
@@ -3249,7 +2666,7 @@
     height: auto;
     justify-content: flex-start;
   }
-  .dharani-caption17 {
+  .dharani-caption16 {
     color: rgb(53, 43, 42);
     height: auto;
     font-size: 18px;
@@ -3261,7 +2678,7 @@
     height: auto;
     justify-content: flex-start;
   }
-  .dharani-caption18 {
+  .dharani-caption17 {
     color: rgb(53, 43, 42);
     height: auto;
     font-size: 18px;
@@ -3273,7 +2690,7 @@
     height: auto;
     justify-content: flex-start;
   }
-  .dharani-caption19 {
+  .dharani-caption18 {
     color: rgb(53, 43, 42);
     height: auto;
     font-size: 18px;
@@ -3284,7 +2701,7 @@
     width: 22%;
     height: auto;
   }
-  .dharani-caption20 {
+  .dharani-caption19 {
     color: rgb(53, 43, 42);
     height: auto;
     font-size: 18px;
@@ -3295,7 +2712,7 @@
     width: 22%;
     height: auto;
   }
-  .dharani-caption21 {
+  .dharani-caption20 {
     color: rgb(53, 43, 42);
     height: auto;
     font-size: 18px;
@@ -3325,7 +2742,7 @@
   .dharani-heading10 {
     gap: var(--dl-space-space-unit);
   }
-  .dharani-caption22 {
+  .dharani-caption21 {
     font-size: 9px;
   }
   .dharani-email {
@@ -3340,11 +2757,11 @@
     height: 270px;
     padding-top: 0px;
   }
-  .dharani-image03 {
+  .dharani-image02 {
     height: 270px;
     padding-top: 0px;
   }
-  .dharani-image04 {
+  .dharani-image03 {
     height: 270px;
     padding-top: 0px;
   }
@@ -3371,10 +2788,6 @@
     height: 411px;
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
-  }
-  .dharani-content {
-    align-self: center;
-    margin-bottom: var(--dl-space-space-sixunits);
   }
   .dharani-navbar {
     align-items: flex-start;
@@ -3451,7 +2864,7 @@
     font-weight: 500;
     line-height: 12px;
   }
-  .dharani-dropdown-list01 {
+  .dharani-dropdown-list1 {
     left: 0%;
   }
   .dharani-blog {
@@ -3465,7 +2878,7 @@
     font-weight: 500;
     line-height: 12px;
   }
-  .dharani-dropdown-list02 {
+  .dharani-dropdown-list2 {
     left: 0%;
   }
   .dharani-contact {
@@ -3479,13 +2892,13 @@
     font-weight: 500;
     line-height: 12px;
   }
-  .dharani-dropdown-list03 {
+  .dharani-dropdown-list3 {
     left: 0%;
   }
   .dharani-language {
     margin-left: 0px;
   }
-  .dharani-dropdown-toggle04 {
+  .dharani-dropdown-toggle4 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
     padding-top: 0px;
@@ -3504,36 +2917,13 @@
     margin-right: 4px;
     margin-bottom: 4px;
   }
-  .dharani-dropdown-list04 {
+  .dharani-dropdown-list4 {
     top: 0;
     left: 100%;
   }
-  .dharani-video2 {
-    height: auto;
-  }
-  .dharani-video3 {
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    width: 105%;
-    height: auto;
-    margin: 0px;
-  }
-  .dharani-video4 {
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    width: 105%;
-    height: auto;
-    margin: 0px;
-  }
-  .dharani-video5 {
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    width: 105%;
-    height: auto;
-    margin: 0px;
+  .dharani-content {
+    align-self: center;
+    margin-bottom: var(--dl-space-space-sixunits);
   }
   .dharani-caption {
     color: var(--dl-color-gray-white);
@@ -3553,140 +2943,6 @@
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  .dharani-menu1 {
-    top: 0px;
-    left: 0px;
-    display: flex;
-    position: absolute;
-  }
-  .dharani-hamburger1 {
-    top: -16px;
-    left: 90px;
-    width: var(--dl-size-size-xsmall);
-    height: var(--dl-size-size-xsmall);
-    margin-left: 0px;
-    padding-left: 0px;
-  }
-  .dharani-icon4 {
-    width: var(--dl-size-size-xsmall);
-    height: var(--dl-size-size-xsmall);
-  }
-  .dharani-home {
-    top: -16px;
-    left: 110px;
-    font-size: 11px;
-    margin-top: 0px;
-    margin-left: 0px;
-  }
-  .dharani-mobile-menu1 {
-    top: var(--dl-space-space-oneandhalfunits);
-    left: 0px;
-    width: var(--dl-size-size-large);
-    bottom: 0px;
-    height: auto;
-    padding: 0px;
-    position: absolute;
-  }
-  .dharani-tangible-logo1 {
-    position: relative;
-  }
-  .dharani-menu-close1 {
-    justify-content: flex-end;
-  }
-  .dharani-icon6 {
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-  }
-  .dharani-nav3 {
-    position: relative;
-  }
-  .dharani-desaka1 {
-    margin-top: 0px;
-    margin-left: var(--dl-space-space-halfunit);
-    margin-right: var(--dl-space-space-halfunit);
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .dharani-title-reference4 {
-    color: var(--dl-color-gray-white);
-    font-size: 12px;
-    font-style: normal;
-    font-family: Arial;
-    font-weight: 500;
-    line-height: 12px;
-  }
-  .dharani-dropdown-list05 {
-    left: 0%;
-  }
-  .dharani-courses1 {
-    margin-top: 0px;
-  }
-  .dharani-title-reference5 {
-    color: var(--dl-color-gray-white);
-    font-size: 12px;
-    font-style: normal;
-    font-family: Arial;
-    font-weight: 500;
-    line-height: 12px;
-  }
-  .dharani-dropdown-list06 {
-    left: 0%;
-  }
-  .dharani-blog1 {
-    margin-top: 0px;
-  }
-  .dharani-title-reference6 {
-    color: var(--dl-color-gray-white);
-    font-size: 12px;
-    font-style: normal;
-    font-family: Arial;
-    font-weight: 500;
-    line-height: 12px;
-  }
-  .dharani-dropdown-list07 {
-    left: 0%;
-  }
-  .dharani-contact1 {
-    margin-top: 0px;
-  }
-  .dharani-title-reference7 {
-    color: var(--dl-color-gray-white);
-    font-size: 12px;
-    font-style: normal;
-    font-family: Arial;
-    font-weight: 500;
-    line-height: 12px;
-  }
-  .dharani-dropdown-list08 {
-    left: 0%;
-  }
-  .dharani-language1 {
-    margin-left: 0px;
-  }
-  .dharani-dropdown-toggle12 {
-    margin-top: var(--dl-space-space-unit);
-    margin-left: 0px;
-    padding-top: 0px;
-    padding-left: 0px;
-    margin-bottom: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-  }
-  .dharani-english1 {
-    color: var(--dl-color-gray-white);
-    font-size: 14px;
-    font-style: normal;
-    margin-top: 4px;
-    font-weight: 400;
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-bottom: 4px;
-  }
-  .dharani-dropdown-list09 {
-    top: 0;
-    left: 100%;
-  }
   .dharani-content01 {
     height: auto;
     padding-left: var(--dl-space-space-oneandhalfunits);
@@ -3694,7 +2950,7 @@
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-halfunit);
   }
-  .dharani-video6 {
+  .dharani-video2 {
     top: 0px;
     left: 0px;
     right: 0px;
@@ -3703,36 +2959,8 @@
     margin: 0px;
   }
   .dharani-mantra {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    text-align: left;
-    font-family: Cormorant Infant;
-    font-weight: 700;
-    line-height: 30px;
-    padding-top: var(--dl-space-space-threeunits);
-    padding-bottom: var(--dl-space-space-threeunits);
-  }
-  .dharani-video7 {
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    width: 105%;
-    height: auto;
-    margin: 0px;
-  }
-  .dharani-mudra {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    text-align: left;
-    font-family: Cormorant Infant;
-    font-weight: 700;
-    line-height: 30px;
-    padding-top: var(--dl-space-space-threeunits);
-    padding-bottom: var(--dl-space-space-threeunits);
+    height: 270px;
+    padding-top: 0px;
   }
   .dharani-mantra1 {
     color: rgb(53, 43, 42);
@@ -3746,6 +2974,86 @@
     padding-top: var(--dl-space-space-threeunits);
     padding-bottom: var(--dl-space-space-threeunits);
   }
+  .dharani-mantra-mobile {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 30px;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .dharani-video3 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 105%;
+    height: auto;
+    margin: 0px;
+  }
+  .dharani-mutra {
+    height: 270px;
+    padding-top: 0px;
+  }
+  .dharani-mudra {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 30px;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .dharani-mudra-moblie {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 30px;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .dharani-alone {
+    height: 270px;
+    padding-top: 0px;
+  }
+  .dharani-alone1 {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 30px;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .dharani-alone-mobile {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 30px;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .dharani-dharani {
+    height: 270px;
+    padding-top: 0px;
+  }
   .dharani-quote {
     color: rgb(53, 43, 42);
     height: auto;
@@ -3758,7 +3066,19 @@
     padding-top: var(--dl-space-space-threeunits);
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .dharani-karuna8 {
+  .dharani-quote-mobile {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 30px;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .dharani-karuna4 {
     height: 270px;
     padding-top: 0px;
   }
@@ -3786,11 +3106,7 @@
     padding-top: var(--dl-space-space-threeunits);
     padding-bottom: var(--dl-space-space-threeunits);
   }
-  .dharani-image06 {
-    height: 270px;
-    padding-top: 0px;
-  }
-  .dharani-blog2 {
+  .dharani-blog1 {
     height: auto;
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
@@ -3801,7 +3117,17 @@
     max-width: 80%;
     line-height: 54px;
   }
-  .dharani-caption02 {
+  .dharani-dharani1 {
+    height: 270px;
+    padding-top: 0px;
+  }
+  .dharani-dharani2 {
+    height: auto;
+    font-size: 45px;
+    max-width: 80%;
+    line-height: 54px;
+  }
+  .dharani-dharani-mobile {
     height: auto;
     font-size: 45px;
     max-width: 80%;
@@ -3823,11 +3149,11 @@
     font-size: 32px;
     line-height: 30px;
   }
-  .dharani-caption03 {
+  .dharani-caption02 {
     height: auto;
     font-size: 16px;
   }
-  .dharani-caption04 {
+  .dharani-caption03 {
     height: auto;
     font-size: 16px;
   }
@@ -3841,11 +3167,11 @@
     font-size: 32px;
     line-height: 30px;
   }
-  .dharani-caption05 {
+  .dharani-caption04 {
     height: auto;
     font-size: 16px;
   }
-  .dharani-caption06 {
+  .dharani-caption05 {
     height: auto;
     font-size: 16px;
   }
@@ -3859,13 +3185,17 @@
     font-size: 32px;
     line-height: 30px;
   }
+  .dharani-caption06 {
+    height: auto;
+    font-size: 16px;
+  }
   .dharani-caption07 {
     height: auto;
     font-size: 16px;
   }
-  .dharani-caption08 {
-    height: auto;
-    font-size: 16px;
+  .dharani-dharani3 {
+    height: 270px;
+    padding-top: 0px;
   }
   .dharani-take {
     height: auto;
@@ -3889,11 +3219,11 @@
     font-size: 32px;
     line-height: 30px;
   }
-  .dharani-caption09 {
+  .dharani-caption08 {
     height: auto;
     font-size: 16px;
   }
-  .dharani-caption10 {
+  .dharani-caption09 {
     height: auto;
     font-size: 16px;
   }
@@ -3907,11 +3237,11 @@
     font-size: 32px;
     line-height: 30px;
   }
-  .dharani-caption11 {
+  .dharani-caption10 {
     height: auto;
     font-size: 16px;
   }
-  .dharani-caption12 {
+  .dharani-caption11 {
     height: auto;
     font-size: 16px;
   }
@@ -3925,7 +3255,7 @@
     font-size: 32px;
     line-height: 30px;
   }
-  .dharani-caption13 {
+  .dharani-caption12 {
     height: auto;
     font-size: 16px;
   }
@@ -3939,7 +3269,7 @@
     font-size: 32px;
     line-height: 30px;
   }
-  .dharani-caption14 {
+  .dharani-caption13 {
     height: auto;
     font-size: 16px;
   }
@@ -3953,7 +3283,7 @@
     font-size: 32px;
     line-height: 30px;
   }
-  .dharani-caption15 {
+  .dharani-caption14 {
     height: auto;
     font-size: 16px;
   }
@@ -3967,7 +3297,7 @@
     font-size: 32px;
     line-height: 30px;
   }
-  .dharani-caption16 {
+  .dharani-caption15 {
     height: auto;
     font-size: 16px;
   }
@@ -4002,7 +3332,7 @@
     flex-direction: row;
     justify-content: flex-start;
   }
-  .dharani-caption17 {
+  .dharani-caption16 {
     color: rgb(53, 43, 42);
     width: 65%;
     height: auto;
@@ -4019,7 +3349,7 @@
     flex-direction: row;
     justify-content: flex-start;
   }
-  .dharani-caption18 {
+  .dharani-caption17 {
     color: rgb(53, 43, 42);
     width: 65%;
     height: auto;
@@ -4035,7 +3365,7 @@
     align-items: flex-start;
     flex-direction: row;
   }
-  .dharani-caption19 {
+  .dharani-caption18 {
     color: rgb(53, 43, 42);
     width: 65%;
     height: auto;
@@ -4052,7 +3382,7 @@
     flex-direction: row;
     justify-content: flex-end;
   }
-  .dharani-caption20 {
+  .dharani-caption19 {
     color: rgb(53, 43, 42);
     width: 65%;
     height: auto;
@@ -4068,7 +3398,7 @@
     align-items: flex-start;
     flex-direction: row;
   }
-  .dharani-caption21 {
+  .dharani-caption20 {
     color: rgb(53, 43, 42);
     width: 65%;
     height: auto;
@@ -4090,7 +3420,7 @@
   .dharani-branding {
     max-width: 70%;
   }
-  .dharani-caption22 {
+  .dharani-caption21 {
     font-size: 9px;
   }
   .dharani-contact-link {
@@ -4106,24 +3436,19 @@
     margin-right: 0px;
   }
   .dharani-image01 {
-    width: 0%;
-    height: 0px;
-    margin-top: 0px;
+    width: auto;
+    height: 54px;
+    margin-top: var(--dl-space-space-unit);
+    margin-left: var(--dl-space-space-halfunit);
     padding-top: 0px;
   }
   .dharani-image02 {
     width: auto;
-    height: 72px;
-    margin-top: var(--dl-space-space-halfunit);
-    padding-top: 0px;
-  }
-  .dharani-image03 {
-    width: auto;
     height: auto;
-    margin-top: 0px;
+    margin-top: -64px;
     align-items: center;
   }
-  .dharani-image04 {
+  .dharani-image03 {
     width: auto;
     height: auto;
     margin-top: 0px;
@@ -4132,16 +3457,16 @@
   .dharani-video {
     left: -63PX;
     right: 0px;
-    width: 270px;
+    width: var(--dl-size-size-xlarge);
     bottom: var(--dl-space-space-halfunit);
     height: auto;
     margin: 0px;
     opacity: 1;
     border-radius: 0px;
   }
-  .dharani-image05 {
+  .dharani-image04 {
     width: 72px;
-    height: 72px;
+    height: 63px;
     margin-top: var(--dl-space-space-halfunit);
     padding-top: 0px;
   }
@@ -4165,24 +3490,14 @@
     align-self: center;
     align-items: flex-start;
     margin-bottom: 0px;
-    background-image: url('https://user-images.githubusercontent.com/127581878/239958351-0257a3e6-afc6-417c-b4ba-e3ca7f2c6b0a.jpeg');
+    background-image: url('https://user-images.githubusercontent.com/127581878/243078337-51d6483e-aea4-44f3-a640-fcd161f5dad1.jpg');
   }
   .dharani-main {
     left: 0px;
-    height: auto;
+    height: 100%;
     position: absolute;
     padding-left: 0px;
     padding-right: 0px;
-  }
-  .dharani-content {
-    top: 0px;
-    left: 0px;
-    height: auto;
-    position: absolute;
-    margin-top: 0px;
-    align-items: center;
-    margin-bottom: 0px;
-    justify-content: flex-start;
   }
   .dharani-navbar {
     height: auto;
@@ -4265,7 +3580,7 @@
     margin-top: 0px;
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .dharani-dropdown-toggle01 {
+  .dharani-dropdown-toggle1 {
     color: var(--dl-color-gray-white);
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
@@ -4279,7 +3594,7 @@
     font-family: Arial;
     font-weight: 500;
   }
-  .dharani-dropdown-list01 {
+  .dharani-dropdown-list1 {
     left: 0%;
     width: 99px;
   }
@@ -4287,7 +3602,7 @@
     margin-top: 0px;
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .dharani-dropdown-toggle02 {
+  .dharani-dropdown-toggle2 {
     color: var(--dl-color-gray-white);
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
@@ -4301,7 +3616,7 @@
     font-family: Arial;
     font-weight: 500;
   }
-  .dharani-dropdown-list02 {
+  .dharani-dropdown-list2 {
     left: 0%;
     width: 99px;
   }
@@ -4309,7 +3624,7 @@
     margin-top: 0px;
     margin-bottom: var(--dl-space-space-halfunit);
   }
-  .dharani-dropdown-toggle03 {
+  .dharani-dropdown-toggle3 {
     color: var(--dl-color-gray-white);
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
@@ -4323,11 +3638,11 @@
     font-family: Arial;
     font-weight: 500;
   }
-  .dharani-dropdown-list03 {
+  .dharani-dropdown-list3 {
     left: 0%;
     width: 99px;
   }
-  .dharani-dropdown-toggle04 {
+  .dharani-dropdown-toggle4 {
     margin-top: var(--dl-space-space-twounits);
     margin-left: var(--dl-space-space-unit);
     padding-top: 0px;
@@ -4347,7 +3662,7 @@
     margin-right: 4px;
     margin-bottom: 4px;
   }
-  .dharani-dropdown-list04 {
+  .dharani-dropdown-list4 {
     top: 0;
     left: 100%;
     width: 101px;
@@ -4371,40 +3686,16 @@
     font-size: 14px;
     line-height: 14px;
   }
-  .dharani-video2 {
+  .dharani-content {
+    top: 0px;
+    left: 0px;
     width: 100%;
-    height: auto;
-    margin-top: var(--dl-space-space-fiveunits);
-  }
-  .dharani-video3 {
-    left: -63PX;
-    right: 0px;
-    width: var(--dl-size-size-xxlarge);
-    bottom: var(--dl-space-space-halfunit);
-    height: auto;
-    margin: 0px;
-    opacity: 1;
-    border-radius: 0px;
-  }
-  .dharani-video4 {
-    left: -63PX;
-    right: 0px;
-    width: 270px;
-    bottom: var(--dl-space-space-halfunit);
-    height: auto;
-    margin: 0px;
-    opacity: 1;
-    border-radius: 0px;
-  }
-  .dharani-video5 {
-    left: -63PX;
-    right: 0px;
-    width: 230px;
-    bottom: var(--dl-space-space-halfunit);
-    height: auto;
-    margin: 0px;
-    opacity: 1;
-    border-radius: 0px;
+    height: 100%;
+    position: absolute;
+    margin-top: 0px;
+    align-items: center;
+    margin-bottom: 0px;
+    justify-content: flex-start;
   }
   .dharani-caption {
     color: var(--dl-color-gray-white);
@@ -4426,196 +3717,12 @@
   }
   .dharani-navbar1 {
     height: auto;
+    opacity: 0;
     position: 0px;
     max-width: 100%;
     margin-top: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-  }
-  .dharani-menu1 {
-    width: 100%;
-    position: static;
-    margin-top: -45px;
-  }
-  .dharani-hamburger1 {
-    top: -46px;
-    left: 54px;
-    width: var(--dl-size-size-xsmall);
-    height: var(--dl-size-size-xsmall);
-    position: absolute;
-    margin-top: var(--dl-space-space-unit);
-    margin-left: var(--dl-space-space-oneandhalfunits);
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-  }
-  .dharani-icon4 {
-    top: var(--dl-space-space-twounits);
-    fill: var(--dl-color-gray-white);
-  }
-  .dharani-home {
-    top: -45px;
-    left: 72px;
-    right: 335px;
-    bottom: 0px;
-    position: absolute;
-    font-size: 11px;
-    margin-top: var(--dl-space-space-unit);
-    margin-left: var(--dl-space-space-oneandhalfunits);
-    padding-top: 0px;
-  }
-  .dharani-mobile-menu1 {
-    top: 0px;
-    left: 0px;
-    width: var(--dl-size-size-medium);
-    bottom: 0px;
-    height: 100%;
-    padding: 0px;
-    position: absolute;
-  }
-  .dharani-nav2 {
-    top: 51px;
-    left: 0px;
-    height: auto;
-    position: absolute;
-  }
-  .dharani-icon6 {
-    margin-top: 0px;
-    margin-left: var(--dl-space-space-oneandhalfunits);
-    margin-right: 0px;
-    margin-bottom: 0px;
-  }
-  .dharani-desaka1 {
-    margin-top: 0px;
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .dharani-dropdown-toggle08 {
-    color: var(--dl-color-gray-white);
-    padding-left: var(--dl-space-space-halfunit);
-    padding-right: var(--dl-space-space-halfunit);
-    padding-bottom: 0px;
-  }
-  .dharani-title-reference4 {
-    color: var(--dl-color-gray-white);
-    font-size: 12px;
-    font-style: normal;
-    text-align: left;
-    font-family: Arial;
-    font-weight: 500;
-  }
-  .dharani-dropdown-list05 {
-    left: 0%;
-    width: 99px;
-  }
-  .dharani-courses1 {
-    margin-top: 0px;
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .dharani-dropdown-toggle09 {
-    color: var(--dl-color-gray-white);
-    padding-left: var(--dl-space-space-halfunit);
-    padding-right: var(--dl-space-space-halfunit);
-    padding-bottom: 0px;
-  }
-  .dharani-title-reference5 {
-    color: var(--dl-color-gray-white);
-    font-size: 12px;
-    font-style: normal;
-    text-align: left;
-    font-family: Arial;
-    font-weight: 500;
-  }
-  .dharani-dropdown-list06 {
-    left: 0%;
-    width: 99px;
-  }
-  .dharani-blog1 {
-    margin-top: 0px;
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .dharani-dropdown-toggle10 {
-    color: var(--dl-color-gray-white);
-    padding-left: var(--dl-space-space-halfunit);
-    padding-right: var(--dl-space-space-halfunit);
-    padding-bottom: 0px;
-  }
-  .dharani-title-reference6 {
-    color: var(--dl-color-gray-white);
-    font-size: 12px;
-    font-style: normal;
-    text-align: left;
-    font-family: Arial;
-    font-weight: 500;
-  }
-  .dharani-dropdown-list07 {
-    left: 0%;
-    width: 99px;
-  }
-  .dharani-contact1 {
-    margin-top: 0px;
-    margin-bottom: var(--dl-space-space-halfunit);
-  }
-  .dharani-dropdown-toggle11 {
-    color: var(--dl-color-gray-white);
-    padding-left: var(--dl-space-space-halfunit);
-    padding-right: var(--dl-space-space-halfunit);
-    padding-bottom: 0px;
-  }
-  .dharani-title-reference7 {
-    color: var(--dl-color-gray-white);
-    font-size: 12px;
-    font-style: normal;
-    text-align: left;
-    font-family: Arial;
-    font-weight: 500;
-  }
-  .dharani-dropdown-list08 {
-    left: 0%;
-    width: 99px;
-  }
-  .dharani-dropdown-toggle12 {
-    margin-top: var(--dl-space-space-twounits);
-    margin-left: var(--dl-space-space-unit);
-    padding-top: 0px;
-    padding-left: 0px;
-    margin-bottom: 0nits;
-    padding-right: 0px;
-    flex-direction: row;
-    padding-bottom: 0px;
-  }
-  .dharani-english1 {
-    color: var(--dl-color-gray-white);
-    font-size: 14px;
-    font-style: normal;
-    margin-top: 4px;
-    font-weight: 400;
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-bottom: 4px;
-  }
-  .dharani-dropdown-list09 {
-    top: 0;
-    left: 100%;
-    width: 101px;
-    margin-left: var(--dl-space-space-halfunit);
-    border-color: transparent;
-    border-radius: 0px;
-    background-color: transparent;
-  }
-  .dharani-chn-tw1 {
-    color: var(--dl-color-gray-white);
-    font-size: 14px;
-    line-height: 14px;
-  }
-  .dharani-chn-cn1 {
-    color: var(--dl-color-gray-white);
-    font-size: 14px;
-    line-height: 14px;
-  }
-  .dharani-vn1 {
-    color: var(--dl-color-gray-white);
-    font-size: 14px;
-    line-height: 14px;
   }
   .dharani-content01 {
     height: auto;
@@ -4623,246 +3730,529 @@
     padding-top: var(--dl-space-space-sixunits);
     margin-bottom: 0px;
   }
-  .dharani-video6 {
+  .dharani-video2 {
     left: -63PX;
     right: 0px;
     width: 230px;
     bottom: var(--dl-space-space-halfunit);
     height: auto;
     margin: 0px;
-    opacity: 0;
+    opacity: 1;
     border-radius: 0px;
   }
   .dharani-mantra {
+    width: auto;
     height: auto;
-    font-size: 27px;
-    font-style: italic;
-    text-align: left;
-    font-weight: 700;
-    line-height: 27px;
-    padding-top: var(--dl-space-space-oneandhalfunits);
-    padding-left: var(--dl-space-space-unit);
-    margin-bottom: 0px;
-    padding-bottom: var(--dl-space-space-oneandhalfunits);
+    margin-top: 0px;
+    align-items: center;
+    flex-direction: column;
   }
-  .dharani-video7 {
+  .dharani-mantra1 {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    line-height: 27px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .dharani-mantra-mobile {
+    color: rgb(53, 43, 42);
+    height: auto;
+    opacity: 1;
+    font-size: 18px;
+    font-style: normal;
+    margin-top: var(--dl-space-space-twounits);
+    text-align: center;
+    font-family: Cormorant Infant;
+    font-weight: 500;
+    line-height: 27px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .dharani-video3 {
     left: -63PX;
     right: 0px;
-    width: 230px;
+    width: var(--dl-size-size-xlarge);
     bottom: var(--dl-space-space-halfunit);
     height: auto;
     margin: 0px;
-    opacity: 0;
+    opacity: 1;
     border-radius: 0px;
   }
-  .dharani-mudra {
+  .dharani-mutra {
+    width: auto;
     height: auto;
-    font-size: 27px;
-    font-style: italic;
-    text-align: left;
-    font-weight: 700;
+    margin-top: 0px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .dharani-mudra {
+    color: rgb(53, 43, 42);
+    height: 0px;
+    opacity: 0;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    font-family: Cormorant Infant;
+    font-weight: 500;
+    line-height: 27px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .dharani-mudra-moblie {
+    color: rgb(53, 43, 42);
+    width: auto;
+    height: auto;
+    opacity: 1;
+    font-size: 18px;
+    font-style: normal;
+    margin-top: var(--dl-space-space-twounits);
+    text-align: center;
+    font-family: Cormorant Infant;
+    font-weight: 500;
+    line-height: 27px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .dharani-alone {
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .dharani-alone1 {
+    color: rgb(53, 43, 42);
+    height: 0px;
+    opacity: 0;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    font-family: Cormorant Infant;
+    font-weight: 500;
+    line-height: 27px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .dharani-alone-mobile {
+    color: rgb(53, 43, 42);
+    height: auto;
+    opacity: 1;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    font-family: Cormorant Infant;
+    font-weight: 500;
     line-height: 27px;
     padding-top: var(--dl-space-space-oneandhalfunits);
-    padding-left: var(--dl-space-space-unit);
+    padding-left: 0px;
     margin-bottom: 0px;
+    padding-right: 0px;
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .dharani-mantra1 {
+  .dharani-dharani {
+    width: auto;
     height: auto;
-    font-size: 27px;
-    font-style: italic;
-    text-align: left;
-    font-weight: 700;
-    line-height: 27px;
-    padding-top: var(--dl-space-space-oneandhalfunits);
-    padding-left: var(--dl-space-space-unit);
-    margin-bottom: 0px;
-    padding-bottom: var(--dl-space-space-oneandhalfunits);
+    margin-top: 0px;
+    align-items: center;
+    flex-direction: column;
   }
   .dharani-quote {
+    color: rgb(53, 43, 42);
+    height: 0px;
+    opacity: 0;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    font-family: Cormorant Infant;
+    font-weight: 500;
+    line-height: 27px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .dharani-quote-mobile {
+    color: rgb(53, 43, 42);
     height: auto;
-    font-size: 27px;
-    font-style: italic;
-    text-align: left;
-    font-weight: 700;
+    opacity: 1;
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    font-family: Cormorant Infant;
+    font-weight: 500;
     line-height: 27px;
     padding-top: var(--dl-space-space-oneandhalfunits);
-    padding-left: var(--dl-space-space-unit);
+    padding-left: 0px;
     margin-bottom: 0px;
+    padding-right: 0px;
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .dharani-karuna8 {
+  .dharani-karuna4 {
     height: auto;
     margin-top: 0px;
     align-items: center;
   }
   .dharani-mantra2 {
     height: auto;
-    font-size: 27px;
-    font-style: italic;
+    font-size: 16px;
+    font-style: normal;
     text-align: left;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 27px;
     padding-top: var(--dl-space-space-oneandhalfunits);
     padding-left: var(--dl-space-space-unit);
     margin-bottom: 0px;
-    padding-bottom: var(--dl-space-space-oneandhalfunits);
+    padding-right: 120px;
+    padding-bottom: 0px;
   }
   .dharani-mantra3 {
     height: auto;
     font-size: 27px;
-    font-style: italic;
+    font-style: normal;
     text-align: left;
     font-weight: 700;
     line-height: 27px;
-    padding-top: var(--dl-space-space-oneandhalfunits);
-    padding-left: var(--dl-space-space-unit);
+    padding-top: 0px;
+    padding-left: 0px;
     margin-bottom: 0px;
-    padding-bottom: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: 0px;
   }
-  .dharani-image06 {
+  .dharani-blog1 {
+    gap: var(--dl-space-space-fourunits);
+    height: auto;
+    padding: var(--dl-space-space-twounits);
+    margin-top: var(--dl-space-space-fourunits);
+    margin-left: 0px;
+    padding-top: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: var(--dl-space-space-fourunits);
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .dharani-caption01 {
+    color: var(--dl-color-gray-black);
+    width: auto;
+    height: auto;
+    font-size: 27px;
+    max-width: 100%;
+    align-self: center;
+    font-style: normal;
+    margin-top: 0px;
+    font-family: Cormorant Infant;
+    font-weight: 800;
+    line-height: 36px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .dharani-dharani1 {
     height: auto;
     margin-top: 0px;
     align-items: center;
   }
-  .dharani-image07 {
-    width: var(--dl-size-size-medium);
-    height: var(--dl-size-size-medium);
-    margin-top: var(--dl-space-space-halfunit);
-    padding-top: 0px;
+  .dharani-dharani2 {
+    color: var(--dl-color-gray-black);
+    width: auto;
+    height: 0px;
+    opacity: 0;
+    font-size: 27px;
+    max-width: 100%;
+    align-self: center;
+    font-style: normal;
+    text-align: center;
+    font-family: Cormorant Infant;
+    font-weight: 600;
+    line-height: 27px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
-  .dharani-image08 {
-    width: var(--dl-size-size-medium);
-    height: var(--dl-size-size-medium);
-    margin-top: var(--dl-space-space-halfunit);
-    padding-top: 0px;
-  }
-  .dharani-blog2 {
+  .dharani-dharani-mobile {
+    color: var(--dl-color-gray-black);
+    width: auto;
     height: auto;
-    padding-top: var(--dl-space-space-fourunits);
-    padding-bottom: var(--dl-space-space-fourunits);
-  }
-  .dharani-caption01 {
-    color: var(--dl-color-gray-black);
-    width: 458px;
-    height: 141px;
-    font-size: 45px;
+    opacity: 1;
+    font-size: 18px;
     max-width: 100%;
     align-self: center;
     font-style: normal;
+    text-align: center;
     font-family: Cormorant Infant;
-    font-weight: 800;
-    line-height: 54px;
-  }
-  .dharani-caption02 {
-    color: var(--dl-color-gray-black);
-    width: 458px;
-    height: 141px;
-    font-size: 45px;
-    max-width: 100%;
-    align-self: center;
-    font-style: normal;
-    font-family: Cormorant Infant;
-    font-weight: 800;
-    line-height: 54px;
+    font-weight: 600;
+    line-height: 27px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
   }
   .dharani-give {
     color: var(--dl-color-gray-black);
-    width: 458px;
-    height: 141px;
-    font-size: 45px;
+    width: auto;
+    height: auto;
+    font-size: 18px;
     max-width: 100%;
     align-self: center;
     font-style: normal;
+    text-align: center;
     font-family: Cormorant Infant;
-    font-weight: 800;
-    line-height: 54px;
+    font-weight: 600;
+    line-height: 27px;
+    padding-bottom: 0px;
+  }
+  .dharani-blossom {
+    width: 80%;
+    align-self: flex-start;
+    margin-left: var(--dl-space-space-twounits);
+  }
+  .dharani-content02 {
+    width: auto;
+    align-self: center;
+    margin-left: 0px;
   }
   .dharani-heading {
-    height: 127px;
+    width: auto;
+    height: auto;
+    align-self: center;
     padding-right: 0px;
+  }
+  .dharani-header {
+    font-size: 27px;
+  }
+  .dharani-caption02 {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    align-self: flex-start;
+    font-style: normal;
+    font-weight: 500;
+    padding-right: 0px;
+  }
+  .dharani-image05 {
+    width: auto;
+    align-self: flex-start;
+    align-items: flex-start;
+  }
+  .dharani-div {
+    width: auto;
+    align-self: flex-start;
   }
   .dharani-caption03 {
-    height: 83px;
-    padding-right: var(--dl-space-space-fourunits);
+    width: auto;
+    height: auto;
+    align-self: flex-start;
+    padding-right: 0px;
   }
-  .dharani-caption04 {
-    height: 83px;
-    padding-right: var(--dl-space-space-fourunits);
+  .dharani-cultivate {
+    width: auto;
+    align-self: flex-start;
+    margin-left: var(--dl-space-space-twounits);
+  }
+  .dharani-content03 {
+    width: auto;
+    align-self: center;
+    margin-left: 0px;
   }
   .dharani-heading01 {
-    height: 127px;
+    width: auto;
+    height: auto;
+    align-self: flex-start;
+    align-items: flex-start;
     padding-right: 0px;
+  }
+  .dharani-header1 {
+    width: auto;
+  }
+  .dharani-caption04 {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    padding-right: 0px;
+  }
+  .dharani-image06 {
+    width: auto;
+    align-self: flex-start;
+    align-items: flex-start;
+  }
+  .dharani-div1 {
+    width: 80%;
   }
   .dharani-caption05 {
-    height: 83px;
-    padding-right: var(--dl-space-space-fourunits);
-  }
-  .dharani-caption06 {
-    height: 83px;
-    padding-right: var(--dl-space-space-fourunits);
-  }
-  .dharani-heading02 {
-    height: 127px;
+    height: auto;
+    align-self: flex-start;
+    text-align: left;
     padding-right: 0px;
   }
-  .dharani-caption07 {
-    height: 83px;
-    padding-right: var(--dl-space-space-fourunits);
+  .dharani-care {
+    width: auto;
+    align-self: flex-start;
+    margin-left: var(--dl-space-space-twounits);
   }
-  .dharani-caption08 {
-    height: 83px;
-    padding-right: var(--dl-space-space-fourunits);
+  .dharani-content04 {
+    width: auto;
+    align-self: center;
+    margin-left: 0px;
+  }
+  .dharani-heading02 {
+    height: auto;
+    padding-right: 0px;
+  }
+  .dharani-header2 {
+    width: auto;
+  }
+  .dharani-caption06 {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    padding-right: 0px;
+  }
+  .dharani-image07 {
+    width: auto;
+    align-self: flex-start;
+  }
+  .dharani-div2 {
+    width: 80%;
+    align-self: flex-start;
+  }
+  .dharani-caption07 {
+    height: auto;
+    align-self: flex-start;
+    text-align: left;
+    padding-right: 0px;
+  }
+  .dharani-dharani3 {
+    height: auto;
+    margin-top: 0px;
+    align-items: flex-start;
   }
   .dharani-take {
     color: var(--dl-color-gray-black);
-    width: 458px;
-    height: 141px;
-    font-size: 45px;
+    width: auto;
+    height: auto;
+    font-size: 18px;
     max-width: 100%;
     align-self: center;
     font-style: normal;
+    text-align: center;
     font-family: Cormorant Infant;
     font-weight: 800;
-    line-height: 54px;
+    line-height: 27px;
   }
   .dharani-take1 {
     color: var(--dl-color-gray-black);
     width: 458px;
     height: 141px;
-    font-size: 45px;
+    font-size: 18px;
     max-width: 100%;
     align-self: center;
     font-style: normal;
+    text-align: center;
     font-family: Cormorant Infant;
     font-weight: 800;
-    line-height: 54px;
+    line-height: 27px;
+  }
+  .dharani-care1 {
+    width: auto;
+    align-self: flex-start;
+    margin-left: var(--dl-space-space-twounits);
+  }
+  .dharani-content05 {
+    align-self: flex-start;
   }
   .dharani-heading03 {
-    height: 127px;
+    height: auto;
     padding-right: 0px;
   }
-  .dharani-caption09 {
-    height: 83px;
-    padding-right: var(--dl-space-space-fourunits);
+  .dharani-caption08 {
+    width: auto;
+    height: auto;
+    padding-right: 0px;
   }
-  .dharani-caption10 {
-    height: 83px;
-    padding-right: var(--dl-space-space-fourunits);
+  .dharani-image08 {
+    width: 80%;
+    align-self: flex-start;
+    align-items: flex-start;
+  }
+  .dharani-div3 {
+    width: auto;
+    align-self: flex-start;
+  }
+  .dharani-caption09 {
+    width: auto;
+    height: auto;
+    align-self: flex-start;
+    text-align: left;
+    padding-right: 0px;
+  }
+  .dharani-care2 {
+    width: auto;
+    align-self: flex-start;
+    margin-left: var(--dl-space-space-twounits);
+  }
+  .dharani-content06 {
+    width: auto;
+    align-self: flex-start;
   }
   .dharani-heading04 {
     height: 127px;
     padding-right: 0px;
   }
-  .dharani-caption11 {
+  .dharani-caption10 {
     height: 83px;
     padding-right: var(--dl-space-space-fourunits);
+  }
+  .dharani-image09 {
+    width: auto;
+    align-self: flex-start;
+  }
+  .dharani-div4 {
+    width: auto;
+    align-self: flex-start;
+  }
+  .dharani-caption11 {
+    width: auto;
+    height: auto;
+    align-self: flex-start;
+    text-align: left;
+    padding-right: 0px;
+  }
+  .dharani-take2 {
+    width: auto;
+    align-self: flex-start;
+    margin-left: var(--dl-space-space-twounits);
+  }
+  .dharani-heading05 {
+    height: 127px;
+    padding-right: 0px;
   }
   .dharani-caption12 {
     height: 83px;
     padding-right: var(--dl-space-space-fourunits);
   }
-  .dharani-heading05 {
+  .dharani-care3 {
+    width: auto;
+    align-self: flex-start;
+    margin-left: var(--dl-space-space-twounits);
+  }
+  .dharani-heading06 {
     height: 127px;
     padding-right: 0px;
   }
@@ -4870,7 +4260,12 @@
     height: 83px;
     padding-right: var(--dl-space-space-fourunits);
   }
-  .dharani-heading06 {
+  .dharani-care4 {
+    width: auto;
+    align-self: flex-start;
+    margin-left: var(--dl-space-space-twounits);
+  }
+  .dharani-heading07 {
     height: 127px;
     padding-right: 0px;
   }
@@ -4878,19 +4273,11 @@
     height: 83px;
     padding-right: var(--dl-space-space-fourunits);
   }
-  .dharani-heading07 {
-    height: 127px;
-    padding-right: 0px;
-  }
-  .dharani-caption15 {
-    height: 83px;
-    padding-right: var(--dl-space-space-fourunits);
-  }
   .dharani-heading08 {
     height: 127px;
     padding-right: 0px;
   }
-  .dharani-caption16 {
+  .dharani-caption15 {
     height: 83px;
     padding-right: var(--dl-space-space-fourunits);
   }
@@ -4907,7 +4294,7 @@
     justify-content: center;
     background-color: var(--dl-color-gray-white);
   }
-  .dharani-image19 {
+  .dharani-image15 {
     width: var(--dl-size-size-large);
     margin-top: var(--dl-space-space-sixunits);
     margin-bottom: var(--dl-space-space-unit);
@@ -4933,10 +4320,10 @@
     flex-direction: row;
     justify-content: flex-start;
   }
-  .dharani-image20 {
+  .dharani-image16 {
     width: 36px;
   }
-  .dharani-caption17 {
+  .dharani-caption16 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
@@ -4961,10 +4348,10 @@
     flex-direction: row;
     justify-content: flex-start;
   }
-  .dharani-image21 {
+  .dharani-image17 {
     width: 36px;
   }
-  .dharani-caption18 {
+  .dharani-caption17 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
@@ -4989,10 +4376,10 @@
     flex-direction: row;
     justify-content: flex-start;
   }
-  .dharani-image22 {
+  .dharani-image18 {
     width: 36px;
   }
-  .dharani-caption19 {
+  .dharani-caption18 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
@@ -5017,10 +4404,10 @@
     flex-direction: row;
     justify-content: flex-start;
   }
-  .dharani-image23 {
+  .dharani-image19 {
     width: 36px;
   }
-  .dharani-caption20 {
+  .dharani-caption19 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
@@ -5045,10 +4432,10 @@
     flex-direction: row;
     justify-content: flex-start;
   }
-  .dharani-image24 {
+  .dharani-image20 {
     width: 36px;
   }
-  .dharani-caption21 {
+  .dharani-caption20 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
@@ -5074,7 +4461,7 @@
   .dharani-footer1 {
     width: 300px;
   }
-  .dharani-caption22 {
+  .dharani-caption21 {
     font-size: 9px;
   }
   .dharani-contact-link {
