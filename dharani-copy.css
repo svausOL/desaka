@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 .dharan-copy-image {
-  width: auto;
+  width: 100%;
   display: flex;
   position: relative;
   align-self: flex-start;
@@ -15,10 +15,13 @@
   align-items: flex-start;
   margin-left: 0px;
   padding-top: 0px;
-  margin-right: var(--dl-space-space-sixunits);
+  margin-right: 0px;
   margin-bottom: 0px;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
+}
+.dharan-copy-link {
+  display: contents;
 }
 .dharan-copy-image01 {
   width: auto;
@@ -27,13 +30,14 @@
   margin-top: var(--dl-space-space-unit);
   object-fit: cover;
   margin-left: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
 }
 .dharan-copy-image02 {
   width: 100%;
   display: flex;
   position: relative;
   align-self: flex-end;
-  margin-top: -180px;
+  margin-top: 0px;
   align-items: flex-start;
   margin-left: 0px;
   padding-top: 0px;
@@ -61,7 +65,7 @@
   opacity: 1;
   align-self: center;
   margin-top: 0px;
-  margin-left: var(--dl-space-space-twounits);
+  margin-left: 0px;
   margin-bottom: 0px;
 }
 .dharan-copy-image04 {
@@ -96,36 +100,36 @@
 }
 .dharan-copy-main {
   width: 100%;
-  height: auto;
+  height: 962px;
   display: flex;
   position: relative;
-  align-items: center;
+  align-self: flex-start;
+  align-items: flex-start;
   padding-left: 0px;
   padding-right: 0px;
   flex-direction: column;
 }
 .dharan-copy-navbar {
-  top: 0px;
-  left: 0px;
   width: 100%;
   height: auto;
   display: flex;
-  opacity: 0;
-  position: absolute;
-  max-width: 1440px;
-  align-self: center;
+  opacity: 1;
+  position: relative;
+  max-width: 100%;
+  align-self: flex-start;
   align-items: flex-start;
-  padding-top: 11px;
-  justify-content: space-between;
+  padding-top: 0px;
+  justify-content: flex-start;
 }
 .dharan-copy-menu {
   gap: var(--dl-space-space-twounits);
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
   position: relative;
   align-self: flex-start;
-  align-items: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
   justify-content: flex-start;
 }
 .dharan-copy-hamburger {
@@ -134,14 +138,17 @@
   cursor: pointer;
   height: var(--dl-size-size-small);
   display: flex;
-  align-self: center;
+  align-self: flex-start;
+  align-items: flex-start;
   margin-left: var(--dl-space-space-twounits);
+  padding-top: 0px;
   aspect-ratio: 1;
   border-width: 0px;
   padding-left: 0px;
   border-radius: 0px;
   padding-right: 0px;
   flex-direction: row;
+  padding-bottom: 0px;
   background-color: transparent;
 }
 .dharan-copy-icon {
@@ -151,20 +158,16 @@
   align-self: center;
 }
 .dharan-copy-mobile-menu {
-  top: var(--dl-space-space-sixunits);
-  left: 0px;
   width: auto;
-  bottom: -545px;
   height: auto;
   display: none;
-  padding: 32px;
-  position: absolute;
   align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
   flex-direction: column;
   justify-content: space-between;
 }
 .dharan-copy-nav {
-  width: var(--dl-size-size-medium);
+  width: auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -173,8 +176,9 @@
   width: 100%;
   display: flex;
   align-items: center;
-  margin-bottom: var(--dl-space-space-threeunits);
-  justify-content: space-between;
+  margin-bottom: 0px;
+  justify-content: flex-start;
+  background-color: var(--dl-color-danger-300);
 }
 .dharan-copy-menu-close {
   display: flex;
@@ -196,6 +200,7 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  background-color: var(--dl-color-danger-300);
 }
 .dharan-copy-desaka {
   cursor: pointer;
@@ -227,7 +232,6 @@
   text-align: left;
   font-family: Arial;
   font-weight: 500;
-  line-height: 16px;
   margin-right: 0px;
   vertical-align: middle;
 }
@@ -353,7 +357,7 @@
 }
 .dharan-copy-title-reference2 {
   color: var(--dl-color-gray-white);
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   text-align: left;
   font-family: Arial;
@@ -393,7 +397,7 @@
   position: relative;
   border-radius: var(--dl-radius-radius-radius2);
 }
-.dharan-copy-link {
+.dharan-copy-link01 {
   display: contents;
 }
 .dharan-copy-contact {
@@ -509,13 +513,13 @@
   min-width: 100%;
   transition: 0.3s;
   align-items: stretch;
-  margin-left: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-oneandhalfunits);
   border-color: transparent;
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius4);
   flex-direction: column;
   list-style-type: none;
-  background-color: transparent;
+  background-color: var(--dl-color-danger-300);
   list-style-position: inside;
 }
 .dharan-copy-dropdown {
@@ -623,34 +627,6 @@
   line-height: 16px;
   text-decoration: none;
 }
-.dharan-copy-content {
-  width: 100%;
-  height: 946px;
-  display: flex;
-  position: relative;
-  align-self: center;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  flex-direction: column;
-  padding-bottom: 0px;
-  justify-content: flex-start;
-}
-.dharan-copy-caption {
-  color: var(--dl-color-gray-black);
-  width: auto;
-  height: 198px;
-  font-size: 63px;
-  max-width: auto;
-  margin-top: 0px;
-  text-align: center;
-  font-family: Cormorant Infant;
-  font-weight: 700;
-  line-height: 63px;
-  margin-left: auto;
-  padding-top: 0px;
-  margin-right: auto;
-  margin-bottom: 0px;
-}
 .dharan-copy-navbar1 {
   width: 100%;
   height: var(--dl-size-size-small);
@@ -668,85 +644,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-.dharan-copy-link01 {
-  width: var(--dl-size-size-large);
-  height: auto;
-  font-size: 18px;
-  font-style: normal;
-  text-align: center;
-  font-weight: 500;
-  margin-left: var(--dl-space-space-oneandhalfunits);
-  border-color: var(--dl-color-gray-white);
-  border-width: 0px;
-  margin-right: var(--dl-space-space-oneandhalfunits);
-  text-decoration: none;
-}
 .dharan-copy-link02 {
-  width: var(--dl-size-size-large);
-  height: auto;
-  font-size: 18px;
-  font-style: normal;
-  text-align: center;
-  font-weight: 500;
-  margin-left: var(--dl-space-space-oneandhalfunits);
-  border-color: var(--dl-color-gray-white);
-  border-width: 0px;
-  margin-right: var(--dl-space-space-oneandhalfunits);
-  text-decoration: none;
-}
-.dharan-copy-link03 {
-  width: var(--dl-size-size-large);
-  height: auto;
-  font-size: 18px;
-  font-style: normal;
-  text-align: center;
-  font-weight: 500;
-  margin-left: var(--dl-space-space-oneandhalfunits);
-  border-color: var(--dl-color-gray-white);
-  border-width: 0px;
-  margin-right: var(--dl-space-space-oneandhalfunits);
-  text-decoration: none;
-}
-.dharan-copy-link04 {
-  width: var(--dl-size-size-large);
-  height: auto;
-  font-size: 18px;
-  font-style: normal;
-  text-align: center;
-  font-weight: 500;
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-white);
-  border-width: 0px;
-  margin-right: 0px;
-  text-decoration: none;
-}
-.dharan-copy-link05 {
-  width: var(--dl-size-size-large);
-  height: auto;
-  font-size: 18px;
-  font-style: normal;
-  text-align: center;
-  font-weight: 500;
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-white);
-  border-width: 0px;
-  margin-right: 0px;
-  text-decoration: none;
-}
-.dharan-copy-link06 {
-  width: var(--dl-size-size-large);
-  height: auto;
-  font-size: 18px;
-  font-style: normal;
-  text-align: center;
-  font-weight: 500;
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-white);
-  border-width: 0px;
-  margin-right: 0px;
-  text-decoration: none;
-}
-.dharan-copy-link07 {
   width: var(--dl-size-size-large);
   height: auto;
   font-size: 18px;
@@ -756,10 +654,62 @@
   margin-left: var(--dl-space-space-halfunit);
   border-color: var(--dl-color-gray-white);
   border-width: 0px;
-  margin-right: var(--dl-space-space-oneandhalfunits);
+  margin-right: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
-.dharan-copy-content01 {
+.dharan-copy-link03 {
+  width: var(--dl-size-size-large);
+  height: auto;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-white);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.dharan-copy-link04 {
+  width: var(--dl-size-size-large);
+  height: auto;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-white);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.dharan-copy-link05 {
+  width: var(--dl-size-size-large);
+  height: auto;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-white);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.dharan-copy-link06 {
+  width: var(--dl-size-size-large);
+  height: auto;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-white);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.dharan-copy-content {
   width: auto;
   height: auto;
   display: flex;
@@ -828,7 +778,41 @@
   opacity: 1;
   align-self: center;
   margin-top: var(--dl-space-space-threeunits);
-  margin-bottom: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.dharan-copy-karuna4 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-top: 0px;
+  align-items: center;
+  margin-left: 0px;
+  padding-top: 0px;
+  flex-direction: column;
+  justify-content: center;
+}
+.dharan-copy-mantra2 {
+  color: rgb(53, 43, 42);
+  height: auto;
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Cormorant Infant;
+  font-weight: 400;
+  line-height: 45px;
+  padding-right: 180px;
+}
+.dharan-copy-mantra3 {
+  color: rgb(53, 43, 42);
+  height: auto;
+  font-size: 36px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Cormorant Infant;
+  font-weight: 700;
+  line-height: 45px;
 }
 .dharan-copy-mutra {
   width: auto;
@@ -849,12 +833,12 @@
   width: 0px;
   height: 0px;
   opacity: 0;
-  font-size: 27px;
+  font-size: 0.1px;
   align-self: center;
   text-align: center;
   font-family: Cormorant Infant;
   font-weight: 500;
-  line-height: 45px;
+  line-height: 0.1px;
 }
 .dharan-copy-mudra {
   color: rgb(53, 43, 42);
@@ -864,9 +848,9 @@
   font-style: normal;
   text-align: center;
   font-family: Cormorant Infant;
-  font-weight: 500;
-  line-height: 45px;
-  padding-top: var(--dl-space-space-fourunits);
+  font-weight: 400;
+  line-height: 36px;
+  padding-top: 0px;
   padding-left: var(--dl-space-space-sixunits);
   padding-right: var(--dl-space-space-sixunits);
   padding-bottom: var(--dl-space-space-fourunits);
@@ -952,40 +936,6 @@
   font-weight: 500;
   line-height: 45px;
 }
-.dharan-copy-karuna4 {
-  width: 100%;
-  display: flex;
-  position: relative;
-  margin-top: 0px;
-  align-items: center;
-  margin-left: 0px;
-  padding-top: 0px;
-  flex-direction: column;
-  justify-content: center;
-}
-.dharan-copy-mantra2 {
-  color: rgb(53, 43, 42);
-  height: auto;
-  font-size: 16px;
-  align-self: center;
-  font-style: normal;
-  text-align: center;
-  font-family: Cormorant Infant;
-  font-weight: 400;
-  line-height: 45px;
-  padding-right: 180px;
-}
-.dharan-copy-mantra3 {
-  color: rgb(53, 43, 42);
-  height: auto;
-  font-size: 36px;
-  align-self: center;
-  font-style: normal;
-  text-align: center;
-  font-family: Cormorant Infant;
-  font-weight: 700;
-  line-height: 45px;
-}
 .dharan-copy-blog1 {
   gap: var(--dl-space-space-sixunits);
   width: auto;
@@ -1008,7 +958,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-caption01 {
+.dharan-copy-caption {
   color: var(--dl-color-gray-black);
   width: 742px;
   height: 152px;
@@ -1072,10 +1022,87 @@
   font-family: Cormorant Infant;
   font-weight: 600;
   line-height: 36px;
-  padding-top: 0px;
+  padding-top: var(--dl-space-space-fourunits);
   padding-bottom: var(--dl-space-space-fourunits);
 }
 .dharan-copy-blossom {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border-color: var(--dl-color-gray-white);
+  border-width: 0px;
+  flex-direction: row;
+  justify-content: center;
+}
+.dharan-copy-content01 {
+  gap: var(--dl-space-space-threeunits);
+  width: 60%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.dharan-copy-heading {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-width: 100%;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.dharan-copy-link07 {
+  display: contents;
+}
+.dharan-copy-header {
+  color: rgb(53, 43, 42);
+  width: 100%;
+  font-size: 60px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  text-align: left;
+  font-family: Cormorant Infant;
+  font-weight: 700;
+  line-height: 60px;
+  padding-top: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.dharan-copy-caption01 {
+  color: rgb(53, 43, 42);
+  width: 100%;
+  height: auto;
+  font-size: 27px;
+  max-width: 100%;
+  text-align: left;
+  font-family: Karla;
+  line-height: 32px;
+}
+.dharan-copy-image05 {
+  width: 40%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.dharan-copy-caption02 {
+  color: rgb(53, 43, 42);
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+  max-width: 100%;
+  align-self: flex-end;
+  text-align: center;
+  font-family: Karla;
+  line-height: 27px;
+}
+.dharan-copy-charge-up {
   gap: var(--dl-space-space-unit);
   width: 100%;
   display: flex;
@@ -1092,11 +1119,10 @@
   display: flex;
   align-self: center;
   align-items: flex-start;
-  margin-left: var(--dl-space-space-twounits);
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-heading {
+.dharan-copy-heading1 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
   height: auto;
@@ -1110,18 +1136,20 @@
 .dharan-copy-link08 {
   display: contents;
 }
-.dharan-copy-header {
+.dharan-copy-header1 {
   color: rgb(53, 43, 42);
   width: 100%;
   font-size: 60px;
   font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: Cormorant Infant;
   font-weight: 700;
   line-height: 60px;
+  padding-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.dharan-copy-caption02 {
+.dharan-copy-caption03 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1129,9 +1157,9 @@
   max-width: 100%;
   text-align: left;
   font-family: Karla;
-  line-height: 27px;
+  line-height: 32px;
 }
-.dharan-copy-image05 {
+.dharan-copy-image06 {
   width: 40%;
   display: flex;
   position: relative;
@@ -1140,7 +1168,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-caption03 {
+.dharan-copy-caption04 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1151,7 +1179,7 @@
   font-family: Karla;
   line-height: 27px;
 }
-.dharan-copy-cultivate {
+.dharan-copy-caring {
   gap: var(--dl-space-space-unit);
   width: 100%;
   display: flex;
@@ -1168,83 +1196,6 @@
   display: flex;
   align-self: center;
   align-items: flex-start;
-  margin-left: var(--dl-space-space-twounits);
-  flex-direction: column;
-  justify-content: center;
-}
-.dharan-copy-heading1 {
-  gap: var(--dl-space-space-oneandhalfunits);
-  width: 100%;
-  height: auto;
-  display: flex;
-  max-width: 100%;
-  align-self: center;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
-}
-.dharan-copy-link09 {
-  display: contents;
-}
-.dharan-copy-header1 {
-  color: rgb(53, 43, 42);
-  width: 100%;
-  font-size: 60px;
-  font-style: normal;
-  text-align: left;
-  font-family: Cormorant Infant;
-  font-weight: 700;
-  line-height: 60px;
-  text-decoration: none;
-}
-.dharan-copy-caption04 {
-  color: rgb(53, 43, 42);
-  width: 100%;
-  height: auto;
-  font-size: 27px;
-  max-width: 100%;
-  text-align: left;
-  font-family: Karla;
-  line-height: 27px;
-}
-.dharan-copy-image06 {
-  width: 40%;
-  display: flex;
-  position: relative;
-  align-self: center;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
-}
-.dharan-copy-caption05 {
-  color: rgb(53, 43, 42);
-  width: 100%;
-  height: auto;
-  font-size: 16px;
-  max-width: 100%;
-  align-self: flex-end;
-  text-align: center;
-  font-family: Karla;
-  line-height: 27px;
-}
-.dharan-copy-care {
-  gap: var(--dl-space-space-unit);
-  width: 100%;
-  display: flex;
-  align-self: center;
-  align-items: center;
-  border-color: var(--dl-color-gray-white);
-  border-width: 0px;
-  flex-direction: row;
-  justify-content: center;
-}
-.dharan-copy-content04 {
-  gap: var(--dl-space-space-threeunits);
-  width: 60%;
-  display: flex;
-  align-self: center;
-  align-items: flex-start;
-  margin-left: var(--dl-space-space-twounits);
   flex-direction: column;
   justify-content: center;
 }
@@ -1259,7 +1210,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-link10 {
+.dharan-copy-link09 {
   display: contents;
 }
 .dharan-copy-header2 {
@@ -1267,13 +1218,15 @@
   width: 100%;
   font-size: 60px;
   font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: Cormorant Infant;
   font-weight: 700;
   line-height: 60px;
+  padding-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.dharan-copy-caption06 {
+.dharan-copy-caption05 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1281,7 +1234,7 @@
   max-width: 100%;
   text-align: left;
   font-family: Karla;
-  line-height: 27px;
+  line-height: 32px;
 }
 .dharan-copy-image07 {
   width: 40%;
@@ -1292,7 +1245,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-caption07 {
+.dharan-copy-caption06 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1326,8 +1279,8 @@
   font-family: Cormorant Infant;
   font-weight: 600;
   line-height: 36px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-bottom: var(--dl-space-space-fourunits);
 }
 .dharan-copy-di {
   gap: var(--dl-space-space-unit);
@@ -1340,7 +1293,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.dharan-copy-content05 {
+.dharan-copy-content04 {
   gap: var(--dl-space-space-threeunits);
   width: 60%;
   display: flex;
@@ -1361,7 +1314,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-link11 {
+.dharan-copy-link10 {
   display: contents;
 }
 .dharan-copy-header3 {
@@ -1369,13 +1322,15 @@
   width: 100%;
   font-size: 60px;
   font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: Cormorant Infant;
   font-weight: 700;
   line-height: 60px;
+  padding-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.dharan-copy-caption08 {
+.dharan-copy-caption07 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1383,7 +1338,7 @@
   max-width: 100%;
   text-align: left;
   font-family: Karla;
-  line-height: 27px;
+  line-height: 32px;
 }
 .dharan-copy-image08 {
   width: 40%;
@@ -1394,7 +1349,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-caption09 {
+.dharan-copy-caption08 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1405,7 +1360,7 @@
   font-family: Karla;
   line-height: 27px;
 }
-.dharan-copy-calm {
+.dharan-copy-vajrapani {
   gap: var(--dl-space-space-unit);
   width: 100%;
   display: flex;
@@ -1416,7 +1371,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.dharan-copy-content06 {
+.dharan-copy-content05 {
   gap: var(--dl-space-space-threeunits);
   width: 60%;
   display: flex;
@@ -1426,7 +1381,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-heading4 {
+.dharan-copy-vajrapani1 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
   height: auto;
@@ -1437,7 +1392,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-link12 {
+.dharan-copy-link11 {
   display: contents;
 }
 .dharan-copy-header4 {
@@ -1445,13 +1400,15 @@
   width: 100%;
   font-size: 60px;
   font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: Cormorant Infant;
   font-weight: 700;
   line-height: 60px;
+  padding-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.dharan-copy-caption10 {
+.dharan-copy-caption09 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1459,7 +1416,7 @@
   max-width: 100%;
   text-align: left;
   font-family: Karla;
-  line-height: 27px;
+  line-height: 32px;
 }
 .dharan-copy-image09 {
   width: 40%;
@@ -1473,7 +1430,7 @@
 .dharan-copy-div04 {
   width: auto;
 }
-.dharan-copy-caption11 {
+.dharan-copy-caption10 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1495,7 +1452,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.dharan-copy-content07 {
+.dharan-copy-content06 {
   gap: var(--dl-space-space-threeunits);
   width: 60%;
   display: flex;
@@ -1505,7 +1462,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-heading5 {
+.dharan-copy-heading4 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
   height: auto;
@@ -1516,7 +1473,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-link13 {
+.dharan-copy-link12 {
   display: contents;
 }
 .dharan-copy-header5 {
@@ -1524,13 +1481,15 @@
   width: 100%;
   font-size: 60px;
   font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: Cormorant Infant;
   font-weight: 700;
   line-height: 60px;
+  padding-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.dharan-copy-link14 {
+.dharan-copy-link13 {
   display: contents;
 }
 .dharan-copy-header6 {
@@ -1541,7 +1500,7 @@
   text-align: left;
   font-family: Cormorant Infant;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 32px;
   text-decoration: none;
 }
 .dharan-copy-image10 {
@@ -1563,7 +1522,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-caption12 {
+.dharan-copy-caption11 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1575,6 +1534,30 @@
   line-height: 27px;
 }
 .dharan-copy-image12 {
+  width: auto;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.dharan-copy-link14 {
+  display: contents;
+}
+.dharan-copy-caption12 {
+  color: rgb(53, 43, 42);
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+  max-width: 100%;
+  align-self: flex-end;
+  text-align: center;
+  font-family: Karla;
+  line-height: 27px;
+  text-decoration: none;
+}
+.dharan-copy-image13 {
   width: auto;
   display: flex;
   position: relative;
@@ -1598,7 +1581,7 @@
   line-height: 27px;
   text-decoration: none;
 }
-.dharan-copy-image13 {
+.dharan-copy-image14 {
   width: auto;
   display: flex;
   position: relative;
@@ -1622,30 +1605,6 @@
   line-height: 27px;
   text-decoration: none;
 }
-.dharan-copy-image14 {
-  width: auto;
-  display: flex;
-  position: relative;
-  align-self: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
-}
-.dharan-copy-link17 {
-  display: contents;
-}
-.dharan-copy-caption15 {
-  color: rgb(53, 43, 42);
-  width: 100%;
-  height: auto;
-  font-size: 16px;
-  max-width: 100%;
-  align-self: flex-end;
-  text-align: center;
-  font-family: Karla;
-  line-height: 27px;
-  text-decoration: none;
-}
 .dharan-copy-mercy {
   gap: var(--dl-space-space-unit);
   width: 100%;
@@ -1657,7 +1616,7 @@
   flex-direction: row;
   justify-content: center;
 }
-.dharan-copy-content08 {
+.dharan-copy-content07 {
   gap: var(--dl-space-space-threeunits);
   width: 60%;
   display: flex;
@@ -1667,7 +1626,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-heading6 {
+.dharan-copy-heading5 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
   height: auto;
@@ -1678,7 +1637,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-link18 {
+.dharan-copy-link17 {
   display: contents;
 }
 .dharan-copy-header7 {
@@ -1686,13 +1645,15 @@
   width: 100%;
   font-size: 60px;
   font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: Cormorant Infant;
   font-weight: 700;
   line-height: 60px;
+  padding-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.dharan-copy-caption16 {
+.dharan-copy-caption15 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1700,7 +1661,7 @@
   max-width: 100%;
   text-align: left;
   font-family: Karla;
-  line-height: 27px;
+  line-height: 32px;
 }
 .dharan-copy-image15 {
   width: 40%;
@@ -1711,7 +1672,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.dharan-copy-caption17 {
+.dharan-copy-caption16 {
   color: rgb(53, 43, 42);
   width: 100%;
   height: auto;
@@ -1736,7 +1697,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-content09 {
+.dharan-copy-content08 {
   gap: var(--dl-space-space-threeunits);
   width: auto;
   display: flex;
@@ -1746,7 +1707,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-heading7 {
+.dharan-copy-heading6 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: auto;
   height: auto;
@@ -1758,23 +1719,11 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharan-copy-caption18 {
+.dharan-copy-caption17 {
   color: rgb(53, 43, 42);
   width: auto;
   height: auto;
   font-size: 90px;
-  max-width: 100%;
-  font-style: normal;
-  text-align: left;
-  font-family: Karla;
-  font-weight: 400;
-  line-height: 36px;
-}
-.dharan-copy-caption19 {
-  color: rgb(53, 43, 42);
-  width: auto;
-  height: auto;
-  font-size: 27px;
   max-width: 100%;
   font-style: normal;
   text-align: left;
@@ -1796,7 +1745,19 @@
   width: 63px;
   object-fit: cover;
 }
-.dharan-copy-caption20 {
+.dharan-copy-caption18 {
+  color: rgb(53, 43, 42);
+  width: auto;
+  height: auto;
+  font-size: 27px;
+  max-width: 100%;
+  font-style: normal;
+  text-align: left;
+  font-family: Karla;
+  font-weight: 400;
+  line-height: 36px;
+}
+.dharan-copy-caption19 {
   color: rgb(53, 43, 42);
   width: auto;
   height: auto;
@@ -1882,7 +1843,7 @@
   align-self: flex-start;
   object-fit: cover;
 }
-.dharan-copy-caption21 {
+.dharan-copy-caption20 {
   color: rgb(53, 43, 42);
   width: auto;
   height: 100%;
@@ -1913,7 +1874,7 @@
   align-self: flex-start;
   object-fit: cover;
 }
-.dharan-copy-caption22 {
+.dharan-copy-caption21 {
   color: rgb(53, 43, 42);
   width: auto;
   height: 100%;
@@ -1943,7 +1904,7 @@
   align-self: flex-start;
   object-fit: cover;
 }
-.dharan-copy-caption23 {
+.dharan-copy-caption22 {
   color: rgb(53, 43, 42);
   width: auto;
   height: auto;
@@ -1974,7 +1935,7 @@
   align-self: flex-start;
   object-fit: cover;
 }
-.dharan-copy-caption24 {
+.dharan-copy-caption23 {
   color: rgb(53, 43, 42);
   width: auto;
   height: 100%;
@@ -2005,10 +1966,10 @@
   margin-left: var(--dl-space-space-twounits);
   flex-direction: column;
 }
-.dharan-copy-link19 {
+.dharan-copy-link18 {
   display: contents;
 }
-.dharan-copy-heading8 {
+.dharan-copy-heading7 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: auto;
   display: flex;
@@ -2021,7 +1982,7 @@
   height: var(--dl-size-size-small);
   object-fit: cover;
 }
-.dharan-copy-caption25 {
+.dharan-copy-caption24 {
   color: var(--dl-color-danger-300);
   height: 100%;
   font-size: 16px;
@@ -2029,14 +1990,14 @@
   text-align: left;
   line-height: 21px;
 }
-.dharan-copy-content10 {
+.dharan-copy-content09 {
   gap: 120px;
   width: 100%;
   display: flex;
   position: relative;
   max-width: 1440px;
   align-items: flex-start;
-  padding-top: var(--dl-space-space-fourunits);
+  padding-top: 0px;
   padding-left: var(--dl-space-space-fiveunits);
   padding-right: var(--dl-space-space-fiveunits);
   flex-direction: column;
@@ -2055,6 +2016,7 @@
   justify-content: center;
 }
 .dharan-copy-email {
+  height: 0px;
   font-style: normal;
   text-align: center;
   transition: 0.3s;
@@ -2072,6 +2034,7 @@
   opacity: 0.5;
 }
 .dharan-copy-call {
+  height: 0px;
   opacity: 0;
   font-style: normal;
   text-align: center;
@@ -2089,7 +2052,7 @@
 .dharan-copy-call:hover {
   opacity: 0.5;
 }
-.dharan-copy-text681 {
+.dharan-copy-text701 {
   width: 0px;
   height: 0px;
 }
@@ -2102,40 +2065,42 @@
 @media(max-width: 991px) {
   .dharan-copy-image {
     width: 100%;
-    height: var(--dl-size-size-large);
+    height: auto;
     align-self: flex-start;
-    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-top: var(--dl-space-space-halfunit);
     padding-top: 0px;
     margin-right: 0px;
   }
   .dharan-copy-image01 {
-    width: auto;
-    height: var(--dl-size-size-large);
+    width: var(--dl-size-size-xlarge);
+    height: auto;
     align-self: flex-start;
-    margin-top: 0px;
+    margin-top: var(--dl-space-space-oneandhalfunits);
     padding-top: 0px;
   }
   .dharan-copy-image02 {
-    width: auto;
-    height: var(--dl-size-size-large);
-    margin-top: 0px;
+    width: 100%;
+    height: auto;
+    margin-top: -32px;
     margin-left: var(--dl-space-space-unit);
     padding-top: 0px;
   }
   .dharan-copy-image03 {
     width: auto;
-    height: var(--dl-size-size-large);
-    margin-top: 0px;
+    height: auto;
+    margin-top: -32px;
     align-items: center;
     margin-left: 0px;
     padding-top: 0px;
     justify-content: flex-end;
   }
   .dharan-copy-video {
-    width: auto;
-    height: auto;
+    width: 60%;
+    height: var(--dl-size-size-large);
     opacity: 1;
+    margin-top: 0px;
     margin-left: 0px;
+    margin-right: -32px;
     padding-left: 0px;
     margin-bottom: 0px;
   }
@@ -2147,50 +2112,54 @@
     margin-right: 0px;
   }
   .dharan-copy-video1 {
-    width: 100%;
+    width: 70%;
     height: 100%;
     opacity: 1;
+    align-self: center;
     margin-right: 0px;
-    margin-bottom: var(--dl-space-space-sixunits);
+    margin-bottom: var(--dl-space-space-unit);
   }
   .dharan-copy-hero {
     width: 100%;
-    height: auto;
+    height: 700px;
     border-color: var(--dl-color-gray-black);
     border-width: 0px;
   }
   .dharan-copy-main {
     height: 100%;
-    padding-left: var(--dl-space-space-fiveunits);
-    padding-right: var(--dl-space-space-fiveunits);
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .dharan-copy-navbar {
-    margin-top: -27px;
+    opacity: 1;
+    position: static;
+    max-width: 100%;
     align-items: flex-start;
     padding-top: 0px;
   }
   .dharan-copy-menu {
-    right: 0px;
     width: 100%;
-    bottom: 0px;
     height: auto;
-    position: absolute;
     align-self: flex-start;
     align-items: flex-start;
   }
   .dharan-copy-hamburger {
     top: -16px;
     left: 70px;
-    width: var(--dl-size-size-xsmall);
-    height: var(--dl-size-size-xsmall);
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+    margin-top: var(--dl-space-space-halfunit);
+    margin-left: var(--dl-space-space-twounits);
     padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
   }
   .dharan-copy-icon {
-    width: var(--dl-size-size-xsmall);
-    height: var(--dl-size-size-xsmall);
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
     align-self: flex-start;
+    margin-top: 0px;
+    margin-left: 0px;
   }
   .dharan-copy-mobile-menu {
     top: var(--dl-space-space-oneandhalfunits);
@@ -2217,6 +2186,7 @@
     font-style: normal;
     font-family: Arial;
     font-weight: 500;
+    line-height: 12px;
   }
   .dharan-copy-dropdown-list {
     left: 0%;
@@ -2306,45 +2276,27 @@
     font-size: 14px;
     line-height: 14px;
   }
-  .dharan-copy-content {
-    height: auto;
-    margin-top: var(--dl-space-space-fourunits);
-    padding-bottom: 0px;
-  }
-  .dharan-copy-caption {
-    color: var(--dl-color-gray-white);
-    width: auto;
-    height: 115px;
-    font-size: 36px;
-    max-width: auto;
-    font-style: normal;
-    margin-top: var(--dl-space-space-sixunits);
-    font-family: Cormorant Infant;
-    font-weight: 700;
-    line-height: 35px;
-    padding-top: 0px;
-    padding-bottom: var(--dl-space-space-halfunit);
-  }
   .dharan-copy-navbar1 {
-    margin-top: -27px;
+    opacity: 0;
+    margin-top: 0px;
     align-items: flex-start;
     padding-top: 0px;
   }
-  .dharan-copy-content01 {
+  .dharan-copy-content {
     height: 100%;
     margin-top: 0px;
     padding-top: var(--dl-space-space-sixunits);
-    padding-bottom: var(--dl-space-space-fourunits);
+    padding-bottom: 0px;
   }
   .dharan-copy-video2 {
-    width: 100%;
-    height: 100%;
+    width: var(--dl-size-size-xxlarge);
+    height: auto;
     opacity: 1;
-    margin-bottom: var(--dl-space-space-sixunits);
+    margin-bottom: var(--dl-space-space-fourunits);
   }
   .dharan-copy-mantra {
     width: auto;
-    height: var(--dl-size-size-large);
+    height: auto;
     margin-top: 0px;
     align-items: center;
     margin-left: 0px;
@@ -2354,121 +2306,47 @@
   .dharan-copy-mantra1 {
     color: rgb(53, 43, 42);
     height: auto;
-    font-size: 36px;
-    font-style: italic;
+    font-size: 22px;
+    font-style: normal;
     font-family: Cormorant Infant;
-    font-weight: 600;
-    line-height: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-left: 0px;
+    margin-bottom: var(--dl-space-space-fourunits);
+    padding-right: 0px;
+    padding-bottom: 0px;
   }
   .dharan-copy-mantra-mobile {
     color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    font-size: 0.1px;
+    font-style: normal;
     font-family: Cormorant Infant;
-    font-weight: 600;
-    line-height: 30px;
+    font-weight: 400;
+    line-height: 27px;
   }
   .dharan-copy-video3 {
-    width: 100%;
+    width: var(--dl-size-size-xxlarge);
     height: 100%;
     opacity: 1;
-    margin-bottom: var(--dl-space-space-sixunits);
-  }
-  .dharan-copy-mutra {
-    width: auto;
-    height: var(--dl-size-size-large);
     margin-top: 0px;
-    align-items: center;
-    margin-left: 0px;
-    padding-top: 0px;
-    justify-content: flex-end;
-  }
-  .dharan-copy-mudra-moblie {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    font-family: Cormorant Infant;
-    font-weight: 600;
-    line-height: 30px;
-  }
-  .dharan-copy-mudra {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    font-family: Cormorant Infant;
-    font-weight: 600;
-    line-height: 30px;
-  }
-  .dharan-copy-alone {
-    width: auto;
-    height: var(--dl-size-size-large);
-    margin-top: 0px;
-    align-items: center;
-    margin-left: 0px;
-    padding-top: 0px;
-    justify-content: flex-end;
-  }
-  .dharan-copy-alone1 {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    font-family: Cormorant Infant;
-    font-weight: 600;
-    line-height: 30px;
-  }
-  .dharan-copy-alone-mobile {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    font-family: Cormorant Infant;
-    font-weight: 600;
-    line-height: 30px;
-  }
-  .dharan-copy-dharani {
-    width: auto;
-    height: var(--dl-size-size-large);
-    margin-top: 0px;
-    align-items: center;
-    margin-left: 0px;
-    padding-top: 0px;
-    justify-content: flex-end;
-  }
-  .dharan-copy-quote {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    font-family: Cormorant Infant;
-    font-weight: 600;
-    line-height: 30px;
-  }
-  .dharan-copy-quote-mobile {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    font-family: Cormorant Infant;
-    font-weight: 600;
-    line-height: 30px;
+    margin-bottom: 0px;
   }
   .dharan-copy-karuna4 {
     width: 100%;
-    height: var(--dl-size-size-large);
-    margin-top: var(--dl-space-space-sixunits);
-    padding-top: var(--dl-space-space-sixunits);
+    height: auto;
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: 0px;
   }
   .dharan-copy-mantra2 {
     color: rgb(53, 43, 42);
     height: auto;
-    font-size: 36px;
-    font-style: italic;
+    font-size: 16px;
+    font-style: normal;
     font-family: Cormorant Infant;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 30px;
   }
   .dharan-copy-mantra3 {
@@ -2480,24 +2358,117 @@
     font-weight: 600;
     line-height: 30px;
   }
+  .dharan-copy-mutra {
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    align-items: center;
+    margin-left: 0px;
+    padding-top: 0px;
+    justify-content: flex-end;
+  }
+  .dharan-copy-mudra-moblie {
+    color: rgb(53, 43, 42);
+    height: 0px;
+    font-size: 0.1px;
+    font-style: normal;
+    font-family: Cormorant Infant;
+    font-weight: 400;
+    line-height: 0.1px;
+  }
+  .dharan-copy-mudra {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 22px;
+    font-style: normal;
+    font-family: Cormorant Infant;
+    font-weight: 500;
+    line-height: 36px;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: var(--dl-space-space-fiveunits);
+  }
+  .dharan-copy-alone {
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    align-items: center;
+    margin-left: 0px;
+    padding-top: 0px;
+    justify-content: flex-end;
+  }
+  .dharan-copy-alone1 {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 22px;
+    font-style: normal;
+    font-family: Cormorant Infant;
+    font-weight: 400;
+    line-height: 36px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .dharan-copy-alone-mobile {
+    color: rgb(53, 43, 42);
+    width: 0px;
+    height: 0px;
+    font-size: 0.1px;
+    font-style: normal;
+    font-family: Cormorant Infant;
+    font-weight: 400;
+    line-height: 0.1px;
+  }
+  .dharan-copy-dharani {
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    align-items: center;
+    margin-left: 0px;
+    padding-top: 0px;
+    justify-content: flex-end;
+  }
+  .dharan-copy-quote {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 22px;
+    font-style: normal;
+    font-family: Cormorant Infant;
+    font-weight: 400;
+    line-height: 36px;
+    padding-top: var(--dl-space-space-fiveunits);
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .dharan-copy-quote-mobile {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 0.1px;
+    font-style: normal;
+    font-family: Cormorant Infant;
+    font-weight: 400;
+    line-height: 0.1px;
+  }
   .dharan-copy-blog1 {
-    gap: 135px;
+    gap: var(--dl-space-space-threeunits);
     height: auto;
     align-items: flex-start;
     padding-top: var(--dl-space-space-fourunits);
     padding-bottom: var(--dl-space-space-fourunits);
   }
   .dharan-copy-dharani1 {
-    width: 100%;
-    height: var(--dl-size-size-large);
+    width: auto;
+    height: auto;
     margin-top: var(--dl-space-space-sixunits);
-    padding-top: var(--dl-space-space-sixunits);
+    padding-top: 0px;
   }
-  .dharan-copy-caption01 {
+  .dharan-copy-caption {
     color: var(--dl-color-gray-black);
+    width: auto;
     height: auto;
     font-size: 90px;
     font-style: normal;
+    margin-top: 0px;
     text-align: left;
     font-family: Cormorant Infant;
     font-weight: 800;
@@ -2506,147 +2477,294 @@
   .dharan-copy-dharani2 {
     color: var(--dl-color-gray-black);
     height: auto;
-    font-size: 90px;
+    font-size: 22px;
     font-style: normal;
-    text-align: left;
+    text-align: center;
     font-family: Cormorant Infant;
-    font-weight: 800;
-    line-height: 90px;
+    font-weight: 400;
+    line-height: 36px;
   }
   .dharan-copy-dharani-mobile {
     color: var(--dl-color-gray-black);
-    height: auto;
-    font-size: 90px;
+    width: 0px;
+    height: 0px;
+    font-size: 0.1px;
     font-style: normal;
     text-align: left;
     font-family: Cormorant Infant;
     font-weight: 800;
-    line-height: 90px;
+    line-height: 0.1px;
   }
   .dharan-copy-give {
     color: var(--dl-color-gray-black);
     height: auto;
-    font-size: 90px;
+    font-size: 22px;
     font-style: normal;
-    text-align: left;
+    text-align: center;
     font-family: Cormorant Infant;
     font-weight: 800;
-    line-height: 90px;
+    line-height: 27px;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
   }
   .dharan-copy-blossom {
     gap: var(--dl-space-space-twounits);
+    width: auto;
+    align-self: flex-start;
     align-items: flex-start;
+    margin-left: var(--dl-space-space-fourunits);
     flex-direction: column;
+  }
+  .dharan-copy-content01 {
+    width: auto;
+    align-self: flex-start;
+    margin-left: 0px;
+  }
+  .dharan-copy-header {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .dharan-copy-caption01 {
+    height: auto;
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .dharan-copy-image05 {
+    width: auto;
+    align-self: flex-start;
   }
   .dharan-copy-caption02 {
     height: auto;
   }
+  .dharan-copy-charge-up {
+    gap: var(--dl-space-space-twounits);
+    width: auto;
+    align-self: flex-start;
+    align-items: flex-start;
+    margin-left: var(--dl-space-space-fourunits);
+    flex-direction: column;
+  }
+  .dharan-copy-content02 {
+    align-self: flex-start;
+    margin-left: 0px;
+  }
+  .dharan-copy-header1 {
+    font-size: 32px;
+    line-height: 32px;
+  }
   .dharan-copy-caption03 {
     height: auto;
+    font-size: 22px;
+    line-height: 27px;
   }
-  .dharan-copy-cultivate {
-    gap: var(--dl-space-space-twounits);
-    align-items: flex-start;
-    flex-direction: column;
+  .dharan-copy-image06 {
+    width: auto;
+    align-self: flex-start;
   }
   .dharan-copy-caption04 {
     height: auto;
   }
+  .dharan-copy-caring {
+    gap: var(--dl-space-space-twounits);
+    width: auto;
+    align-self: flex-start;
+    align-items: flex-start;
+    margin-left: var(--dl-space-space-fourunits);
+    flex-direction: column;
+  }
+  .dharan-copy-content03 {
+    width: auto;
+    align-self: flex-start;
+    margin-left: 0px;
+  }
+  .dharan-copy-header2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
   .dharan-copy-caption05 {
     height: auto;
+    font-size: 22px;
+    line-height: 27px;
   }
-  .dharan-copy-care {
-    gap: var(--dl-space-space-twounits);
-    align-items: flex-start;
-    flex-direction: column;
+  .dharan-copy-image07 {
+    width: auto;
+    align-self: flex-start;
   }
   .dharan-copy-caption06 {
     height: auto;
   }
-  .dharan-copy-caption07 {
-    height: auto;
-  }
   .dharan-copy-dharani3 {
-    width: 100%;
-    height: var(--dl-size-size-large);
-    margin-top: var(--dl-space-space-sixunits);
-    padding-top: var(--dl-space-space-sixunits);
+    width: auto;
+    height: auto;
+    align-self: center;
+    margin-top: 0px;
+    padding-top: 0px;
   }
   .dharan-copy-take {
     color: var(--dl-color-gray-black);
     height: auto;
-    font-size: 18px;
+    font-size: 22px;
     font-style: normal;
-    text-align: left;
+    text-align: center;
     font-family: Cormorant Infant;
-    font-weight: 800;
-    line-height: 27px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
   }
   .dharan-copy-di {
     gap: var(--dl-space-space-twounits);
+    width: auto;
+    align-self: flex-start;
     align-items: flex-start;
+    margin-left: var(--dl-space-space-fourunits);
     flex-direction: column;
+  }
+  .dharan-copy-content04 {
+    width: auto;
+    align-self: flex-start;
+  }
+  .dharan-copy-header3 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .dharan-copy-caption07 {
+    height: auto;
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .dharan-copy-image08 {
+    width: auto;
+    align-self: flex-start;
   }
   .dharan-copy-caption08 {
     height: auto;
   }
+  .dharan-copy-vajrapani {
+    gap: var(--dl-space-space-twounits);
+    width: auto;
+    align-self: flex-start;
+    align-items: flex-start;
+    margin-left: var(--dl-space-space-fourunits);
+    flex-direction: column;
+  }
+  .dharan-copy-content05 {
+    width: auto;
+    align-self: flex-start;
+  }
+  .dharan-copy-header4 {
+    font-size: 32px;
+    line-height: 32px;
+  }
   .dharan-copy-caption09 {
     height: auto;
+    font-size: 22px;
+    line-height: 27px;
   }
-  .dharan-copy-calm {
-    gap: var(--dl-space-space-twounits);
-    align-items: flex-start;
-    flex-direction: column;
+  .dharan-copy-image09 {
+    width: auto;
+    align-self: flex-start;
   }
   .dharan-copy-caption10 {
     height: auto;
   }
-  .dharan-copy-caption11 {
-    height: auto;
-  }
   .dharan-copy-relax {
     gap: var(--dl-space-space-twounits);
+    width: auto;
+    align-self: flex-start;
     align-items: flex-start;
+    margin-left: var(--dl-space-space-fourunits);
     flex-direction: column;
+  }
+  .dharan-copy-content06 {
+    width: auto;
+    align-self: flex-start;
+  }
+  .dharan-copy-header5 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .dharan-copy-header6 {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .dharan-copy-image10 {
+    width: auto;
+    align-self: flex-start;
+  }
+  .dharan-copy-caption11 {
+    height: auto;
+    font-size: 16px;
+    align-self: flex-start;
+    text-align: left;
   }
   .dharan-copy-caption12 {
     height: auto;
+    font-size: 16px;
+    text-align: left;
   }
   .dharan-copy-caption13 {
     height: auto;
+    font-size: 16px;
+    text-align: left;
   }
   .dharan-copy-caption14 {
     height: auto;
-  }
-  .dharan-copy-caption15 {
-    height: auto;
+    font-size: 16px;
+    text-align: left;
   }
   .dharan-copy-mercy {
     gap: var(--dl-space-space-twounits);
+    width: auto;
+    align-self: flex-start;
     align-items: flex-start;
+    margin-left: var(--dl-space-space-fourunits);
+    flex-direction: column;
+  }
+  .dharan-copy-content07 {
+    width: auto;
+    align-self: flex-start;
+  }
+  .dharan-copy-header7 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .dharan-copy-caption15 {
+    height: auto;
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .dharan-copy-image15 {
+    width: auto;
+    align-self: flex-start;
     flex-direction: column;
   }
   .dharan-copy-caption16 {
     height: auto;
-  }
-  .dharan-copy-caption17 {
-    height: auto;
+    text-align: center;
   }
   .dharan-copy-testimony {
     gap: var(--dl-space-space-twounits);
     align-items: flex-start;
     flex-direction: column;
   }
+  .dharan-copy-caption17 {
+    height: auto;
+  }
+  .dharan-copy-image17 {
+    width: var(--dl-size-size-small);
+  }
   .dharan-copy-caption18 {
     height: auto;
+    font-size: 22px;
+    line-height: 27px;
   }
   .dharan-copy-caption19 {
     height: auto;
   }
-  .dharan-copy-caption20 {
-    height: auto;
-  }
   .dharan-copy-social-media {
+    width: auto;
+    padding-top: 0px;
     margin-right: 0px;
     border-radius: var(--dl-radius-radius-radius4);
   }
@@ -2660,6 +2778,7 @@
     line-height: 30px;
   }
   .dharan-copy-platforms {
+    width: 0%;
     margin-right: 0px;
     border-radius: var(--dl-radius-radius-radius4);
   }
@@ -2668,7 +2787,7 @@
     height: auto;
     justify-content: flex-start;
   }
-  .dharan-copy-caption21 {
+  .dharan-copy-caption20 {
     color: rgb(53, 43, 42);
     height: auto;
     font-size: 18px;
@@ -2680,7 +2799,7 @@
     height: auto;
     justify-content: flex-start;
   }
-  .dharan-copy-caption22 {
+  .dharan-copy-caption21 {
     color: rgb(53, 43, 42);
     height: auto;
     font-size: 18px;
@@ -2691,7 +2810,7 @@
     width: 22%;
     height: auto;
   }
-  .dharan-copy-caption23 {
+  .dharan-copy-caption22 {
     color: rgb(53, 43, 42);
     height: auto;
     font-size: 18px;
@@ -2702,7 +2821,7 @@
     width: 22%;
     height: auto;
   }
-  .dharan-copy-caption24 {
+  .dharan-copy-caption23 {
     color: rgb(53, 43, 42);
     height: auto;
     font-size: 18px;
@@ -2710,19 +2829,20 @@
     line-height: 27px;
   }
   .dharan-copy-footer {
-    padding-left: var(--dl-space-space-sixunits);
-    padding-right: var(--dl-space-space-sixunits);
+    margin-top: var(--dl-space-space-sixunits);
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .dharan-copy-branding {
-    max-width: 80%;
+    max-width: auto;
   }
-  .dharan-copy-heading8 {
+  .dharan-copy-heading7 {
     gap: var(--dl-space-space-unit);
   }
-  .dharan-copy-caption25 {
+  .dharan-copy-caption24 {
     font-size: 9px;
   }
-  .dharan-copy-content10 {
+  .dharan-copy-content09 {
     gap: var(--dl-space-space-threeunits);
     width: 604px;
     padding-left: var(--dl-space-space-sixunits);
@@ -2737,72 +2857,90 @@
 }
 @media(max-width: 767px) {
   .dharan-copy-image {
-    height: 270px;
+    height: auto;
     padding-top: 0px;
+  }
+  .dharan-copy-image01 {
+    width: var(--dl-size-size-xlarge);
+    height: auto;
   }
   .dharan-copy-image02 {
-    height: 270px;
+    height: auto;
+    margin-top: -90px;
     padding-top: 0px;
+    margin-bottom: 0px;
   }
   .dharan-copy-image03 {
-    height: 270px;
+    height: auto;
     padding-top: 0px;
+    justify-content: flex-end;
   }
   .dharan-copy-video {
     top: 0px;
     left: 0px;
     right: 0px;
-    width: 105%;
-    height: auto;
-    margin: 0px;
+    width: 60%;
+    height: var(--dl-size-size-large);
+    margin: -32px;
+  }
+  .dharan-copy-image04 {
+    width: var(--dl-size-size-medium);
   }
   .dharan-copy-video1 {
     top: 0px;
     left: 0px;
     right: 0px;
-    width: 105%;
+    width: 80%;
     height: auto;
-    margin: 0px;
+    align-self: center;
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
   }
   .dharan-copy-hero {
-    height: 508px;
+    width: 100%;
+    height: 495px;
   }
   .dharan-copy-main {
-    height: 411px;
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    padding-right: var(--dl-space-space-oneandhalfunits);
+    height: 517px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .dharan-copy-navbar {
+    top: 0px;
+    opacity: 1;
+    position: static;
+    max-width: 100%;
+    margin-top: var(--dl-space-space-halfunit);
     align-items: flex-start;
+    margin-left: var(--dl-space-space-unit);
     padding-top: 0px;
     padding-bottom: 0px;
   }
   .dharan-copy-menu {
-    top: 0px;
-    left: 0px;
+    width: auto;
     display: flex;
-    position: absolute;
+    position: static;
+    align-self: center;
   }
   .dharan-copy-hamburger {
     top: -16px;
     left: 90px;
-    width: var(--dl-size-size-xsmall);
-    height: var(--dl-size-size-xsmall);
-    margin-left: 0px;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+    margin-left: var(--dl-space-space-twounits);
     padding-left: 0px;
   }
   .dharan-copy-icon {
-    width: var(--dl-size-size-xsmall);
-    height: var(--dl-size-size-xsmall);
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+    align-self: center;
   }
   .dharan-copy-mobile-menu {
-    top: var(--dl-space-space-oneandhalfunits);
-    left: 0px;
     width: var(--dl-size-size-large);
-    bottom: 0px;
     height: auto;
     padding: 0px;
-    position: absolute;
   }
   .dharan-copy-tangible-logo {
     position: relative;
@@ -2904,178 +3042,89 @@
     top: 0;
     left: 100%;
   }
-  .dharan-copy-content {
-    align-self: center;
-    margin-bottom: var(--dl-space-space-sixunits);
-  }
-  .dharan-copy-caption {
-    color: var(--dl-color-gray-white);
-    width: auto;
-    height: 123px;
-    font-size: 36px;
-    max-width: auto;
-    margin-top: var(--dl-space-space-sixunits);
-    font-family: Cormorant Infant;
-    font-weight: 700;
-    line-height: 35px;
-    padding-top: 0px;
-    padding-bottom: var(--dl-space-space-halfunit);
-  }
   .dharan-copy-navbar1 {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    margin-top: 0px;
     align-items: flex-start;
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  .dharan-copy-content01 {
+  .dharan-copy-content {
     height: auto;
-    padding-left: var(--dl-space-space-oneandhalfunits);
+    margin-top: var(--dl-space-space-sixunits);
+    padding-top: 0px;
+    padding-left: 0px;
     margin-bottom: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-right: 0px;
     padding-bottom: var(--dl-space-space-halfunit);
   }
   .dharan-copy-video2 {
     top: 0px;
     left: 0px;
     right: 0px;
-    width: 105%;
+    width: var(--dl-size-size-xxlarge);
     height: auto;
     margin: 0px;
   }
   .dharan-copy-mantra {
-    height: 270px;
+    height: auto;
+    margin-top: var(--dl-space-space-twounits);
     padding-top: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
   }
   .dharan-copy-mantra1 {
     color: rgb(53, 43, 42);
     height: auto;
-    font-size: 36px;
-    font-style: italic;
-    text-align: left;
+    font-size: 22px;
+    font-style: normal;
+    text-align: center;
     font-family: Cormorant Infant;
-    font-weight: 700;
-    line-height: 30px;
-    padding-top: var(--dl-space-space-threeunits);
-    padding-bottom: var(--dl-space-space-threeunits);
+    font-weight: 400;
+    line-height: 36px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
   }
   .dharan-copy-mantra-mobile {
     color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
+    width: 0px;
+    height: 0px;
+    font-size: 0.1px;
     font-style: italic;
     text-align: left;
     font-family: Cormorant Infant;
     font-weight: 700;
-    line-height: 30px;
-    padding-top: var(--dl-space-space-threeunits);
-    padding-bottom: var(--dl-space-space-threeunits);
+    line-height: 0.1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .dharan-copy-video3 {
     top: 0px;
     left: 0px;
     right: 0px;
-    width: 105%;
+    width: var(--dl-size-size-xxlarge);
     height: auto;
     margin: 0px;
   }
-  .dharan-copy-mutra {
-    height: 270px;
-    padding-top: 0px;
-  }
-  .dharan-copy-mudra-moblie {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    text-align: left;
-    font-family: Cormorant Infant;
-    font-weight: 700;
-    line-height: 30px;
-    padding-top: var(--dl-space-space-threeunits);
-    padding-bottom: var(--dl-space-space-threeunits);
-  }
-  .dharan-copy-mudra {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    text-align: left;
-    font-family: Cormorant Infant;
-    font-weight: 700;
-    line-height: 30px;
-    padding-top: var(--dl-space-space-threeunits);
-    padding-bottom: var(--dl-space-space-threeunits);
-  }
-  .dharan-copy-alone {
-    height: 270px;
-    padding-top: 0px;
-  }
-  .dharan-copy-alone1 {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    text-align: left;
-    font-family: Cormorant Infant;
-    font-weight: 700;
-    line-height: 30px;
-    padding-top: var(--dl-space-space-threeunits);
-    padding-bottom: var(--dl-space-space-threeunits);
-  }
-  .dharan-copy-alone-mobile {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    text-align: left;
-    font-family: Cormorant Infant;
-    font-weight: 700;
-    line-height: 30px;
-    padding-top: var(--dl-space-space-threeunits);
-    padding-bottom: var(--dl-space-space-threeunits);
-  }
-  .dharan-copy-dharani {
-    height: 270px;
-    padding-top: 0px;
-  }
-  .dharan-copy-quote {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    text-align: left;
-    font-family: Cormorant Infant;
-    font-weight: 700;
-    line-height: 30px;
-    padding-top: var(--dl-space-space-threeunits);
-    padding-bottom: var(--dl-space-space-threeunits);
-  }
-  .dharan-copy-quote-mobile {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    text-align: left;
-    font-family: Cormorant Infant;
-    font-weight: 700;
-    line-height: 30px;
-    padding-top: var(--dl-space-space-threeunits);
-    padding-bottom: var(--dl-space-space-threeunits);
-  }
   .dharan-copy-karuna4 {
-    height: 270px;
+    height: auto;
+    margin-top: var(--dl-space-space-unit);
     padding-top: 0px;
   }
   .dharan-copy-mantra2 {
     color: rgb(53, 43, 42);
     height: auto;
-    font-size: 36px;
-    font-style: italic;
+    font-size: 18px;
+    font-style: normal;
     text-align: left;
     font-family: Cormorant Infant;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 30px;
-    padding-top: var(--dl-space-space-threeunits);
-    padding-bottom: var(--dl-space-space-threeunits);
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .dharan-copy-mantra3 {
     color: rgb(53, 43, 42);
@@ -3086,80 +3135,221 @@
     font-family: Cormorant Infant;
     font-weight: 700;
     line-height: 30px;
-    padding-top: var(--dl-space-space-threeunits);
-    padding-bottom: var(--dl-space-space-threeunits);
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
-  .dharan-copy-blog1 {
+  .dharan-copy-mutra {
     height: auto;
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    padding-right: var(--dl-space-space-oneandhalfunits);
-  }
-  .dharan-copy-dharani1 {
-    height: 270px;
     padding-top: 0px;
   }
-  .dharan-copy-caption01 {
+  .dharan-copy-mudra-moblie {
+    color: rgb(53, 43, 42);
+    width: 0px;
+    height: 0px;
+    font-size: 0.1px;
+    font-style: italic;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 0.1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .dharan-copy-mudra {
+    color: rgb(53, 43, 42);
+    width: auto;
+    height: auto;
+    font-size: 22px;
+    font-style: normal;
+    text-align: center;
+    font-family: Cormorant Infant;
+    font-weight: 400;
+    line-height: 36px;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .dharan-copy-alone {
+    height: auto;
+    padding-top: 0px;
+    justify-content: center;
+  }
+  .dharan-copy-alone1 {
+    color: rgb(53, 43, 42);
+    width: auto;
+    height: auto;
+    font-size: 22px;
+    font-style: normal;
+    margin-top: var(--dl-space-space-twounits);
+    text-align: center;
+    font-family: Cormorant Infant;
+    font-weight: 500;
+    line-height: 36px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .dharan-copy-alone-mobile {
+    color: rgb(53, 43, 42);
+    width: 0px;
+    height: 0px;
+    font-size: 0.1px;
+    font-style: italic;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 0.1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .dharan-copy-dharani {
+    height: auto;
+    padding-top: 0px;
+  }
+  .dharan-copy-quote {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 22px;
+    font-style: normal;
+    text-align: center;
+    font-family: Cormorant Infant;
+    font-weight: 400;
+    line-height: 36px;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .dharan-copy-quote-mobile {
+    color: rgb(53, 43, 42);
+    width: 0px;
+    height: 0px;
+    font-size: 0.1px;
+    font-style: italic;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 0.1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .dharan-copy-blog1 {
+    gap: var(--dl-space-space-threeunits);
+    height: auto;
+    margin-left: 0px;
+    padding-top: 0px;
+    margin-right: 0px;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .dharan-copy-dharani1 {
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .dharan-copy-caption {
+    width: auto;
     height: auto;
     font-size: 45px;
-    max-width: 80%;
+    max-width: 100%;
     line-height: 54px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+    padding-bottom: 0px;
   }
   .dharan-copy-dharani2 {
     height: auto;
-    font-size: 45px;
+    font-size: 22px;
     max-width: 80%;
-    line-height: 54px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    line-height: 36px;
   }
   .dharan-copy-dharani-mobile {
-    height: auto;
-    font-size: 45px;
+    height: 0px;
+    font-size: 0.1px;
     max-width: 80%;
-    line-height: 54px;
+    line-height: 0.1px;
   }
   .dharan-copy-give {
     height: auto;
-    font-size: 45px;
+    font-size: 22px;
     max-width: 80%;
-    line-height: 54px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    line-height: 36px;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
   }
-  .dharan-copy-content02 {
+  .dharan-copy-blossom {
+    align-self: flex-start;
+    align-items: flex-start;
+  }
+  .dharan-copy-content01 {
     gap: var(--dl-space-space-oneandhalfunits);
+    align-self: flex-start;
+    align-items: flex-start;
+    margin-left: 0px;
   }
   .dharan-copy-heading {
     gap: var(--dl-space-space-unit);
+    align-self: flex-start;
   }
   .dharan-copy-header {
     font-size: 32px;
-    line-height: 30px;
+    line-height: 32px;
+  }
+  .dharan-copy-caption01 {
+    height: auto;
+    font-size: 22px;
+    text-align: left;
+    line-height: 27px;
+  }
+  .dharan-copy-image05 {
+    width: auto;
+    align-self: flex-start;
+    align-items: flex-start;
   }
   .dharan-copy-caption02 {
     height: auto;
     font-size: 16px;
   }
-  .dharan-copy-caption03 {
-    height: auto;
-    font-size: 16px;
-  }
-  .dharan-copy-content03 {
+  .dharan-copy-content02 {
     gap: var(--dl-space-space-oneandhalfunits);
+    width: auto;
+    align-self: flex-start;
+    margin-left: 0px;
   }
   .dharan-copy-heading1 {
     gap: var(--dl-space-space-unit);
   }
   .dharan-copy-header1 {
     font-size: 32px;
-    line-height: 30px;
+    line-height: 32px;
+  }
+  .dharan-copy-caption03 {
+    height: auto;
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .dharan-copy-image06 {
+    width: auto;
+    align-self: flex-start;
   }
   .dharan-copy-caption04 {
     height: auto;
     font-size: 16px;
   }
-  .dharan-copy-caption05 {
-    height: auto;
-    font-size: 16px;
-  }
-  .dharan-copy-content04 {
+  .dharan-copy-content03 {
     gap: var(--dl-space-space-oneandhalfunits);
+    width: auto;
+    align-self: flex-start;
+    margin-left: 0px;
   }
   .dharan-copy-heading2 {
     gap: var(--dl-space-space-unit);
@@ -3168,64 +3358,87 @@
     font-size: 32px;
     line-height: 30px;
   }
+  .dharan-copy-caption05 {
+    height: auto;
+    font-size: 22px;
+  }
+  .dharan-copy-image07 {
+    width: auto;
+    align-self: flex-start;
+  }
   .dharan-copy-caption06 {
     height: auto;
     font-size: 16px;
   }
-  .dharan-copy-caption07 {
-    height: auto;
-    font-size: 16px;
-  }
   .dharan-copy-dharani3 {
-    height: 270px;
+    height: auto;
+    margin-top: 0px;
     padding-top: 0px;
   }
   .dharan-copy-take {
+    width: 100%;
     height: auto;
-    font-size: 18px;
-    max-width: 80%;
-    line-height: 54px;
+    font-size: 22px;
+    max-width: 100%;
+    text-align: center;
+    line-height: 36px;
   }
-  .dharan-copy-content05 {
+  .dharan-copy-content04 {
     gap: var(--dl-space-space-oneandhalfunits);
+    width: auto;
+    align-self: flex-start;
   }
   .dharan-copy-heading3 {
     gap: var(--dl-space-space-unit);
+    width: 100%;
   }
   .dharan-copy-header3 {
     font-size: 32px;
     line-height: 30px;
   }
+  .dharan-copy-caption07 {
+    height: auto;
+    font-size: 22px;
+  }
+  .dharan-copy-image08 {
+    width: auto;
+    align-self: flex-start;
+  }
   .dharan-copy-caption08 {
     height: auto;
     font-size: 16px;
   }
-  .dharan-copy-caption09 {
-    height: auto;
-    font-size: 16px;
-  }
-  .dharan-copy-content06 {
+  .dharan-copy-content05 {
     gap: var(--dl-space-space-oneandhalfunits);
+    width: auto;
+    align-self: flex-start;
   }
-  .dharan-copy-heading4 {
+  .dharan-copy-vajrapani1 {
     gap: var(--dl-space-space-unit);
   }
   .dharan-copy-header4 {
     font-size: 32px;
     line-height: 30px;
   }
+  .dharan-copy-caption09 {
+    height: auto;
+    font-size: 22px;
+    text-align: left;
+  }
+  .dharan-copy-image09 {
+    width: auto;
+    align-self: flex-start;
+  }
   .dharan-copy-caption10 {
     height: auto;
     font-size: 16px;
   }
-  .dharan-copy-caption11 {
-    height: auto;
-    font-size: 16px;
-  }
-  .dharan-copy-content07 {
+  .dharan-copy-content06 {
     gap: var(--dl-space-space-oneandhalfunits);
+    width: auto;
+    align-self: flex-start;
   }
-  .dharan-copy-heading5 {
+  .dharan-copy-heading4 {
     gap: var(--dl-space-space-unit);
   }
   .dharan-copy-header5 {
@@ -3233,8 +3446,16 @@
     line-height: 30px;
   }
   .dharan-copy-header6 {
-    font-size: 32px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .dharan-copy-image10 {
+    width: auto;
+    align-self: flex-start;
+  }
+  .dharan-copy-caption11 {
+    height: auto;
+    font-size: 16px;
   }
   .dharan-copy-caption12 {
     height: auto;
@@ -3248,9 +3469,34 @@
     height: auto;
     font-size: 16px;
   }
+  .dharan-copy-content07 {
+    gap: var(--dl-space-space-oneandhalfunits);
+    width: auto;
+    align-self: flex-start;
+  }
+  .dharan-copy-heading5 {
+    gap: var(--dl-space-space-unit);
+  }
+  .dharan-copy-header7 {
+    font-size: 32px;
+    line-height: 30px;
+  }
   .dharan-copy-caption15 {
     height: auto;
+    font-size: 22px;
+  }
+  .dharan-copy-image15 {
+    width: auto;
+    align-self: flex-start;
+  }
+  .dharan-copy-caption16 {
+    height: auto;
     font-size: 16px;
+  }
+  .dharan-copy-testimony {
+    align-self: flex-start;
+    margin-left: var(--dl-space-space-fourunits);
+    margin-right: var(--dl-space-space-fourunits);
   }
   .dharan-copy-content08 {
     gap: var(--dl-space-space-oneandhalfunits);
@@ -3258,41 +3504,29 @@
   .dharan-copy-heading6 {
     gap: var(--dl-space-space-unit);
   }
-  .dharan-copy-header7 {
-    font-size: 32px;
-    line-height: 30px;
-  }
-  .dharan-copy-caption16 {
-    height: auto;
-    font-size: 16px;
-  }
   .dharan-copy-caption17 {
     height: auto;
-    font-size: 16px;
+    font-size: 90px;
   }
-  .dharan-copy-content09 {
-    gap: var(--dl-space-space-oneandhalfunits);
-  }
-  .dharan-copy-heading7 {
-    gap: var(--dl-space-space-unit);
+  .dharan-copy-image17 {
+    width: var(--dl-size-size-small);
   }
   .dharan-copy-caption18 {
     height: auto;
-    font-size: 16px;
+    font-size: 22px;
+    text-align: left;
+    line-height: 27px;
   }
   .dharan-copy-caption19 {
     height: auto;
-    font-size: 16px;
-  }
-  .dharan-copy-caption20 {
-    height: auto;
-    font-size: 16px;
+    font-size: 90px;
   }
   .dharan-copy-social-media {
-    width: 100%;
+    width: auto;
     height: auto;
     align-items: flex-end;
     margin-left: 0px;
+    padding-top: 0px;
     margin-right: 0px;
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
@@ -3306,28 +3540,27 @@
     font-family: Cormorant Infant;
     font-weight: 700;
     line-height: 30px;
-    padding-top: var(--dl-space-space-threeunits);
-    padding-bottom: var(--dl-space-space-threeunits);
   }
   .dharan-copy-platforms {
-    width: 100%;
-    height: auto;
+    width: 0px;
+    height: 0px;
+    align-self: center;
     align-items: flex-end;
     margin-left: 0px;
     margin-right: 0px;
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .dharan-copy-whats-app {
     gap: var(--dl-space-space-oneandhalfunits);
-    width: 22%;
-    height: auto;
+    width: 0%;
+    height: 0px;
     align-self: flex-end;
     align-items: flex-start;
     flex-direction: row;
     justify-content: flex-start;
   }
-  .dharan-copy-caption21 {
+  .dharan-copy-caption20 {
     color: rgb(53, 43, 42);
     width: 65%;
     height: auto;
@@ -3337,13 +3570,13 @@
   }
   .dharan-copy-zalo {
     gap: var(--dl-space-space-oneandhalfunits);
-    width: 22%;
-    height: auto;
+    width: 0%;
+    height: 0px;
     align-self: flex-end;
     align-items: flex-start;
     flex-direction: row;
   }
-  .dharan-copy-caption22 {
+  .dharan-copy-caption21 {
     color: rgb(53, 43, 42);
     width: 65%;
     height: auto;
@@ -3353,14 +3586,14 @@
   }
   .dharan-copy-line {
     gap: var(--dl-space-space-oneandhalfunits);
-    width: 22%;
-    height: auto;
+    width: 0%;
+    height: 0px;
     align-self: flex-end;
     align-items: flex-start;
     flex-direction: row;
     justify-content: flex-end;
   }
-  .dharan-copy-caption23 {
+  .dharan-copy-caption22 {
     color: rgb(53, 43, 42);
     width: 65%;
     height: auto;
@@ -3370,13 +3603,13 @@
   }
   .dharan-copy-we-chat {
     gap: var(--dl-space-space-oneandhalfunits);
-    width: 22%;
-    height: auto;
+    width: 0%;
+    height: 0px;
     align-self: flex-end;
     align-items: flex-start;
     flex-direction: row;
   }
-  .dharan-copy-caption24 {
+  .dharan-copy-caption23 {
     color: rgb(53, 43, 42);
     width: 65%;
     height: auto;
@@ -3384,24 +3617,38 @@
     font-family: Karla;
     line-height: 27px;
   }
-  .dharan-copy-branding {
-    max-width: 70%;
+  .dharan-copy-footer {
+    width: 100%;
+    margin-top: 0px;
+    justify-content: center;
   }
-  .dharan-copy-caption25 {
+  .dharan-copy-branding {
+    max-width: auto;
+  }
+  .dharan-copy-caption24 {
     font-size: 9px;
   }
-  .dharan-copy-content10 {
-    width: 650px;
+  .dharan-copy-content09 {
+    width: auto;
+    max-width: auto;
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-unit);
   }
   .dharan-copy-contact-link {
     gap: var(--dl-space-space-unit);
+    width: auto;
+    max-width: auto;
+  }
+  .dharan-copy-email {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 @media(max-width: 479px) {
   .dharan-copy-image {
-    width: auto;
+    width: 100%;
     height: auto;
     margin-top: 0px;
     align-items: center;
@@ -3415,10 +3662,12 @@
     padding-top: 0px;
   }
   .dharan-copy-image02 {
-    width: auto;
+    width: 100%;
     height: auto;
-    margin-top: -64px;
-    align-items: center;
+    margin-top: 0px;
+    align-items: flex-end;
+    margin-left: 0px;
+    justify-content: flex-end;
   }
   .dharan-copy-image03 {
     width: auto;
@@ -3432,16 +3681,20 @@
     width: 180px;
     bottom: var(--dl-space-space-halfunit);
     height: auto;
-    margin: 0px;
     opacity: 1;
-    margin-right: -16px;
+    align-self: flex-start;
+    margin-top: var(--dl-space-space-unit);
+    margin-left: -12px;
+    margin-right: -12px;
     border-radius: 0px;
+    margin-bottom: 0px;
   }
   .dharan-copy-image04 {
-    width: 72px;
+    width: 63px;
     height: 63px;
-    margin-top: var(--dl-space-space-halfunit);
+    margin-top: var(--dl-space-space-unit);
     padding-top: 0px;
+    margin-right: 2px;
   }
   .dharan-copy-video1 {
     left: -63PX;
@@ -3515,6 +3768,8 @@
     height: 100%;
     padding: 0px;
     position: absolute;
+    margin-top: var(--dl-space-space-twounits);
+    margin-left: var(--dl-space-space-unit);
   }
   .dharan-copy-nav {
     top: 51px;
@@ -3522,11 +3777,21 @@
     height: auto;
     position: absolute;
   }
+  .dharan-copy-tangible-logo {
+    margin-bottom: 0px;
+  }
   .dharan-copy-icon2 {
     margin-top: 0px;
     margin-left: var(--dl-space-space-oneandhalfunits);
     margin-right: 0px;
     margin-bottom: 0px;
+  }
+  .dharan-copy-nav1 {
+    width: 108px;
+    height: auto;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-bottom: var(--dl-space-space-unit);
   }
   .dharan-copy-desaka {
     margin-top: 0px;
@@ -3637,13 +3902,15 @@
     margin-bottom: 4px;
   }
   .dharan-copy-dropdown-list4 {
-    top: 0;
-    left: 100%;
-    width: 101px;
-    margin-left: var(--dl-space-space-halfunit);
+    width: 100px;
+    min-width: auto;
+    margin-left: var(--dl-space-space-oneandhalfunits);
     border-color: transparent;
     border-radius: 0px;
-    background-color: transparent;
+    background-color: var(--dl-color-danger-300);
+  }
+  .dharan-copy-dropdown {
+    margin-top: var(--dl-space-space-halfunit);
   }
   .dharan-copy-chn-tw {
     color: var(--dl-color-gray-white);
@@ -3660,45 +3927,46 @@
     font-size: 14px;
     line-height: 14px;
   }
-  .dharan-copy-content {
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    margin-top: 0px;
-    align-items: center;
-    margin-bottom: 0px;
-    justify-content: flex-start;
-  }
-  .dharan-copy-caption {
-    color: var(--dl-color-gray-white);
-    width: 100%;
-    height: auto;
-    font-size: 27px;
-    max-width: 100%;
-    align-self: center;
-    font-style: normal;
-    margin-top: 0px;
-    text-align: right;
-    font-family: Cormorant Infant;
-    font-weight: 700;
-    line-height: 26px;
-    margin-left: 0px;
-    margin-right: var(--dl-space-space-oneandhalfunits);
-    padding-right: 0px;
-    padding-bottom: 0px;
-  }
   .dharan-copy-navbar1 {
     height: auto;
-    opacity: 0;
+    opacity: 1;
     position: 0px;
     max-width: 100%;
+    align-self: stretch;
     margin-top: 0px;
     padding-top: 0px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: 0px;
+    background-color: var(--dl-color-gray-white);
   }
-  .dharan-copy-content01 {
+  .dharan-copy-link02 {
+    width: var(--dl-size-size-large);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .dharan-copy-link03 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .dharan-copy-link04 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .dharan-copy-link05 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .dharan-copy-link06 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .dharan-copy-content {
     height: auto;
     margin-top: 0px;
     padding-top: var(--dl-space-space-sixunits);
@@ -3721,17 +3989,18 @@
     height: auto;
     margin-top: 0px;
     align-items: center;
+    margin-bottom: 0px;
     flex-direction: column;
   }
   .dharan-copy-mantra1 {
     width: 0px;
     height: 0px;
     opacity: 0;
-    font-size: 18px;
+    font-size: 0.1px;
     font-style: normal;
     text-align: center;
     font-weight: 500;
-    line-height: 27px;
+    line-height: 0.1px;
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -3739,18 +4008,19 @@
   }
   .dharan-copy-mantra-mobile {
     color: rgb(53, 43, 42);
+    width: auto;
     height: auto;
     opacity: 1;
     font-size: 18px;
     font-style: normal;
-    margin-top: var(--dl-space-space-twounits);
+    margin-top: 0px;
     text-align: center;
     font-family: Cormorant Infant;
     font-weight: 500;
     line-height: 27px;
     padding-top: 0px;
     padding-left: 0px;
-    margin-bottom: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-threeunits);
     padding-right: 0px;
     padding-bottom: 0px;
   }
@@ -3763,6 +4033,38 @@
     margin: 0px;
     opacity: 1;
     border-radius: 0px;
+  }
+  .dharan-copy-karuna4 {
+    height: auto;
+    margin-top: 0px;
+    align-items: center;
+  }
+  .dharan-copy-mantra2 {
+    height: auto;
+    font-size: 16px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 500;
+    line-height: 27px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-unit);
+    margin-bottom: 0px;
+    padding-right: 120px;
+    padding-bottom: 0px;
+  }
+  .dharan-copy-mantra3 {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 27px;
+    font-style: italic;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 27px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
   .dharan-copy-mutra {
     width: auto;
@@ -3778,38 +4080,20 @@
     opacity: 1;
     font-size: 18px;
     font-style: normal;
-    margin-top: var(--dl-space-space-twounits);
+    margin-top: var(--dl-space-space-threeunits);
     text-align: center;
     font-family: Cormorant Infant;
     font-weight: 500;
     line-height: 27px;
     padding-top: 0px;
     padding-left: 0px;
-    margin-bottom: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-threeunits);
     padding-right: 0px;
     padding-bottom: 0px;
   }
-  .dharan-copy-text028 {
+  .dharan-copy-text034 {
     font-style: inherit;
     font-weight: 600;
-  }
-  .dharan-copy-text029 {
-    font-style: normal;
-  }
-  .dharan-copy-text030 {
-    font-style: normal;
-  }
-  .dharan-copy-text031 {
-    font-style: normal;
-  }
-  .dharan-copy-text032 {
-    font-style: normal;
-  }
-  .dharan-copy-text033 {
-    font-style: normal;
-  }
-  .dharan-copy-text034 {
-    font-style: normal;
   }
   .dharan-copy-text035 {
     font-style: normal;
@@ -3897,7 +4181,6 @@
   }
   .dharan-copy-text063 {
     font-style: normal;
-    font-weight: 600;
   }
   .dharan-copy-text064 {
     font-style: normal;
@@ -3916,6 +4199,7 @@
   }
   .dharan-copy-text069 {
     font-style: normal;
+    font-weight: 600;
   }
   .dharan-copy-text070 {
     font-style: normal;
@@ -3988,7 +4272,6 @@
   }
   .dharan-copy-text093 {
     font-style: normal;
-    font-weight: 600;
   }
   .dharan-copy-text094 {
     font-style: normal;
@@ -4007,6 +4290,7 @@
   }
   .dharan-copy-text099 {
     font-style: normal;
+    font-weight: 600;
   }
   .dharan-copy-text100 {
     font-style: normal;
@@ -4031,7 +4315,6 @@
   }
   .dharan-copy-text107 {
     font-style: normal;
-    font-weight: 600;
   }
   .dharan-copy-text108 {
     font-style: normal;
@@ -4050,6 +4333,7 @@
   }
   .dharan-copy-text113 {
     font-style: normal;
+    font-weight: 600;
   }
   .dharan-copy-text114 {
     font-style: normal;
@@ -4092,7 +4376,6 @@
   }
   .dharan-copy-text127 {
     font-style: normal;
-    font-weight: 600;
   }
   .dharan-copy-text128 {
     font-style: normal;
@@ -4111,6 +4394,7 @@
   }
   .dharan-copy-text133 {
     font-style: normal;
+    font-weight: 600;
   }
   .dharan-copy-text134 {
     font-style: normal;
@@ -4163,16 +4447,34 @@
   .dharan-copy-text150 {
     font-style: normal;
   }
+  .dharan-copy-text151 {
+    font-style: normal;
+  }
+  .dharan-copy-text152 {
+    font-style: normal;
+  }
+  .dharan-copy-text153 {
+    font-style: normal;
+  }
+  .dharan-copy-text154 {
+    font-style: normal;
+  }
+  .dharan-copy-text155 {
+    font-style: normal;
+  }
+  .dharan-copy-text156 {
+    font-style: normal;
+  }
   .dharan-copy-mudra {
     color: rgb(53, 43, 42);
     height: 0px;
     opacity: 0;
-    font-size: 18px;
+    font-size: 0.1px;
     font-style: normal;
     text-align: center;
     font-family: Cormorant Infant;
     font-weight: 500;
-    line-height: 27px;
+    line-height: 0.1px;
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -4190,12 +4492,12 @@
     width: 0px;
     height: 0px;
     opacity: 0;
-    font-size: 18px;
+    font-size: 0.1px;
     font-style: normal;
     text-align: center;
     font-family: Cormorant Infant;
     font-weight: 500;
-    line-height: 27px;
+    line-height: 0.1px;
     padding-top: 0px;
     padding-left: 0px;
     margin-bottom: 0px;
@@ -4213,38 +4515,37 @@
     font-family: Cormorant Infant;
     font-weight: 500;
     line-height: 27px;
-    padding-top: var(--dl-space-space-oneandhalfunits);
     padding-left: 0px;
     margin-bottom: 0px;
     padding-right: 0px;
-    padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .dharan-copy-text278 {
+  .dharan-copy-text299 {
     font-weight: 600;
   }
-  .dharan-copy-text279 {
+  .dharan-copy-text300 {
     font-weight: 600;
   }
-  .dharan-copy-text280 {
+  .dharan-copy-text301 {
     font-weight: 600;
   }
   .dharan-copy-dharani {
     width: auto;
     height: auto;
-    margin-top: 0px;
+    margin-top: var(--dl-space-space-oneandhalfunits);
     align-items: center;
     flex-direction: column;
   }
   .dharan-copy-quote {
     color: rgb(53, 43, 42);
+    width: 0px;
     height: 0px;
     opacity: 0;
-    font-size: 18px;
+    font-size: 0.1px;
     font-style: normal;
     text-align: center;
     font-family: Cormorant Infant;
     font-weight: 500;
-    line-height: 27px;
+    line-height: 0.1px;
     padding-top: 0px;
     padding-left: 0px;
     margin-bottom: 0px;
@@ -4253,6 +4554,7 @@
   }
   .dharan-copy-quote-mobile {
     color: rgb(53, 43, 42);
+    width: auto;
     height: auto;
     opacity: 1;
     font-size: 18px;
@@ -4267,41 +4569,11 @@
     padding-right: 0px;
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .dharan-copy-text412 {
+  .dharan-copy-text436 {
     font-weight: 600;
   }
-  .dharan-copy-karuna4 {
-    height: auto;
-    margin-top: 0px;
-    align-items: center;
-  }
-  .dharan-copy-mantra2 {
-    height: auto;
-    font-size: 16px;
-    font-style: normal;
-    text-align: left;
-    font-weight: 500;
-    line-height: 27px;
-    padding-top: var(--dl-space-space-oneandhalfunits);
-    padding-left: var(--dl-space-space-unit);
-    margin-bottom: 0px;
-    padding-right: 120px;
-    padding-bottom: 0px;
-  }
-  .dharan-copy-mantra3 {
-    height: auto;
-    font-size: 27px;
-    font-style: normal;
-    text-align: left;
-    font-weight: 700;
-    line-height: 27px;
-    padding-top: 0px;
-    padding-left: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-  }
   .dharan-copy-blog1 {
-    gap: var(--dl-space-space-fourunits);
+    gap: var(--dl-space-space-twounits);
     height: auto;
     margin-top: var(--dl-space-space-fourunits);
     margin-left: 0px;
@@ -4314,10 +4586,12 @@
   }
   .dharan-copy-dharani1 {
     height: auto;
+    align-self: center;
     margin-top: 0px;
     align-items: center;
+    margin-left: 0px;
   }
-  .dharan-copy-caption01 {
+  .dharan-copy-caption {
     color: var(--dl-color-gray-black);
     width: auto;
     height: auto;
@@ -4330,23 +4604,24 @@
     font-weight: 800;
     line-height: 36px;
     margin-left: 0px;
+    padding-top: var(--dl-space-space-twounits);
     margin-right: 0px;
     margin-bottom: 0px;
     padding-bottom: var(--dl-space-space-twounits);
   }
   .dharan-copy-dharani2 {
     color: var(--dl-color-gray-black);
-    width: auto;
+    width: 0px;
     height: 0px;
     opacity: 0;
-    font-size: 27px;
+    font-size: 0.1px;
     max-width: 100%;
     align-self: center;
     font-style: normal;
     text-align: center;
     font-family: Cormorant Infant;
     font-weight: 600;
-    line-height: 27px;
+    line-height: 0.1px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -4379,17 +4654,17 @@
     font-family: Cormorant Infant;
     font-weight: 700;
     line-height: 27px;
+    padding-top: var(--dl-space-space-twounits);
     padding-bottom: 0px;
   }
   .dharan-copy-blossom {
     width: auto;
     align-self: flex-start;
-    margin-left: 0px;
+    margin-left: var(--dl-space-space-unit);
   }
-  .dharan-copy-content02 {
+  .dharan-copy-content01 {
     width: auto;
     align-self: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
   }
   .dharan-copy-heading {
     width: auto;
@@ -4402,7 +4677,7 @@
     width: auto;
     font-size: 27px;
   }
-  .dharan-copy-caption02 {
+  .dharan-copy-caption01 {
     width: auto;
     height: auto;
     font-size: 18px;
@@ -4410,36 +4685,36 @@
     align-self: flex-start;
     font-style: normal;
     font-weight: 500;
+    line-height: 22px;
     padding-right: 0px;
   }
   .dharan-copy-image05 {
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
   }
   .dharan-copy-div {
     width: auto;
     align-self: center;
   }
-  .dharan-copy-caption03 {
+  .dharan-copy-caption02 {
     width: auto;
     height: auto;
     max-width: auto;
     align-self: flex-start;
     padding-right: 0px;
   }
-  .dharan-copy-cultivate {
+  .dharan-copy-charge-up {
+    width: auto;
+    align-self: flex-start;
+    align-items: flex-start;
+    margin-left: var(--dl-space-space-unit);
+  }
+  .dharan-copy-content02 {
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
     margin-left: 0px;
-  }
-  .dharan-copy-content03 {
-    width: auto;
-    align-self: flex-start;
-    align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
   }
   .dharan-copy-heading1 {
     width: auto;
@@ -4453,40 +4728,41 @@
     font-size: 27px;
     align-self: flex-start;
   }
-  .dharan-copy-caption04 {
+  .dharan-copy-caption03 {
     width: auto;
     height: auto;
     font-size: 18px;
     align-self: flex-start;
+    line-height: 22px;
     padding-right: 0px;
   }
   .dharan-copy-image06 {
     width: auto;
     align-self: center;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
   }
   .dharan-copy-div01 {
     width: auto;
     align-self: flex-start;
   }
-  .dharan-copy-caption05 {
+  .dharan-copy-caption04 {
     width: auto;
     height: auto;
     align-self: flex-start;
     text-align: left;
     padding-right: 0px;
   }
-  .dharan-copy-care {
+  .dharan-copy-caring {
     width: auto;
     align-self: flex-start;
-    margin-left: 0px;
+    margin-left: var(--dl-space-space-unit);
   }
-  .dharan-copy-content04 {
+  .dharan-copy-content03 {
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
   }
   .dharan-copy-heading2 {
     width: auto;
@@ -4500,7 +4776,7 @@
     font-size: 27px;
     align-self: flex-start;
   }
-  .dharan-copy-caption06 {
+  .dharan-copy-caption05 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
@@ -4508,18 +4784,18 @@
     max-width: auto;
     align-self: flex-start;
     font-family: Karla;
-    line-height: 27px;
+    line-height: 22px;
   }
   .dharan-copy-image07 {
     width: auto;
     align-self: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
   }
   .dharan-copy-div02 {
     width: auto;
     align-self: flex-start;
   }
-  .dharan-copy-caption07 {
+  .dharan-copy-caption06 {
     width: auto;
     height: auto;
     max-width: auto;
@@ -4546,16 +4822,17 @@
     font-family: Cormorant Infant;
     font-weight: 700;
     line-height: 27px;
+    padding-top: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
   }
   .dharan-copy-di {
     width: auto;
     align-self: flex-start;
-    margin-left: 0px;
+    margin-left: var(--dl-space-space-unit);
   }
-  .dharan-copy-content05 {
+  .dharan-copy-content04 {
     width: auto;
     align-self: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
   }
   .dharan-copy-heading3 {
     height: auto;
@@ -4572,27 +4849,26 @@
     line-height: 60px;
     text-decoration: none;
   }
-  .dharan-copy-caption08 {
+  .dharan-copy-caption07 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
     font-size: 18px;
     max-width: auto;
     font-family: Karla;
-    line-height: 27px;
+    line-height: 22px;
     padding-right: 0px;
   }
   .dharan-copy-image08 {
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
   }
   .dharan-copy-div03 {
     width: auto;
     align-self: flex-start;
   }
-  .dharan-copy-caption09 {
+  .dharan-copy-caption08 {
     width: auto;
     height: auto;
     max-width: auto;
@@ -4600,17 +4876,16 @@
     text-align: left;
     padding-right: 0px;
   }
-  .dharan-copy-calm {
+  .dharan-copy-vajrapani {
     width: auto;
     align-self: flex-start;
-    margin-left: 0px;
+    margin-left: var(--dl-space-space-unit);
   }
-  .dharan-copy-content06 {
+  .dharan-copy-content05 {
     width: auto;
     align-self: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
   }
-  .dharan-copy-heading4 {
+  .dharan-copy-vajrapani1 {
     height: auto;
     align-self: flex-start;
   }
@@ -4623,21 +4898,20 @@
     line-height: 27px;
     text-decoration: none;
   }
-  .dharan-copy-caption10 {
+  .dharan-copy-caption09 {
     color: rgb(53, 43, 42);
     height: auto;
     font-size: 18px;
     font-family: Karla;
-    line-height: 27px;
+    line-height: 22px;
   }
   .dharan-copy-image09 {
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
     flex-direction: column;
   }
-  .dharan-copy-caption11 {
+  .dharan-copy-caption10 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
@@ -4652,15 +4926,15 @@
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: 0px;
+    margin-left: var(--dl-space-space-unit);
   }
-  .dharan-copy-content07 {
+  .dharan-copy-content06 {
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
   }
-  .dharan-copy-heading5 {
+  .dharan-copy-heading4 {
     height: auto;
     max-width: auto;
   }
@@ -4681,14 +4955,14 @@
     font-style: normal;
     font-family: Cormorant Infant;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 22px;
     text-decoration: none;
   }
   .dharan-copy-image10 {
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
   }
   .dharan-copy-image11 {
     width: auto;
@@ -4700,7 +4974,7 @@
     width: auto;
     align-self: flex-start;
   }
-  .dharan-copy-caption12 {
+  .dharan-copy-caption11 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
@@ -4720,7 +4994,7 @@
     width: auto;
     align-self: flex-start;
   }
-  .dharan-copy-caption13 {
+  .dharan-copy-caption12 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
@@ -4741,7 +5015,7 @@
     width: auto;
     align-self: flex-start;
   }
-  .dharan-copy-caption14 {
+  .dharan-copy-caption13 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
@@ -4762,7 +5036,7 @@
     width: auto;
     align-self: flex-start;
   }
-  .dharan-copy-caption15 {
+  .dharan-copy-caption14 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
@@ -4776,14 +5050,13 @@
   .dharan-copy-mercy {
     width: auto;
     align-self: flex-start;
-    margin-left: 0px;
+    margin-left: var(--dl-space-space-unit);
   }
-  .dharan-copy-content08 {
+  .dharan-copy-content07 {
     width: auto;
     align-self: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
   }
-  .dharan-copy-heading6 {
+  .dharan-copy-heading5 {
     height: auto;
     align-self: flex-start;
   }
@@ -4796,14 +5069,14 @@
     line-height: 60px;
     text-decoration: inherit;
   }
-  .dharan-copy-caption16 {
+  .dharan-copy-caption15 {
     color: rgb(53, 43, 42);
     height: auto;
     font-size: 18px;
     font-family: Karla;
-    line-height: 27px;
+    line-height: 22px;
   }
-  .dharan-copy-text650 {
+  .dharan-copy-text671 {
     color: #352b2a;
     font-size: 18px;
     font-family: Karla;
@@ -4813,10 +5086,9 @@
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
     flex-direction: column;
   }
-  .dharan-copy-caption17 {
+  .dharan-copy-caption16 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
@@ -4834,16 +5106,16 @@
     margin-left: var(--dl-space-space-oneandhalfunits);
     margin-right: var(--dl-space-space-oneandhalfunits);
   }
-  .dharan-copy-content09 {
+  .dharan-copy-content08 {
     width: 100%;
   }
-  .dharan-copy-heading7 {
+  .dharan-copy-heading6 {
     gap: 0;
     width: 100%;
     height: auto;
     padding-right: 0px;
   }
-  .dharan-copy-caption18 {
+  .dharan-copy-caption17 {
     color: rgb(53, 43, 42);
     width: 100%;
     height: auto;
@@ -4853,26 +5125,29 @@
     font-weight: 400;
     line-height: 20px;
   }
-  .dharan-copy-caption19 {
+  .dharan-copy-image16 {
+    width: auto;
+    align-self: flex-end;
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: flex-end;
+  }
+  .dharan-copy-image17 {
+    width: var(--dl-size-size-small);
+    height: auto;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .dharan-copy-caption18 {
     color: rgb(53, 43, 42);
     width: 100%;
     height: auto;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-family: Karla;
     font-weight: 400;
     line-height: 20px;
   }
-  .dharan-copy-image16 {
-    width: auto;
-    align-self: flex-end;
-    margin-right: var(--dl-space-space-threeunits);
-  }
-  .dharan-copy-image17 {
-    width: var(--dl-size-size-small);
-    height: auto;
-  }
-  .dharan-copy-caption20 {
+  .dharan-copy-caption19 {
     color: rgb(53, 43, 42);
     width: 100%;
     height: auto;
@@ -4886,6 +5161,7 @@
     line-height: 20px;
   }
   .dharan-copy-social-media {
+    width: auto;
     height: auto;
     align-self: center;
     align-items: center;
@@ -4916,7 +5192,7 @@
     padding-bottom: 0px;
   }
   .dharan-copy-platforms {
-    width: auto;
+    width: 0px;
     height: 0px;
     align-self: center;
     align-items: center;
@@ -4941,7 +5217,7 @@
   .dharan-copy-image19 {
     width: 36px;
   }
-  .dharan-copy-caption21 {
+  .dharan-copy-caption20 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
@@ -4969,7 +5245,7 @@
   .dharan-copy-image20 {
     width: 36px;
   }
-  .dharan-copy-caption22 {
+  .dharan-copy-caption21 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
@@ -4997,7 +5273,7 @@
   .dharan-copy-image21 {
     width: 36px;
   }
-  .dharan-copy-caption23 {
+  .dharan-copy-caption22 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
@@ -5025,7 +5301,7 @@
   .dharan-copy-image22 {
     width: 36px;
   }
-  .dharan-copy-caption24 {
+  .dharan-copy-caption23 {
     color: rgb(53, 43, 42);
     width: auto;
     height: auto;
@@ -5042,28 +5318,30 @@
     padding-right: 0px;
   }
   .dharan-copy-footer {
-    align-self: flex-start;
+    width: 100%;
+    align-self: center;
     margin-top: 120px;
     padding-left: 0px;
     padding-right: 0px;
+    flex-direction: column;
   }
   .dharan-copy-branding {
-    width: 100%;
+    width: auto;
     max-width: 100%;
     align-self: flex-start;
     margin-top: var(--dl-space-space-unit);
     margin-left: var(--dl-space-space-oneandhalfunits);
   }
-  .dharan-copy-heading8 {
+  .dharan-copy-heading7 {
     width: 100%;
   }
   .dharan-copy-image23 {
     height: 36px;
   }
-  .dharan-copy-caption25 {
+  .dharan-copy-caption24 {
     font-size: 9px;
   }
-  .dharan-copy-content10 {
+  .dharan-copy-content09 {
     width: auto;
   }
   .dharan-copy-contact-link {
@@ -5086,7 +5364,7 @@
     padding-right: 0px;
     padding-bottom: 0px;
   }
-  .dharan-copy-text681 {
+  .dharan-copy-text701 {
     width: 0px;
     height: 0px;
     opacity: 0;

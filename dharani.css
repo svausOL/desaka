@@ -20,6 +20,9 @@
   flex-direction: row;
   justify-content: flex-start;
 }
+.dharani-link {
+  display: contents;
+}
 .dharani-image01 {
   width: auto;
   height: var(--dl-size-size-xlarge);
@@ -27,6 +30,7 @@
   margin-top: var(--dl-space-space-unit);
   object-fit: cover;
   margin-left: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
 }
 .dharani-image02 {
   width: 100%;
@@ -96,36 +100,36 @@
 }
 .dharani-main {
   width: 100%;
-  height: auto;
+  height: 962px;
   display: flex;
   position: relative;
-  align-items: center;
+  align-self: flex-start;
+  align-items: flex-start;
   padding-left: 0px;
   padding-right: 0px;
   flex-direction: column;
 }
 .dharani-navbar {
-  top: 0px;
-  left: 0px;
   width: 100%;
   height: auto;
   display: flex;
-  opacity: 0;
-  position: absolute;
-  max-width: 1440px;
-  align-self: center;
+  opacity: 1;
+  position: relative;
+  max-width: 100%;
+  align-self: flex-start;
   align-items: flex-start;
-  padding-top: 11px;
-  justify-content: space-between;
+  padding-top: 0px;
+  justify-content: flex-start;
 }
 .dharani-menu {
   gap: var(--dl-space-space-twounits);
-  width: 100%;
+  width: auto;
   height: auto;
   display: flex;
   position: relative;
   align-self: flex-start;
-  align-items: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
   justify-content: flex-start;
 }
 .dharani-hamburger {
@@ -134,14 +138,17 @@
   cursor: pointer;
   height: var(--dl-size-size-small);
   display: flex;
-  align-self: center;
+  align-self: flex-start;
+  align-items: flex-start;
   margin-left: var(--dl-space-space-twounits);
+  padding-top: 0px;
   aspect-ratio: 1;
   border-width: 0px;
   padding-left: 0px;
   border-radius: 0px;
   padding-right: 0px;
   flex-direction: row;
+  padding-bottom: 0px;
   background-color: transparent;
 }
 .dharani-icon {
@@ -151,20 +158,16 @@
   align-self: center;
 }
 .dharani-mobile-menu {
-  top: var(--dl-space-space-sixunits);
-  left: 0px;
   width: auto;
-  bottom: -545px;
   height: auto;
   display: none;
-  padding: 32px;
-  position: absolute;
   align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
   flex-direction: column;
   justify-content: space-between;
 }
 .dharani-nav {
-  width: var(--dl-size-size-medium);
+  width: auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -173,8 +176,9 @@
   width: 100%;
   display: flex;
   align-items: center;
-  margin-bottom: var(--dl-space-space-threeunits);
-  justify-content: space-between;
+  margin-bottom: 0px;
+  justify-content: flex-start;
+  background-color: var(--dl-color-danger-300);
 }
 .dharani-menu-close {
   display: flex;
@@ -196,6 +200,7 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  background-color: var(--dl-color-danger-300);
 }
 .dharani-desaka {
   cursor: pointer;
@@ -227,9 +232,9 @@
   text-align: left;
   font-family: Arial;
   font-weight: 500;
-  line-height: 16px;
   margin-right: 0px;
   vertical-align: middle;
+  text-decoration: none;
 }
 .dharani-dropdown-arrow {
   transition: 0.3s;
@@ -295,6 +300,7 @@
   font-weight: 500;
   margin-right: 0px;
   vertical-align: middle;
+  text-decoration: none;
 }
 .dharani-dropdown-arrow1 {
   transition: 0.3s;
@@ -353,13 +359,14 @@
 }
 .dharani-title-reference2 {
   color: var(--dl-color-gray-white);
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   text-align: left;
   font-family: Arial;
   font-weight: 500;
   margin-right: 0px;
   vertical-align: middle;
+  text-decoration: none;
 }
 .dharani-dropdown-arrow2 {
   transition: 0.3s;
@@ -393,9 +400,6 @@
   position: relative;
   border-radius: var(--dl-radius-radius-radius2);
 }
-.dharani-link {
-  display: contents;
-}
 .dharani-contact {
   cursor: pointer;
   display: inline-block;
@@ -405,7 +409,6 @@
   margin-right: var(--dl-space-space-halfunit);
   border-radius: var(--dl-radius-radius-radius2);
   margin-bottom: var(--dl-space-space-halfunit);
-  text-decoration: none;
 }
 .dharani-dropdown-toggle3 {
   fill: #595959;
@@ -429,6 +432,7 @@
   font-weight: 500;
   margin-right: 0px;
   vertical-align: middle;
+  text-decoration: none;
 }
 .dharani-dropdown-arrow3 {
   transition: 0.3s;
@@ -509,13 +513,13 @@
   min-width: 100%;
   transition: 0.3s;
   align-items: stretch;
-  margin-left: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-oneandhalfunits);
   border-color: transparent;
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius4);
   flex-direction: column;
   list-style-type: none;
-  background-color: transparent;
+  background-color: var(--dl-color-danger-300);
   list-style-position: inside;
 }
 .dharani-dropdown {
@@ -647,10 +651,10 @@
   font-style: normal;
   text-align: center;
   font-weight: 500;
-  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-halfunit);
   border-color: var(--dl-color-gray-white);
   border-width: 0px;
-  margin-right: var(--dl-space-space-oneandhalfunits);
+  margin-right: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
 .dharani-link02 {
@@ -660,10 +664,10 @@
   font-style: normal;
   text-align: center;
   font-weight: 500;
-  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-halfunit);
   border-color: var(--dl-color-gray-white);
   border-width: 0px;
-  margin-right: var(--dl-space-space-oneandhalfunits);
+  margin-right: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
 .dharani-link03 {
@@ -673,10 +677,10 @@
   font-style: normal;
   text-align: center;
   font-weight: 500;
-  margin-left: var(--dl-space-space-oneandhalfunits);
+  margin-left: var(--dl-space-space-halfunit);
   border-color: var(--dl-color-gray-white);
   border-width: 0px;
-  margin-right: var(--dl-space-space-oneandhalfunits);
+  margin-right: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
 .dharani-link04 {
@@ -686,10 +690,10 @@
   font-style: normal;
   text-align: center;
   font-weight: 500;
-  margin-left: 0px;
+  margin-left: var(--dl-space-space-halfunit);
   border-color: var(--dl-color-gray-white);
   border-width: 0px;
-  margin-right: 0px;
+  margin-right: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
 .dharani-link05 {
@@ -699,36 +703,10 @@
   font-style: normal;
   text-align: center;
   font-weight: 500;
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-white);
-  border-width: 0px;
-  margin-right: 0px;
-  text-decoration: none;
-}
-.dharani-link06 {
-  width: var(--dl-size-size-large);
-  height: auto;
-  font-size: 18px;
-  font-style: normal;
-  text-align: center;
-  font-weight: 500;
-  margin-left: 0px;
-  border-color: var(--dl-color-gray-white);
-  border-width: 0px;
-  margin-right: 0px;
-  text-decoration: none;
-}
-.dharani-link07 {
-  width: var(--dl-size-size-large);
-  height: auto;
-  font-size: 18px;
-  font-style: normal;
-  text-align: center;
-  font-weight: 500;
   margin-left: var(--dl-space-space-halfunit);
   border-color: var(--dl-color-gray-white);
   border-width: 0px;
-  margin-right: var(--dl-space-space-oneandhalfunits);
+  margin-right: var(--dl-space-space-halfunit);
   text-decoration: none;
 }
 .dharani-content {
@@ -802,6 +780,40 @@
   margin-top: var(--dl-space-space-threeunits);
   margin-bottom: var(--dl-space-space-threeunits);
 }
+.dharani-karuna4 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-top: 0px;
+  align-items: center;
+  margin-left: 0px;
+  padding-top: 0px;
+  flex-direction: column;
+  justify-content: center;
+}
+.dharani-mantra2 {
+  color: rgb(53, 43, 42);
+  height: auto;
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Cormorant Infant;
+  font-weight: 400;
+  line-height: 45px;
+  padding-right: 180px;
+}
+.dharani-mantra3 {
+  color: rgb(53, 43, 42);
+  height: auto;
+  font-size: 36px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Cormorant Infant;
+  font-weight: 700;
+  line-height: 45px;
+}
 .dharani-mutra {
   width: auto;
   height: auto;
@@ -836,8 +848,8 @@
   font-style: normal;
   text-align: center;
   font-family: Cormorant Infant;
-  font-weight: 500;
-  line-height: 45px;
+  font-weight: 400;
+  line-height: 36px;
   padding-top: 0px;
   padding-left: var(--dl-space-space-sixunits);
   padding-right: var(--dl-space-space-sixunits);
@@ -922,40 +934,6 @@
   text-align: center;
   font-family: Cormorant Infant;
   font-weight: 500;
-  line-height: 45px;
-}
-.dharani-karuna4 {
-  width: 100%;
-  display: flex;
-  position: relative;
-  margin-top: 0px;
-  align-items: center;
-  margin-left: 0px;
-  padding-top: 0px;
-  flex-direction: column;
-  justify-content: center;
-}
-.dharani-mantra2 {
-  color: rgb(53, 43, 42);
-  height: auto;
-  font-size: 16px;
-  align-self: center;
-  font-style: normal;
-  text-align: center;
-  font-family: Cormorant Infant;
-  font-weight: 400;
-  line-height: 45px;
-  padding-right: 180px;
-}
-.dharani-mantra3 {
-  color: rgb(53, 43, 42);
-  height: auto;
-  font-size: 36px;
-  align-self: center;
-  font-style: normal;
-  text-align: center;
-  font-family: Cormorant Infant;
-  font-weight: 700;
   line-height: 45px;
 }
 .dharani-blog1 {
@@ -1044,7 +1022,7 @@
   font-family: Cormorant Infant;
   font-weight: 600;
   line-height: 36px;
-  padding-top: 0px;
+  padding-top: var(--dl-space-space-fourunits);
   padding-bottom: var(--dl-space-space-fourunits);
 }
 .dharani-blossom {
@@ -1078,7 +1056,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link08 {
+.dharani-link06 {
   display: contents;
 }
 .dharani-header {
@@ -1086,10 +1064,12 @@
   width: 100%;
   font-size: 60px;
   font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: Cormorant Infant;
   font-weight: 700;
   line-height: 60px;
+  padding-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .dharani-caption01 {
@@ -1100,7 +1080,7 @@
   max-width: 100%;
   text-align: left;
   font-family: Karla;
-  line-height: 27px;
+  line-height: 32px;
 }
 .dharani-image05 {
   width: 40%;
@@ -1122,7 +1102,7 @@
   font-family: Karla;
   line-height: 27px;
 }
-.dharani-cultivate {
+.dharani-charge-up {
   gap: var(--dl-space-space-unit);
   width: 100%;
   display: flex;
@@ -1153,7 +1133,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link09 {
+.dharani-link07 {
   display: contents;
 }
 .dharani-header1 {
@@ -1161,10 +1141,12 @@
   width: 100%;
   font-size: 60px;
   font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: Cormorant Infant;
   font-weight: 700;
   line-height: 60px;
+  padding-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .dharani-caption03 {
@@ -1175,7 +1157,7 @@
   max-width: 100%;
   text-align: left;
   font-family: Karla;
-  line-height: 27px;
+  line-height: 32px;
 }
 .dharani-image06 {
   width: 40%;
@@ -1197,7 +1179,7 @@
   font-family: Karla;
   line-height: 27px;
 }
-.dharani-care {
+.dharani-caring {
   gap: var(--dl-space-space-unit);
   width: 100%;
   display: flex;
@@ -1228,7 +1210,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link10 {
+.dharani-link08 {
   display: contents;
 }
 .dharani-header2 {
@@ -1236,10 +1218,12 @@
   width: 100%;
   font-size: 60px;
   font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: Cormorant Infant;
   font-weight: 700;
   line-height: 60px;
+  padding-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .dharani-caption05 {
@@ -1250,7 +1234,7 @@
   max-width: 100%;
   text-align: left;
   font-family: Karla;
-  line-height: 27px;
+  line-height: 32px;
 }
 .dharani-image07 {
   width: 40%;
@@ -1295,8 +1279,8 @@
   font-family: Cormorant Infant;
   font-weight: 600;
   line-height: 36px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-bottom: var(--dl-space-space-fourunits);
 }
 .dharani-di {
   gap: var(--dl-space-space-unit);
@@ -1330,7 +1314,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link11 {
+.dharani-link09 {
   display: contents;
 }
 .dharani-header3 {
@@ -1338,10 +1322,12 @@
   width: 100%;
   font-size: 60px;
   font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: Cormorant Infant;
   font-weight: 700;
   line-height: 60px;
+  padding-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .dharani-caption07 {
@@ -1352,7 +1338,7 @@
   max-width: 100%;
   text-align: left;
   font-family: Karla;
-  line-height: 27px;
+  line-height: 32px;
 }
 .dharani-image08 {
   width: 40%;
@@ -1374,7 +1360,7 @@
   font-family: Karla;
   line-height: 27px;
 }
-.dharani-calm {
+.dharani-vajrapani {
   gap: var(--dl-space-space-unit);
   width: 100%;
   display: flex;
@@ -1395,7 +1381,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-heading4 {
+.dharani-vajrapani1 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
   height: auto;
@@ -1406,7 +1392,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link12 {
+.dharani-link10 {
   display: contents;
 }
 .dharani-header4 {
@@ -1414,10 +1400,12 @@
   width: 100%;
   font-size: 60px;
   font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: Cormorant Infant;
   font-weight: 700;
   line-height: 60px;
+  padding-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .dharani-caption09 {
@@ -1428,7 +1416,7 @@
   max-width: 100%;
   text-align: left;
   font-family: Karla;
-  line-height: 27px;
+  line-height: 32px;
 }
 .dharani-image09 {
   width: 40%;
@@ -1474,7 +1462,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-heading5 {
+.dharani-heading4 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
   height: auto;
@@ -1485,7 +1473,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link13 {
+.dharani-link11 {
   display: contents;
 }
 .dharani-header5 {
@@ -1493,13 +1481,15 @@
   width: 100%;
   font-size: 60px;
   font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: Cormorant Infant;
   font-weight: 700;
   line-height: 60px;
+  padding-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.dharani-link14 {
+.dharani-link12 {
   display: contents;
 }
 .dharani-header6 {
@@ -1510,7 +1500,7 @@
   text-align: left;
   font-family: Cormorant Infant;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 32px;
   text-decoration: none;
 }
 .dharani-image10 {
@@ -1552,7 +1542,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link15 {
+.dharani-link13 {
   display: contents;
 }
 .dharani-caption12 {
@@ -1576,7 +1566,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link16 {
+.dharani-link14 {
   display: contents;
 }
 .dharani-caption13 {
@@ -1600,7 +1590,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link17 {
+.dharani-link15 {
   display: contents;
 }
 .dharani-caption14 {
@@ -1636,7 +1626,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-heading6 {
+.dharani-heading5 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
   height: auto;
@@ -1647,7 +1637,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-link18 {
+.dharani-link16 {
   display: contents;
 }
 .dharani-header7 {
@@ -1655,10 +1645,12 @@
   width: 100%;
   font-size: 60px;
   font-style: normal;
+  margin-top: var(--dl-space-space-unit);
   text-align: left;
   font-family: Cormorant Infant;
   font-weight: 700;
   line-height: 60px;
+  padding-top: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .dharani-caption15 {
@@ -1669,7 +1661,7 @@
   max-width: 100%;
   text-align: left;
   font-family: Karla;
-  line-height: 27px;
+  line-height: 32px;
 }
 .dharani-image15 {
   width: 40%;
@@ -1715,7 +1707,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.dharani-heading7 {
+.dharani-heading6 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: auto;
   height: auto;
@@ -1739,18 +1731,6 @@
   font-weight: 400;
   line-height: 36px;
 }
-.dharani-caption18 {
-  color: rgb(53, 43, 42);
-  width: auto;
-  height: auto;
-  font-size: 27px;
-  max-width: 100%;
-  font-style: normal;
-  text-align: left;
-  font-family: Karla;
-  font-weight: 400;
-  line-height: 36px;
-}
 .dharani-image16 {
   width: auto;
   display: flex;
@@ -1764,6 +1744,18 @@
 .dharani-image17 {
   width: 63px;
   object-fit: cover;
+}
+.dharani-caption18 {
+  color: rgb(53, 43, 42);
+  width: auto;
+  height: auto;
+  font-size: 27px;
+  max-width: 100%;
+  font-style: normal;
+  text-align: left;
+  font-family: Karla;
+  font-weight: 400;
+  line-height: 36px;
 }
 .dharani-caption19 {
   color: rgb(53, 43, 42);
@@ -1974,10 +1966,10 @@
   margin-left: var(--dl-space-space-twounits);
   flex-direction: column;
 }
-.dharani-link19 {
+.dharani-link17 {
   display: contents;
 }
-.dharani-heading8 {
+.dharani-heading7 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: auto;
   display: flex;
@@ -2060,7 +2052,7 @@
 .dharani-call:hover {
   opacity: 0.5;
 }
-.dharani-text681 {
+.dharani-text701 {
   width: 0px;
   height: 0px;
 }
@@ -2194,6 +2186,7 @@
     font-style: normal;
     font-family: Arial;
     font-weight: 500;
+    line-height: 12px;
   }
   .dharani-dropdown-list {
     left: 0%;
@@ -2293,17 +2286,17 @@
     height: 100%;
     margin-top: 0px;
     padding-top: var(--dl-space-space-sixunits);
-    padding-bottom: var(--dl-space-space-fourunits);
+    padding-bottom: 0px;
   }
   .dharani-video2 {
-    width: 100%;
-    height: 100%;
+    width: var(--dl-size-size-xxlarge);
+    height: auto;
     opacity: 1;
-    margin-bottom: var(--dl-space-space-sixunits);
+    margin-bottom: var(--dl-space-space-fourunits);
   }
   .dharani-mantra {
     width: auto;
-    height: var(--dl-size-size-large);
+    height: auto;
     margin-top: 0px;
     align-items: center;
     margin-left: 0px;
@@ -2313,30 +2306,61 @@
   .dharani-mantra1 {
     color: rgb(53, 43, 42);
     height: auto;
-    font-size: 18px;
-    font-style: italic;
+    font-size: 22px;
+    font-style: normal;
     font-family: Cormorant Infant;
-    font-weight: 600;
-    line-height: 27px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-left: 0px;
+    margin-bottom: var(--dl-space-space-fourunits);
+    padding-right: 0px;
+    padding-bottom: 0px;
   }
   .dharani-mantra-mobile {
     color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 18px;
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    font-size: 0.1px;
     font-style: normal;
     font-family: Cormorant Infant;
     font-weight: 400;
     line-height: 27px;
   }
   .dharani-video3 {
-    width: 100%;
+    width: var(--dl-size-size-xxlarge);
     height: 100%;
     opacity: 1;
-    margin-bottom: var(--dl-space-space-sixunits);
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .dharani-karuna4 {
+    width: 100%;
+    height: auto;
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: 0px;
+  }
+  .dharani-mantra2 {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Cormorant Infant;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .dharani-mantra3 {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-family: Cormorant Infant;
+    font-weight: 600;
+    line-height: 30px;
   }
   .dharani-mutra {
     width: auto;
-    height: var(--dl-size-size-large);
+    height: auto;
     margin-top: 0px;
     align-items: center;
     margin-left: 0px;
@@ -2355,15 +2379,19 @@
   .dharani-mudra {
     color: rgb(53, 43, 42);
     height: auto;
-    font-size: 18px;
-    font-style: italic;
+    font-size: 22px;
+    font-style: normal;
     font-family: Cormorant Infant;
-    font-weight: 600;
-    line-height: 27px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: var(--dl-space-space-fiveunits);
   }
   .dharani-alone {
     width: auto;
-    height: var(--dl-size-size-large);
+    height: auto;
     margin-top: 0px;
     align-items: center;
     margin-left: 0px;
@@ -2373,11 +2401,13 @@
   .dharani-alone1 {
     color: rgb(53, 43, 42);
     height: auto;
-    font-size: 18px;
-    font-style: italic;
+    font-size: 22px;
+    font-style: normal;
     font-family: Cormorant Infant;
-    font-weight: 600;
-    line-height: 27px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .dharani-alone-mobile {
     color: rgb(53, 43, 42);
@@ -2391,7 +2421,7 @@
   }
   .dharani-dharani {
     width: auto;
-    height: var(--dl-size-size-large);
+    height: auto;
     margin-top: 0px;
     align-items: center;
     margin-left: 0px;
@@ -2401,11 +2431,12 @@
   .dharani-quote {
     color: rgb(53, 43, 42);
     height: auto;
-    font-size: 27px;
-    font-style: italic;
+    font-size: 22px;
+    font-style: normal;
     font-family: Cormorant Infant;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 36px;
+    padding-top: var(--dl-space-space-fiveunits);
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -2418,32 +2449,8 @@
     font-weight: 400;
     line-height: 0.1px;
   }
-  .dharani-karuna4 {
-    width: 100%;
-    height: var(--dl-size-size-large);
-    margin-top: var(--dl-space-space-sixunits);
-    padding-top: var(--dl-space-space-sixunits);
-  }
-  .dharani-mantra2 {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    font-family: Cormorant Infant;
-    font-weight: 600;
-    line-height: 30px;
-  }
-  .dharani-mantra3 {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    font-family: Cormorant Infant;
-    font-weight: 600;
-    line-height: 30px;
-  }
   .dharani-blog1 {
-    gap: 135px;
+    gap: var(--dl-space-space-threeunits);
     height: auto;
     align-items: flex-start;
     padding-top: var(--dl-space-space-fourunits);
@@ -2453,7 +2460,7 @@
     width: auto;
     height: auto;
     margin-top: var(--dl-space-space-sixunits);
-    padding-top: var(--dl-space-space-sixunits);
+    padding-top: 0px;
   }
   .dharani-caption {
     color: var(--dl-color-gray-black);
@@ -2470,7 +2477,7 @@
   .dharani-dharani2 {
     color: var(--dl-color-gray-black);
     height: auto;
-    font-size: 27px;
+    font-size: 22px;
     font-style: normal;
     text-align: center;
     font-family: Cormorant Infant;
@@ -2479,23 +2486,26 @@
   }
   .dharani-dharani-mobile {
     color: var(--dl-color-gray-black);
-    height: auto;
-    font-size: 27px;
+    width: 0px;
+    height: 0px;
+    font-size: 0.1px;
     font-style: normal;
     text-align: left;
     font-family: Cormorant Infant;
     font-weight: 800;
-    line-height: 27px;
+    line-height: 0.1px;
   }
   .dharani-give {
     color: var(--dl-color-gray-black);
     height: auto;
-    font-size: 18px;
+    font-size: 22px;
     font-style: normal;
-    text-align: left;
+    text-align: center;
     font-family: Cormorant Infant;
     font-weight: 800;
     line-height: 27px;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
   }
   .dharani-blossom {
     gap: var(--dl-space-space-twounits);
@@ -2507,11 +2517,17 @@
   }
   .dharani-content01 {
     width: auto;
+    align-self: flex-start;
     margin-left: 0px;
+  }
+  .dharani-header {
+    font-size: 32px;
+    line-height: 32px;
   }
   .dharani-caption01 {
     height: auto;
-    line-height: 36px;
+    font-size: 22px;
+    line-height: 27px;
   }
   .dharani-image05 {
     width: auto;
@@ -2520,7 +2536,7 @@
   .dharani-caption02 {
     height: auto;
   }
-  .dharani-cultivate {
+  .dharani-charge-up {
     gap: var(--dl-space-space-twounits);
     width: auto;
     align-self: flex-start;
@@ -2532,9 +2548,14 @@
     align-self: flex-start;
     margin-left: 0px;
   }
+  .dharani-header1 {
+    font-size: 32px;
+    line-height: 32px;
+  }
   .dharani-caption03 {
     height: auto;
-    line-height: 36px;
+    font-size: 22px;
+    line-height: 27px;
   }
   .dharani-image06 {
     width: auto;
@@ -2543,7 +2564,7 @@
   .dharani-caption04 {
     height: auto;
   }
-  .dharani-care {
+  .dharani-caring {
     gap: var(--dl-space-space-twounits);
     width: auto;
     align-self: flex-start;
@@ -2556,9 +2577,14 @@
     align-self: flex-start;
     margin-left: 0px;
   }
+  .dharani-header2 {
+    font-size: 32px;
+    line-height: 32px;
+  }
   .dharani-caption05 {
     height: auto;
-    line-height: 36px;
+    font-size: 22px;
+    line-height: 27px;
   }
   .dharani-image07 {
     width: auto;
@@ -2568,20 +2594,23 @@
     height: auto;
   }
   .dharani-dharani3 {
-    width: 100%;
+    width: auto;
     height: auto;
-    margin-top: var(--dl-space-space-unit);
+    align-self: center;
+    margin-top: 0px;
     padding-top: 0px;
   }
   .dharani-take {
     color: var(--dl-color-gray-black);
     height: auto;
-    font-size: 27px;
+    font-size: 22px;
     font-style: normal;
-    text-align: left;
+    text-align: center;
     font-family: Cormorant Infant;
     font-weight: 700;
     line-height: 36px;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
   }
   .dharani-di {
     gap: var(--dl-space-space-twounits);
@@ -2595,9 +2624,14 @@
     width: auto;
     align-self: flex-start;
   }
+  .dharani-header3 {
+    font-size: 32px;
+    line-height: 32px;
+  }
   .dharani-caption07 {
     height: auto;
-    line-height: 36px;
+    font-size: 22px;
+    line-height: 27px;
   }
   .dharani-image08 {
     width: auto;
@@ -2606,7 +2640,7 @@
   .dharani-caption08 {
     height: auto;
   }
-  .dharani-calm {
+  .dharani-vajrapani {
     gap: var(--dl-space-space-twounits);
     width: auto;
     align-self: flex-start;
@@ -2618,10 +2652,14 @@
     width: auto;
     align-self: flex-start;
   }
+  .dharani-header4 {
+    font-size: 32px;
+    line-height: 32px;
+  }
   .dharani-caption09 {
     height: auto;
-    font-size: 27px;
-    line-height: 36px;
+    font-size: 22px;
+    line-height: 27px;
   }
   .dharani-image09 {
     width: auto;
@@ -2642,9 +2680,13 @@
     width: auto;
     align-self: flex-start;
   }
+  .dharani-header5 {
+    font-size: 32px;
+    line-height: 32px;
+  }
   .dharani-header6 {
-    font-size: 27px;
-    line-height: 36px;
+    font-size: 22px;
+    line-height: 27px;
   }
   .dharani-image10 {
     width: auto;
@@ -2652,23 +2694,23 @@
   }
   .dharani-caption11 {
     height: auto;
-    font-size: 22px;
+    font-size: 16px;
     align-self: flex-start;
     text-align: left;
   }
   .dharani-caption12 {
     height: auto;
-    font-size: 22px;
+    font-size: 16px;
     text-align: left;
   }
   .dharani-caption13 {
     height: auto;
-    font-size: 22px;
+    font-size: 16px;
     text-align: left;
   }
   .dharani-caption14 {
     height: auto;
-    font-size: 22px;
+    font-size: 16px;
     text-align: left;
   }
   .dharani-mercy {
@@ -2683,17 +2725,23 @@
     width: auto;
     align-self: flex-start;
   }
+  .dharani-header7 {
+    font-size: 32px;
+    line-height: 32px;
+  }
   .dharani-caption15 {
     height: auto;
-    font-size: 27px;
-    line-height: 36px;
+    font-size: 22px;
+    line-height: 27px;
   }
   .dharani-image15 {
     width: auto;
     align-self: flex-start;
+    flex-direction: column;
   }
   .dharani-caption16 {
     height: auto;
+    text-align: center;
   }
   .dharani-testimony {
     gap: var(--dl-space-space-twounits);
@@ -2703,13 +2751,20 @@
   .dharani-caption17 {
     height: auto;
   }
+  .dharani-image17 {
+    width: var(--dl-size-size-small);
+  }
   .dharani-caption18 {
     height: auto;
+    font-size: 22px;
+    line-height: 27px;
   }
   .dharani-caption19 {
     height: auto;
   }
   .dharani-social-media {
+    width: auto;
+    padding-top: 0px;
     margin-right: 0px;
     border-radius: var(--dl-radius-radius-radius4);
   }
@@ -2723,6 +2778,7 @@
     line-height: 30px;
   }
   .dharani-platforms {
+    width: 0%;
     margin-right: 0px;
     border-radius: var(--dl-radius-radius-radius4);
   }
@@ -2773,13 +2829,14 @@
     line-height: 27px;
   }
   .dharani-footer {
-    padding-left: var(--dl-space-space-sixunits);
-    padding-right: var(--dl-space-space-sixunits);
+    margin-top: var(--dl-space-space-sixunits);
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .dharani-branding {
-    max-width: 80%;
+    max-width: auto;
   }
-  .dharani-heading8 {
+  .dharani-heading7 {
     gap: var(--dl-space-space-unit);
   }
   .dharani-caption24 {
@@ -2816,6 +2873,7 @@
   .dharani-image03 {
     height: auto;
     padding-top: 0px;
+    justify-content: flex-end;
   }
   .dharani-video {
     top: 0px;
@@ -2861,6 +2919,7 @@
     padding-bottom: 0px;
   }
   .dharani-menu {
+    width: auto;
     display: flex;
     position: static;
     align-self: center;
@@ -2996,9 +3055,9 @@
     height: auto;
     margin-top: var(--dl-space-space-sixunits);
     padding-top: 0px;
-    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-left: 0px;
     margin-bottom: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-right: 0px;
     padding-bottom: var(--dl-space-space-halfunit);
   }
   .dharani-video2 {
@@ -3046,9 +3105,38 @@
     top: 0px;
     left: 0px;
     right: 0px;
-    width: 105%;
+    width: var(--dl-size-size-xxlarge);
     height: auto;
     margin: 0px;
+  }
+  .dharani-karuna4 {
+    height: auto;
+    margin-top: var(--dl-space-space-unit);
+    padding-top: 0px;
+  }
+  .dharani-mantra2 {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .dharani-mantra3 {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .dharani-mutra {
     height: auto;
@@ -3077,10 +3165,10 @@
     font-family: Cormorant Infant;
     font-weight: 400;
     line-height: 36px;
-    padding-top: 0px;
+    padding-top: var(--dl-space-space-fourunits);
     padding-left: 0px;
     padding-right: 0px;
-    padding-bottom: 0px;
+    padding-bottom: var(--dl-space-space-fourunits);
   }
   .dharani-alone {
     height: auto;
@@ -3146,36 +3234,8 @@
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  .dharani-karuna4 {
-    height: 270px;
-    margin-top: 0px;
-    padding-top: 0px;
-  }
-  .dharani-mantra2 {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 18px;
-    font-style: normal;
-    text-align: left;
-    font-family: Cormorant Infant;
-    font-weight: 400;
-    line-height: 30px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-  .dharani-mantra3 {
-    color: rgb(53, 43, 42);
-    height: auto;
-    font-size: 36px;
-    font-style: italic;
-    text-align: left;
-    font-family: Cormorant Infant;
-    font-weight: 700;
-    line-height: 30px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
   .dharani-blog1 {
+    gap: var(--dl-space-space-threeunits);
     height: auto;
     margin-left: 0px;
     padding-top: 0px;
@@ -3223,11 +3283,12 @@
     text-align: center;
     font-weight: 700;
     line-height: 36px;
-    padding-bottom: 0px;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
   }
   .dharani-blossom {
-    align-self: center;
-    align-items: center;
+    align-self: flex-start;
+    align-items: flex-start;
   }
   .dharani-content01 {
     gap: var(--dl-space-space-oneandhalfunits);
@@ -3241,18 +3302,18 @@
   }
   .dharani-header {
     font-size: 32px;
-    line-height: 30px;
+    line-height: 32px;
   }
   .dharani-caption01 {
     height: auto;
-    font-size: 27px;
+    font-size: 22px;
     text-align: left;
-    line-height: 36px;
+    line-height: 27px;
   }
   .dharani-image05 {
     width: auto;
     align-self: flex-start;
-    align-items: center;
+    align-items: flex-start;
   }
   .dharani-caption02 {
     height: auto;
@@ -3269,11 +3330,12 @@
   }
   .dharani-header1 {
     font-size: 32px;
-    line-height: 30px;
+    line-height: 32px;
   }
   .dharani-caption03 {
     height: auto;
     font-size: 22px;
+    line-height: 27px;
   }
   .dharani-image06 {
     width: auto;
@@ -3351,7 +3413,7 @@
     width: auto;
     align-self: flex-start;
   }
-  .dharani-heading4 {
+  .dharani-vajrapani1 {
     gap: var(--dl-space-space-unit);
   }
   .dharani-header4 {
@@ -3376,7 +3438,7 @@
     width: auto;
     align-self: flex-start;
   }
-  .dharani-heading5 {
+  .dharani-heading4 {
     gap: var(--dl-space-space-unit);
   }
   .dharani-header5 {
@@ -3412,7 +3474,7 @@
     width: auto;
     align-self: flex-start;
   }
-  .dharani-heading6 {
+  .dharani-heading5 {
     gap: var(--dl-space-space-unit);
   }
   .dharani-header7 {
@@ -3439,28 +3501,28 @@
   .dharani-content08 {
     gap: var(--dl-space-space-oneandhalfunits);
   }
-  .dharani-heading7 {
+  .dharani-heading6 {
     gap: var(--dl-space-space-unit);
   }
   .dharani-caption17 {
     height: auto;
     font-size: 90px;
   }
-  .dharani-caption18 {
-    height: auto;
-    font-size: 18px;
-    text-align: left;
-    line-height: 27px;
-  }
   .dharani-image17 {
     width: var(--dl-size-size-small);
+  }
+  .dharani-caption18 {
+    height: auto;
+    font-size: 22px;
+    text-align: left;
+    line-height: 27px;
   }
   .dharani-caption19 {
     height: auto;
     font-size: 90px;
   }
   .dharani-social-media {
-    width: 100%;
+    width: auto;
     height: auto;
     align-items: flex-end;
     margin-left: 0px;
@@ -3556,11 +3618,12 @@
     line-height: 27px;
   }
   .dharani-footer {
+    width: 100%;
     margin-top: 0px;
     justify-content: center;
   }
   .dharani-branding {
-    max-width: 70%;
+    max-width: auto;
   }
   .dharani-caption24 {
     font-size: 9px;
@@ -3574,10 +3637,13 @@
   }
   .dharani-contact-link {
     gap: var(--dl-space-space-unit);
+    width: auto;
+    max-width: auto;
   }
-  .dharani-accordion {
-    width: 0px;
-    height: 0px;
+  .dharani-email {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 @media(max-width: 479px) {
@@ -3617,9 +3683,9 @@
     height: auto;
     opacity: 1;
     align-self: flex-start;
-    margin-top: var(--dl-space-space-halfunit);
-    margin-left: -16px;
-    margin-right: -16px;
+    margin-top: var(--dl-space-space-unit);
+    margin-left: -12px;
+    margin-right: -12px;
     border-radius: 0px;
     margin-bottom: 0px;
   }
@@ -3628,6 +3694,7 @@
     height: 63px;
     margin-top: var(--dl-space-space-unit);
     padding-top: 0px;
+    margin-right: 2px;
   }
   .dharani-video1 {
     left: -63PX;
@@ -3701,6 +3768,8 @@
     height: 100%;
     padding: 0px;
     position: absolute;
+    margin-top: var(--dl-space-space-twounits);
+    margin-left: var(--dl-space-space-unit);
   }
   .dharani-nav {
     top: 51px;
@@ -3708,11 +3777,21 @@
     height: auto;
     position: absolute;
   }
+  .dharani-tangible-logo {
+    margin-bottom: 0px;
+  }
   .dharani-icon2 {
-    margin-top: 0px;
+    margin-top: var(--dl-space-space-halfunit);
     margin-left: var(--dl-space-space-oneandhalfunits);
     margin-right: 0px;
-    margin-bottom: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .dharani-nav1 {
+    width: 108px;
+    height: auto;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-bottom: var(--dl-space-space-unit);
   }
   .dharani-desaka {
     margin-top: 0px;
@@ -3823,13 +3902,15 @@
     margin-bottom: 4px;
   }
   .dharani-dropdown-list4 {
-    top: 0;
-    left: 100%;
-    width: 101px;
-    margin-left: var(--dl-space-space-halfunit);
+    width: 100px;
+    min-width: auto;
+    margin-left: var(--dl-space-space-oneandhalfunits);
     border-color: transparent;
     border-radius: 0px;
-    background-color: transparent;
+    background-color: var(--dl-color-danger-300);
+  }
+  .dharani-dropdown {
+    margin-top: var(--dl-space-space-halfunit);
   }
   .dharani-chn-tw {
     color: var(--dl-color-gray-white);
@@ -3848,12 +3929,42 @@
   }
   .dharani-navbar1 {
     height: auto;
-    opacity: 0;
+    opacity: 1;
     position: 0px;
     max-width: 100%;
+    align-self: stretch;
     margin-top: 0px;
     padding-top: 0px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: 0px;
+    background-color: var(--dl-color-gray-white);
+  }
+  .dharani-link01 {
+    width: var(--dl-size-size-large);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .dharani-link02 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .dharani-link03 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .dharani-link04 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .dharani-link05 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
   }
   .dharani-content {
     height: auto;
@@ -3902,14 +4013,14 @@
     opacity: 1;
     font-size: 18px;
     font-style: normal;
-    margin-top: var(--dl-space-space-twounits);
+    margin-top: 0px;
     text-align: center;
     font-family: Cormorant Infant;
     font-weight: 500;
     line-height: 27px;
     padding-top: 0px;
     padding-left: 0px;
-    margin-bottom: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-threeunits);
     padding-right: 0px;
     padding-bottom: 0px;
   }
@@ -3922,6 +4033,38 @@
     margin: 0px;
     opacity: 1;
     border-radius: 0px;
+  }
+  .dharani-karuna4 {
+    height: auto;
+    margin-top: 0px;
+    align-items: center;
+  }
+  .dharani-mantra2 {
+    height: auto;
+    font-size: 16px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 500;
+    line-height: 27px;
+    padding-top: 0px;
+    padding-left: var(--dl-space-space-unit);
+    margin-bottom: 0px;
+    padding-right: 120px;
+    padding-bottom: 0px;
+  }
+  .dharani-mantra3 {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 27px;
+    font-style: italic;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 27px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
   .dharani-mutra {
     width: auto;
@@ -3937,38 +4080,20 @@
     opacity: 1;
     font-size: 18px;
     font-style: normal;
-    margin-top: var(--dl-space-space-twounits);
+    margin-top: var(--dl-space-space-threeunits);
     text-align: center;
     font-family: Cormorant Infant;
     font-weight: 500;
     line-height: 27px;
     padding-top: 0px;
     padding-left: 0px;
-    margin-bottom: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-threeunits);
     padding-right: 0px;
     padding-bottom: 0px;
   }
-  .dharani-text028 {
+  .dharani-text034 {
     font-style: inherit;
     font-weight: 600;
-  }
-  .dharani-text029 {
-    font-style: normal;
-  }
-  .dharani-text030 {
-    font-style: normal;
-  }
-  .dharani-text031 {
-    font-style: normal;
-  }
-  .dharani-text032 {
-    font-style: normal;
-  }
-  .dharani-text033 {
-    font-style: normal;
-  }
-  .dharani-text034 {
-    font-style: normal;
   }
   .dharani-text035 {
     font-style: normal;
@@ -4056,7 +4181,6 @@
   }
   .dharani-text063 {
     font-style: normal;
-    font-weight: 600;
   }
   .dharani-text064 {
     font-style: normal;
@@ -4075,6 +4199,7 @@
   }
   .dharani-text069 {
     font-style: normal;
+    font-weight: 600;
   }
   .dharani-text070 {
     font-style: normal;
@@ -4147,7 +4272,6 @@
   }
   .dharani-text093 {
     font-style: normal;
-    font-weight: 600;
   }
   .dharani-text094 {
     font-style: normal;
@@ -4166,6 +4290,7 @@
   }
   .dharani-text099 {
     font-style: normal;
+    font-weight: 600;
   }
   .dharani-text100 {
     font-style: normal;
@@ -4190,7 +4315,6 @@
   }
   .dharani-text107 {
     font-style: normal;
-    font-weight: 600;
   }
   .dharani-text108 {
     font-style: normal;
@@ -4209,6 +4333,7 @@
   }
   .dharani-text113 {
     font-style: normal;
+    font-weight: 600;
   }
   .dharani-text114 {
     font-style: normal;
@@ -4251,7 +4376,6 @@
   }
   .dharani-text127 {
     font-style: normal;
-    font-weight: 600;
   }
   .dharani-text128 {
     font-style: normal;
@@ -4270,6 +4394,7 @@
   }
   .dharani-text133 {
     font-style: normal;
+    font-weight: 600;
   }
   .dharani-text134 {
     font-style: normal;
@@ -4322,6 +4447,24 @@
   .dharani-text150 {
     font-style: normal;
   }
+  .dharani-text151 {
+    font-style: normal;
+  }
+  .dharani-text152 {
+    font-style: normal;
+  }
+  .dharani-text153 {
+    font-style: normal;
+  }
+  .dharani-text154 {
+    font-style: normal;
+  }
+  .dharani-text155 {
+    font-style: normal;
+  }
+  .dharani-text156 {
+    font-style: normal;
+  }
   .dharani-mudra {
     color: rgb(53, 43, 42);
     height: 0px;
@@ -4372,25 +4515,23 @@
     font-family: Cormorant Infant;
     font-weight: 500;
     line-height: 27px;
-    padding-top: var(--dl-space-space-oneandhalfunits);
     padding-left: 0px;
     margin-bottom: 0px;
     padding-right: 0px;
-    padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .dharani-text278 {
+  .dharani-text299 {
     font-weight: 600;
   }
-  .dharani-text279 {
+  .dharani-text300 {
     font-weight: 600;
   }
-  .dharani-text280 {
+  .dharani-text301 {
     font-weight: 600;
   }
   .dharani-dharani {
     width: auto;
     height: auto;
-    margin-top: 0px;
+    margin-top: var(--dl-space-space-oneandhalfunits);
     align-items: center;
     flex-direction: column;
   }
@@ -4426,43 +4567,13 @@
     padding-left: 0px;
     margin-bottom: 0px;
     padding-right: 0px;
-    padding-bottom: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: 0px;
   }
-  .dharani-text412 {
+  .dharani-text436 {
     font-weight: 600;
   }
-  .dharani-karuna4 {
-    height: auto;
-    margin-top: 0px;
-    align-items: center;
-  }
-  .dharani-mantra2 {
-    height: auto;
-    font-size: 16px;
-    font-style: normal;
-    text-align: left;
-    font-weight: 500;
-    line-height: 27px;
-    padding-top: var(--dl-space-space-oneandhalfunits);
-    padding-left: var(--dl-space-space-unit);
-    margin-bottom: 0px;
-    padding-right: 120px;
-    padding-bottom: 0px;
-  }
-  .dharani-mantra3 {
-    height: auto;
-    font-size: 27px;
-    font-style: normal;
-    text-align: left;
-    font-weight: 700;
-    line-height: 27px;
-    padding-top: 0px;
-    padding-left: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-  }
   .dharani-blog1 {
-    gap: var(--dl-space-space-fourunits);
+    gap: var(--dl-space-space-twounits);
     height: auto;
     margin-top: var(--dl-space-space-fourunits);
     margin-left: 0px;
@@ -4475,8 +4586,10 @@
   }
   .dharani-dharani1 {
     height: auto;
+    align-self: center;
     margin-top: 0px;
     align-items: center;
+    margin-left: 0px;
   }
   .dharani-caption {
     color: var(--dl-color-gray-black);
@@ -4491,23 +4604,24 @@
     font-weight: 800;
     line-height: 36px;
     margin-left: 0px;
+    padding-top: var(--dl-space-space-twounits);
     margin-right: 0px;
     margin-bottom: 0px;
     padding-bottom: var(--dl-space-space-twounits);
   }
   .dharani-dharani2 {
     color: var(--dl-color-gray-black);
-    width: auto;
+    width: 0px;
     height: 0px;
     opacity: 0;
-    font-size: 27px;
+    font-size: 0.1px;
     max-width: 100%;
     align-self: center;
     font-style: normal;
     text-align: center;
     font-family: Cormorant Infant;
     font-weight: 600;
-    line-height: 27px;
+    line-height: 0.1px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -4536,21 +4650,23 @@
     max-width: 100%;
     align-self: center;
     font-style: normal;
+    margin-top: var(--dl-space-space-fourunits);
     text-align: center;
     font-family: Cormorant Infant;
     font-weight: 700;
     line-height: 27px;
+    padding-top: 0px;
+    margin-bottom: var(--dl-space-space-unit);
     padding-bottom: 0px;
   }
   .dharani-blossom {
     width: auto;
     align-self: flex-start;
-    margin-left: 0px;
+    margin-left: var(--dl-space-space-unit);
   }
   .dharani-content01 {
     width: auto;
     align-self: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
   }
   .dharani-heading {
     width: auto;
@@ -4571,13 +4687,13 @@
     align-self: flex-start;
     font-style: normal;
     font-weight: 500;
+    line-height: 22px;
     padding-right: 0px;
   }
   .dharani-image05 {
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
   }
   .dharani-div {
     width: auto;
@@ -4590,17 +4706,17 @@
     align-self: flex-start;
     padding-right: 0px;
   }
-  .dharani-cultivate {
+  .dharani-charge-up {
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: 0px;
+    margin-left: var(--dl-space-space-unit);
   }
   .dharani-content02 {
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
   }
   .dharani-heading1 {
     width: auto;
@@ -4619,13 +4735,14 @@
     height: auto;
     font-size: 18px;
     align-self: flex-start;
+    line-height: 22px;
     padding-right: 0px;
   }
   .dharani-image06 {
     width: auto;
     align-self: center;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
   }
   .dharani-div01 {
     width: auto;
@@ -4638,16 +4755,16 @@
     text-align: left;
     padding-right: 0px;
   }
-  .dharani-care {
+  .dharani-caring {
     width: auto;
     align-self: flex-start;
-    margin-left: 0px;
+    margin-left: var(--dl-space-space-unit);
   }
   .dharani-content03 {
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
   }
   .dharani-heading2 {
     width: auto;
@@ -4669,12 +4786,12 @@
     max-width: auto;
     align-self: flex-start;
     font-family: Karla;
-    line-height: 27px;
+    line-height: 22px;
   }
   .dharani-image07 {
     width: auto;
     align-self: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
   }
   .dharani-div02 {
     width: auto;
@@ -4703,20 +4820,23 @@
     max-width: 100%;
     align-self: center;
     font-style: normal;
+    margin-top: var(--dl-space-space-twounits);
     text-align: center;
     font-family: Cormorant Infant;
     font-weight: 700;
     line-height: 27px;
+    padding-top: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+    padding-bottom: 0px;
   }
   .dharani-di {
     width: auto;
     align-self: flex-start;
-    margin-left: 0px;
+    margin-left: var(--dl-space-space-unit);
   }
   .dharani-content04 {
     width: auto;
     align-self: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
   }
   .dharani-heading3 {
     height: auto;
@@ -4740,14 +4860,13 @@
     font-size: 18px;
     max-width: auto;
     font-family: Karla;
-    line-height: 27px;
+    line-height: 22px;
     padding-right: 0px;
   }
   .dharani-image08 {
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
   }
   .dharani-div03 {
     width: auto;
@@ -4761,17 +4880,16 @@
     text-align: left;
     padding-right: 0px;
   }
-  .dharani-calm {
+  .dharani-vajrapani {
     width: auto;
     align-self: flex-start;
-    margin-left: 0px;
+    margin-left: var(--dl-space-space-unit);
   }
   .dharani-content05 {
     width: auto;
     align-self: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
   }
-  .dharani-heading4 {
+  .dharani-vajrapani1 {
     height: auto;
     align-self: flex-start;
   }
@@ -4789,13 +4907,12 @@
     height: auto;
     font-size: 18px;
     font-family: Karla;
-    line-height: 27px;
+    line-height: 22px;
   }
   .dharani-image09 {
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
     flex-direction: column;
   }
   .dharani-caption10 {
@@ -4813,15 +4930,15 @@
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: 0px;
+    margin-left: var(--dl-space-space-unit);
   }
   .dharani-content06 {
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
   }
-  .dharani-heading5 {
+  .dharani-heading4 {
     height: auto;
     max-width: auto;
   }
@@ -4842,14 +4959,14 @@
     font-style: normal;
     font-family: Cormorant Infant;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 22px;
     text-decoration: none;
   }
   .dharani-image10 {
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
+    margin-left: 0px;
   }
   .dharani-image11 {
     width: auto;
@@ -4937,14 +5054,13 @@
   .dharani-mercy {
     width: auto;
     align-self: flex-start;
-    margin-left: 0px;
+    margin-left: var(--dl-space-space-unit);
   }
   .dharani-content07 {
     width: auto;
     align-self: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
   }
-  .dharani-heading6 {
+  .dharani-heading5 {
     height: auto;
     align-self: flex-start;
   }
@@ -4962,9 +5078,9 @@
     height: auto;
     font-size: 18px;
     font-family: Karla;
-    line-height: 27px;
+    line-height: 22px;
   }
-  .dharani-text650 {
+  .dharani-text671 {
     color: #352b2a;
     font-size: 18px;
     font-family: Karla;
@@ -4974,7 +5090,6 @@
     width: auto;
     align-self: flex-start;
     align-items: flex-start;
-    margin-left: var(--dl-space-space-oneandhalfunits);
     flex-direction: column;
   }
   .dharani-caption16 {
@@ -4998,7 +5113,7 @@
   .dharani-content08 {
     width: 100%;
   }
-  .dharani-heading7 {
+  .dharani-heading6 {
     gap: 0;
     width: 100%;
     height: auto;
@@ -5014,24 +5129,27 @@
     font-weight: 400;
     line-height: 20px;
   }
-  .dharani-caption18 {
-    color: rgb(53, 43, 42);
-    width: 100%;
-    height: auto;
-    font-size: 16px;
-    font-style: normal;
-    font-family: Karla;
-    font-weight: 400;
-    line-height: 20px;
-  }
   .dharani-image16 {
     width: auto;
     align-self: flex-end;
-    margin-right: var(--dl-space-space-threeunits);
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: flex-end;
   }
   .dharani-image17 {
     width: var(--dl-size-size-small);
     height: auto;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .dharani-caption18 {
+    color: rgb(53, 43, 42);
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    font-style: normal;
+    font-family: Karla;
+    font-weight: 400;
+    line-height: 20px;
   }
   .dharani-caption19 {
     color: rgb(53, 43, 42);
@@ -5047,6 +5165,7 @@
     line-height: 20px;
   }
   .dharani-social-media {
+    width: auto;
     height: auto;
     align-self: center;
     align-items: center;
@@ -5077,7 +5196,7 @@
     padding-bottom: 0px;
   }
   .dharani-platforms {
-    width: auto;
+    width: 0px;
     height: 0px;
     align-self: center;
     align-items: center;
@@ -5203,19 +5322,21 @@
     padding-right: 0px;
   }
   .dharani-footer {
-    align-self: flex-start;
+    width: 100%;
+    align-self: center;
     margin-top: 120px;
     padding-left: 0px;
     padding-right: 0px;
+    flex-direction: column;
   }
   .dharani-branding {
-    width: 100%;
+    width: auto;
     max-width: 100%;
     align-self: flex-start;
     margin-top: var(--dl-space-space-unit);
     margin-left: var(--dl-space-space-oneandhalfunits);
   }
-  .dharani-heading8 {
+  .dharani-heading7 {
     width: 100%;
   }
   .dharani-image23 {
@@ -5247,13 +5368,9 @@
     padding-right: 0px;
     padding-bottom: 0px;
   }
-  .dharani-text681 {
+  .dharani-text701 {
     width: 0px;
     height: 0px;
     opacity: 0;
-  }
-  .dharani-accordion {
-    width: auto;
-    height: 0px;
   }
 }
