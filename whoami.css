@@ -1,0 +1,3280 @@
+.whoami-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.whoami-image {
+  width: auto;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-start;
+  margin-left: 0px;
+  padding-top: 0px;
+  margin-right: var(--dl-space-space-sixunits);
+  margin-bottom: 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.whoami-image01 {
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  align-self: center;
+  margin-top: 0px;
+  object-fit: cover;
+  margin-left: 0px;
+}
+.whoami-image02 {
+  width: auto;
+  height: var(--dl-size-size-xlarge);
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.whoami-image03 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-self: flex-end;
+  margin-top: -180px;
+  align-items: flex-start;
+  margin-left: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.whoami-image04 {
+  width: auto;
+  display: flex;
+  position: relative;
+  align-self: flex-end;
+  margin-top: 0px;
+  align-items: flex-end;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  padding-top: 0px;
+  margin-bottom: 0px;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.whoami-video {
+  width: auto;
+  height: var(--dl-size-size-xlarge);
+  opacity: 1;
+  align-self: center;
+  margin-top: 0px;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: 0px;
+}
+.whoami-image05 {
+  width: var(--dl-size-size-large);
+  height: var(--dl-size-size-large);
+  align-self: flex-end;
+  margin-top: var(--dl-space-space-twounits);
+  object-fit: cover;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.whoami-video1 {
+  width: auto;
+  height: auto;
+  opacity: 1;
+  align-self: flex-end;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 150px;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.whoami-hero {
+  width: 100%;
+  height: 1009px;
+  display: flex;
+  position: relative;
+  align-self: flex-end;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('https://user-images.githubusercontent.com/127581878/243078337-51d6483e-aea4-44f3-a640-fcd161f5dad1.jpg');
+}
+.whoami-main {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: column;
+}
+.whoami-content {
+  width: 100%;
+  height: 946px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 0px;
+  justify-content: flex-start;
+}
+.whoami-navbar {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: absolute;
+  max-width: 1440px;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: 11px;
+  justify-content: space-between;
+}
+.whoami-menu {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: flex-start;
+}
+.whoami-hamburger {
+  color: var(--dl-color-gray-black);
+  width: var(--dl-size-size-small);
+  cursor: pointer;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-self: center;
+  margin-left: var(--dl-space-space-twounits);
+  aspect-ratio: 1;
+  border-width: 0px;
+  padding-left: 0px;
+  border-radius: 0px;
+  padding-right: 0px;
+  flex-direction: row;
+  background-color: transparent;
+}
+.whoami-icon {
+  fill: var(--dl-color-gray-black);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  align-self: center;
+}
+.whoami-mobile-menu {
+  top: var(--dl-space-space-sixunits);
+  left: 0px;
+  width: auto;
+  bottom: -545px;
+  height: auto;
+  display: none;
+  padding: 32px;
+  position: absolute;
+  align-self: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.whoami-nav {
+  width: var(--dl-size-size-medium);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.whoami-tangible-logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.whoami-menu-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whoami-icon2 {
+  fill: var(--dl-color-gray-white);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  align-self: center;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+.whoami-nav1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.whoami-desaka {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.whoami-dropdown-toggle {
+  fill: #595959;
+  color: var(--dl-color-gray-black);
+  width: auto;
+  display: inline-flex;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 0px;
+  justify-content: center;
+}
+.whoami-title-reference {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  font-style: normal;
+  text-align: left;
+  font-family: Arial;
+  font-weight: 500;
+  line-height: 16px;
+  margin-right: 0px;
+  vertical-align: middle;
+}
+.whoami-dropdown-arrow {
+  transition: 0.3s;
+}
+.whoami-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.whoami-karuna {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-delu {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-courses {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.whoami-dropdown-toggle01 {
+  fill: #595959;
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 0px;
+  justify-content: center;
+}
+.whoami-title-reference1 {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  font-style: normal;
+  text-align: left;
+  font-family: Arial;
+  font-weight: 500;
+  margin-right: 0px;
+  vertical-align: middle;
+}
+.whoami-dropdown-arrow01 {
+  transition: 0.3s;
+}
+.whoami-dropdown-list01 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.whoami-karuna1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-delu1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-blog {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.whoami-dropdown-toggle02 {
+  fill: #595959;
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 0px;
+  justify-content: center;
+}
+.whoami-title-reference2 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  font-family: Arial;
+  font-weight: 500;
+  margin-right: 0px;
+  vertical-align: middle;
+}
+.whoami-dropdown-arrow02 {
+  transition: 0.3s;
+}
+.whoami-dropdown-list02 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.whoami-karuna2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-delu2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-link {
+  display: contents;
+}
+.whoami-contact {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.whoami-dropdown-toggle03 {
+  fill: #595959;
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 0px;
+  justify-content: center;
+}
+.whoami-title-reference3 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  font-family: Arial;
+  font-weight: 500;
+  margin-right: 0px;
+  vertical-align: middle;
+}
+.whoami-dropdown-arrow03 {
+  transition: 0.3s;
+}
+.whoami-dropdown-list03 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.whoami-karuna3 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-delu3 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-language {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-dropdown-toggle04 {
+  fill: #595959;
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  display: inline-flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-white);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.whoami-english {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  line-height: 16px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.whoami-dropdown-arrow04 {
+  transition: 0.3s;
+}
+.whoami-dropdown-list04 {
+  top: 0;
+  left: 100%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  margin-left: var(--dl-space-space-unit);
+  border-color: transparent;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: transparent;
+  list-style-position: inside;
+}
+.whoami-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-dropdown-toggle05 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.whoami-dropdown-toggle05:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.whoami-chn-tw {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+}
+.whoami-dropdown1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-dropdown-toggle06 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.whoami-dropdown-toggle06:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.whoami-chn-cn {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: underline none;
+}
+.whoami-dropdown2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-dropdown-toggle07 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.whoami-dropdown-toggle07:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.whoami-vn {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+}
+.whoami-video2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  margin-top: 120px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.whoami-video3 {
+  width: auto;
+  height: auto;
+  opacity: 0;
+  align-self: center;
+}
+.whoami-video4 {
+  width: 85%;
+  height: auto;
+  opacity: 0;
+  align-self: center;
+  margin-top: var(--dl-space-space-threeunits);
+  margin-bottom: TwoUn0its;
+}
+.whoami-video5 {
+  width: auto;
+  height: auto;
+  opacity: 1;
+  align-self: center;
+}
+.whoami-caption {
+  color: var(--dl-color-gray-black);
+  width: auto;
+  height: 198px;
+  font-size: 63px;
+  max-width: auto;
+  margin-top: 0px;
+  text-align: center;
+  font-family: Cormorant Infant;
+  font-weight: 700;
+  line-height: 63px;
+  margin-left: auto;
+  padding-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+.whoami-navbar1 {
+  width: 100%;
+  height: var(--dl-size-size-small);
+  display: flex;
+  opacity: 1;
+  position: relative;
+  max-width: 100%;
+  align-self: center;
+  align-items: center;
+  padding-top: 0px;
+  border-color: var(--dl-color-gray-black);
+  border-width: 3px;
+  justify-content: center;
+  background-color: var(--dl-color-gray-900);
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.whoami-link01 {
+  width: var(--dl-size-size-large);
+  height: auto;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-gray-white);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+}
+.whoami-link02 {
+  width: var(--dl-size-size-large);
+  height: auto;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-gray-white);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+}
+.whoami-link03 {
+  width: var(--dl-size-size-large);
+  height: auto;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-gray-white);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+}
+.whoami-link04 {
+  width: var(--dl-size-size-large);
+  height: auto;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-white);
+  border-width: 0px;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.whoami-link05 {
+  width: var(--dl-size-size-large);
+  height: auto;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-white);
+  border-width: 0px;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.whoami-link06 {
+  width: var(--dl-size-size-large);
+  height: auto;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-left: 0px;
+  border-color: var(--dl-color-gray-white);
+  border-width: 0px;
+  margin-right: 0px;
+  text-decoration: none;
+}
+.whoami-link07 {
+  width: var(--dl-size-size-large);
+  height: auto;
+  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-white);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+}
+.whoami-menu1 {
+  gap: var(--dl-space-space-twounits);
+  width: 0%;
+  height: 0px;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: flex-start;
+}
+.whoami-hamburger1 {
+  top: -30px;
+  left: 100px;
+  color: var(--dl-color-gray-black);
+  width: 36px;
+  cursor: pointer;
+  height: 36px;
+  display: flex;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-top: var(--dl-space-space-unit);
+  aspect-ratio: 1;
+  border-width: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  background-color: transparent;
+}
+.whoami-icon4 {
+  fill: var(--dl-color-gray-black);
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+  opacity: 0;
+}
+.whoami-home {
+  color: var(--dl-color-gray-black);
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+  opacity: 0;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 0px;
+  text-align: left;
+  font-weight: 200;
+  margin-left: 0px;
+  margin-right: 0px;
+  vertical-align: middle;
+}
+.whoami-mobile-menu1 {
+  top: var(--dl-space-space-sixunits);
+  left: -73px;
+  width: var(--dl-size-size-xlarge);
+  bottom: -545px;
+  height: auto;
+  display: none;
+  padding: 32px;
+  position: absolute;
+  align-self: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.whoami-nav2 {
+  width: var(--dl-size-size-medium);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.whoami-tangible-logo1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.whoami-menu-close1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whoami-icon6 {
+  fill: var(--dl-color-gray-white);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  align-self: center;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+.whoami-nav3 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.whoami-desaka1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.whoami-dropdown-toggle08 {
+  fill: #595959;
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 0px;
+  justify-content: center;
+}
+.whoami-title-reference4 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  font-family: Arial;
+  font-weight: 500;
+  line-height: 16px;
+  margin-right: 0px;
+  vertical-align: middle;
+}
+.whoami-dropdown-arrow05 {
+  transition: 0.3s;
+}
+.whoami-dropdown-list05 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.whoami-karuna4 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-delu4 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-courses1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.whoami-dropdown-toggle09 {
+  fill: #595959;
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 0px;
+  justify-content: center;
+}
+.whoami-title-reference5 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  font-family: Arial;
+  font-weight: 500;
+  margin-right: 0px;
+  vertical-align: middle;
+}
+.whoami-dropdown-arrow06 {
+  transition: 0.3s;
+}
+.whoami-dropdown-list06 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.whoami-karuna5 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-delu5 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-blog1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.whoami-dropdown-toggle10 {
+  fill: #595959;
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 0px;
+  justify-content: center;
+}
+.whoami-title-reference6 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  font-family: Arial;
+  font-weight: 500;
+  margin-right: 0px;
+  vertical-align: middle;
+}
+.whoami-dropdown-arrow07 {
+  transition: 0.3s;
+}
+.whoami-dropdown-list07 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.whoami-karuna6 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-delu6 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-link08 {
+  display: contents;
+}
+.whoami-contact1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.whoami-dropdown-toggle11 {
+  fill: #595959;
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: 0px;
+  justify-content: center;
+}
+.whoami-title-reference7 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  font-family: Arial;
+  font-weight: 500;
+  margin-right: 0px;
+  vertical-align: middle;
+}
+.whoami-dropdown-arrow08 {
+  transition: 0.3s;
+}
+.whoami-dropdown-list08 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.whoami-karuna7 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-delu7 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-language1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-dropdown-toggle12 {
+  fill: #595959;
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  display: inline-flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+  margin-left: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-white);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-halfunit);
+  border-radius: var(--dl-radius-radius-radius2);
+  margin-bottom: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+}
+.whoami-english1 {
+  color: var(--dl-color-gray-white);
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  line-height: 16px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.whoami-dropdown-arrow09 {
+  transition: 0.3s;
+}
+.whoami-dropdown-list09 {
+  top: 0;
+  left: 100%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  margin-left: var(--dl-space-space-unit);
+  border-color: transparent;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: transparent;
+  list-style-position: inside;
+}
+.whoami-dropdown3 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-dropdown-toggle13 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.whoami-dropdown-toggle13:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.whoami-chn-tw1 {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+}
+.whoami-dropdown4 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-dropdown-toggle14 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.whoami-dropdown-toggle14:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.whoami-chn-cn1 {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: underline none;
+}
+.whoami-dropdown5 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.whoami-dropdown-toggle15 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.whoami-dropdown-toggle15:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.whoami-vn1 {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-decoration: none;
+}
+.whoami-content1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: center;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
+  background-color: var(--dl-color-gray-white);
+}
+.whoami-video6 {
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  align-self: center;
+  margin-top: var(--dl-space-space-threeunits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.whoami-video7 {
+  width: auto;
+  height: auto;
+  opacity: 1;
+  align-self: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.whoami-video8 {
+  width: auto;
+  height: auto;
+  opacity: 1;
+  align-self: center;
+  margin-top: var(--dl-space-space-sixunits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.whoami-quote {
+  color: rgb(53, 43, 42);
+  height: auto;
+  font-size: 18px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Cormorant Infant;
+  font-weight: 500;
+  line-height: 45px;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-sixunits);
+  padding-bottom: var(--dl-space-space-fourunits);
+}
+.whoami-image06 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-top: 180px;
+  align-items: flex-end;
+  margin-left: 0px;
+  padding-top: 0px;
+  flex-direction: row;
+  justify-content: center;
+}
+.whoami-image07 {
+  width: var(--dl-size-size-large);
+  height: var(--dl-size-size-large);
+  margin-top: 0px;
+  object-fit: cover;
+  margin-left: 0px;
+}
+.whoami-blog2 {
+  gap: 220px;
+  width: auto;
+  height: auto;
+  display: flex;
+  max-width: auto;
+  align-items: center;
+  padding-top: 0px;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: 0px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.whoami-caption1 {
+  color: var(--dl-color-gray-black);
+  width: 742px;
+  height: 152px;
+  font-size: 90px;
+  max-width: 900px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: left;
+  font-family: Cormorant Infant;
+  font-weight: 800;
+  line-height: 90px;
+  padding-top: var(--dl-space-space-fourunits);
+  margin-bottom: 11px;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.whoami-highlight {
+  gap: var(--dl-space-space-fiveunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.whoami-image08 {
+  height: 530px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: center;
+}
+.whoami-image09 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.whoami-content2 {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.whoami-heading {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  max-width: 500px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.whoami-header {
+  color: rgb(53, 43, 42);
+  font-size: 60px;
+  font-style: normal;
+  text-align: left;
+  font-family: Cormorant Infant;
+  font-weight: 700;
+  line-height: 60px;
+}
+.whoami-caption2 {
+  color: rgb(53, 43, 42);
+  font-size: 18px;
+  max-width: 600px;
+  text-align: left;
+  font-family: Karla;
+  line-height: 27px;
+}
+.whoami-highlight1 {
+  gap: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.whoami-content3 {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.whoami-heading1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  max-width: 500px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.whoami-header1 {
+  color: rgb(53, 43, 42);
+  font-size: 60px;
+  font-style: normal;
+  text-align: left;
+  font-family: Cormorant Infant;
+  font-weight: 700;
+  line-height: 60px;
+}
+.whoami-caption3 {
+  color: rgb(53, 43, 42);
+  width: 393px;
+  height: 229px;
+  font-size: 18px;
+  max-width: 600px;
+  text-align: left;
+  font-family: Karla;
+  line-height: 27px;
+}
+.whoami-image10 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: center;
+}
+.whoami-image11 {
+  width: 537px;
+  height: 539px;
+  object-fit: cover;
+}
+.whoami-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #352B2A;
+}
+.whoami-content4 {
+  gap: 120px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 1440px;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-threeunits);
+}
+.whoami-footer1 {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.whoami-branding {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  max-width: 100%;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.whoami-link09 {
+  display: contents;
+}
+.whoami-heading2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.whoami-image12 {
+  height: var(--dl-size-size-small);
+  object-fit: cover;
+}
+.whoami-caption4 {
+  color: var(--dl-color-danger-300);
+  height: 100%;
+  font-size: 16px;
+  align-self: center;
+  text-align: left;
+  line-height: 21px;
+}
+.whoami-contact-link {
+  gap: var(--dl-space-space-unit);
+  width: auto;
+  display: flex;
+  position: relative;
+  max-width: 900px;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.whoami-email {
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 16px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-gray-900);
+}
+.whoami-email:hover {
+  opacity: 0.5;
+}
+.whoami-call {
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-weight: 500;
+  padding-top: var(--dl-space-space-unit);
+  border-width: 0px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 16px;
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-gray-900);
+}
+.whoami-call:hover {
+  opacity: 0.5;
+}
+.whoami-copyright {
+  color: rgb(118, 105, 104);
+  font-size: 12px;
+  align-self: center;
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .whoami-image {
+    width: 100%;
+    height: var(--dl-size-size-large);
+    align-self: flex-start;
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    padding-top: 0px;
+    margin-right: 0px;
+  }
+  .whoami-image01 {
+    width: 0px;
+    height: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .whoami-image02 {
+    width: auto;
+    height: var(--dl-size-size-large);
+    align-self: flex-start;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .whoami-image03 {
+    width: auto;
+    height: var(--dl-size-size-large);
+    margin-top: 0px;
+    margin-left: var(--dl-space-space-unit);
+    padding-top: 0px;
+  }
+  .whoami-image04 {
+    width: auto;
+    height: var(--dl-size-size-large);
+    margin-top: 0px;
+    align-items: center;
+    margin-left: 0px;
+    padding-top: 0px;
+    justify-content: flex-end;
+  }
+  .whoami-video {
+    width: auto;
+    height: auto;
+    opacity: 1;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  .whoami-image05 {
+    width: var(--dl-size-size-large);
+    height: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-right: 0px;
+  }
+  .whoami-video1 {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-sixunits);
+  }
+  .whoami-hero {
+    width: 100%;
+    height: auto;
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+  }
+  .whoami-main {
+    height: 100%;
+    padding-left: var(--dl-space-space-fiveunits);
+    padding-right: var(--dl-space-space-fiveunits);
+  }
+  .whoami-content {
+    height: auto;
+    margin-top: var(--dl-space-space-fourunits);
+    padding-bottom: 0px;
+  }
+  .whoami-navbar {
+    margin-top: -27px;
+    align-items: flex-start;
+    padding-top: 0px;
+  }
+  .whoami-menu {
+    right: 0px;
+    width: 100%;
+    bottom: 0px;
+    height: auto;
+    position: absolute;
+    align-self: flex-start;
+    align-items: flex-start;
+  }
+  .whoami-hamburger {
+    top: -16px;
+    left: 70px;
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .whoami-icon {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+    align-self: flex-start;
+  }
+  .whoami-mobile-menu {
+    top: var(--dl-space-space-oneandhalfunits);
+    left: -73px;
+    width: var(--dl-size-size-large);
+    bottom: 0px;
+    height: auto;
+    padding: 0px;
+    position: absolute;
+  }
+  .whoami-tangible-logo {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .whoami-icon2 {
+    width: 27px;
+    height: 27px;
+  }
+  .whoami-desaka {
+    margin-top: 0px;
+  }
+  .whoami-title-reference {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+  }
+  .whoami-dropdown-list {
+    left: 0%;
+  }
+  .whoami-courses {
+    margin-top: 0px;
+  }
+  .whoami-title-reference1 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 12px;
+  }
+  .whoami-dropdown-list01 {
+    left: 0%;
+  }
+  .whoami-blog {
+    margin-top: 0px;
+  }
+  .whoami-title-reference2 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 12px;
+  }
+  .whoami-dropdown-list02 {
+    left: 0%;
+  }
+  .whoami-contact {
+    margin-top: 0px;
+  }
+  .whoami-title-reference3 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 12px;
+  }
+  .whoami-dropdown-list03 {
+    left: 0%;
+  }
+  .whoami-dropdown-toggle04 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .whoami-english {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .whoami-dropdown-list04 {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  .whoami-dropdown-toggle05 {
+    padding-top: 0px;
+  }
+  .whoami-chn-tw {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .whoami-dropdown-toggle06 {
+    padding-top: 0px;
+  }
+  .whoami-chn-cn {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .whoami-dropdown-toggle07 {
+    padding-top: 0px;
+  }
+  .whoami-vn {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .whoami-video2 {
+    width: 100%;
+    height: auto;
+    position: static;
+    margin-bottom: 0px;
+  }
+  .whoami-video3 {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    margin-bottom: var(--dl-space-space-sixunits);
+  }
+  .whoami-video4 {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    margin-bottom: var(--dl-space-space-sixunits);
+  }
+  .whoami-video5 {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    margin-bottom: var(--dl-space-space-sixunits);
+  }
+  .whoami-caption {
+    color: var(--dl-color-gray-white);
+    width: auto;
+    height: 115px;
+    font-size: 36px;
+    max-width: auto;
+    font-style: normal;
+    margin-top: var(--dl-space-space-sixunits);
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 35px;
+    padding-top: 0px;
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .whoami-navbar1 {
+    margin-top: -27px;
+    align-items: flex-start;
+    padding-top: 0px;
+  }
+  .whoami-menu1 {
+    right: 0px;
+    width: 100%;
+    bottom: 0px;
+    height: auto;
+    position: absolute;
+    align-self: flex-start;
+    align-items: flex-start;
+  }
+  .whoami-hamburger1 {
+    top: -16px;
+    left: 70px;
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .whoami-icon4 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+    align-self: flex-start;
+  }
+  .whoami-home {
+    top: -16px;
+    left: 90px;
+    bottom: 0px;
+    position: absolute;
+    font-size: 11px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .whoami-mobile-menu1 {
+    top: var(--dl-space-space-oneandhalfunits);
+    left: -73px;
+    width: var(--dl-size-size-large);
+    bottom: 0px;
+    height: auto;
+    padding: 0px;
+    position: absolute;
+  }
+  .whoami-tangible-logo1 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .whoami-icon6 {
+    width: 27px;
+    height: 27px;
+  }
+  .whoami-desaka1 {
+    margin-top: 0px;
+  }
+  .whoami-title-reference4 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+  }
+  .whoami-dropdown-list05 {
+    left: 0%;
+  }
+  .whoami-courses1 {
+    margin-top: 0px;
+  }
+  .whoami-title-reference5 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 12px;
+  }
+  .whoami-dropdown-list06 {
+    left: 0%;
+  }
+  .whoami-blog1 {
+    margin-top: 0px;
+  }
+  .whoami-title-reference6 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 12px;
+  }
+  .whoami-dropdown-list07 {
+    left: 0%;
+  }
+  .whoami-contact1 {
+    margin-top: 0px;
+  }
+  .whoami-title-reference7 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 12px;
+  }
+  .whoami-dropdown-list08 {
+    left: 0%;
+  }
+  .whoami-dropdown-toggle12 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .whoami-english1 {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .whoami-dropdown-list09 {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  .whoami-dropdown-toggle13 {
+    padding-top: 0px;
+  }
+  .whoami-chn-tw1 {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .whoami-dropdown-toggle14 {
+    padding-top: 0px;
+  }
+  .whoami-chn-cn1 {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .whoami-dropdown-toggle15 {
+    padding-top: 0px;
+  }
+  .whoami-vn1 {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .whoami-content1 {
+    height: 100%;
+    margin-top: 0px;
+    padding-top: var(--dl-space-space-sixunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .whoami-video6 {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    margin-bottom: var(--dl-space-space-sixunits);
+  }
+  .whoami-video7 {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    margin-bottom: var(--dl-space-space-sixunits);
+  }
+  .whoami-video8 {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    margin-bottom: var(--dl-space-space-sixunits);
+  }
+  .whoami-quote {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-family: Cormorant Infant;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .whoami-text02 {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-family: Cormorant Infant;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .whoami-image06 {
+    width: 100%;
+    height: var(--dl-size-size-large);
+    margin-top: var(--dl-space-space-sixunits);
+    padding-top: var(--dl-space-space-sixunits);
+  }
+  .whoami-image07 {
+    width: var(--dl-size-size-large);
+    height: auto;
+    margin-top: var(--dl-space-space-sixunits);
+    padding-top: var(--dl-space-space-sixunits);
+  }
+  .whoami-blog2 {
+    gap: 135px;
+    height: auto;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .whoami-caption1 {
+    color: var(--dl-color-gray-black);
+    height: auto;
+    font-size: 90px;
+    font-style: normal;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 800;
+    line-height: 90px;
+  }
+  .whoami-highlight {
+    gap: var(--dl-space-space-twounits);
+    align-items: flex-start;
+    flex-direction: column-reverse;
+  }
+  .whoami-highlight1 {
+    gap: var(--dl-space-space-twounits);
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .whoami-caption3 {
+    height: auto;
+  }
+  .whoami-footer {
+    padding-left: var(--dl-space-space-sixunits);
+    padding-right: var(--dl-space-space-sixunits);
+  }
+  .whoami-content4 {
+    gap: var(--dl-space-space-threeunits);
+    width: 604px;
+    padding-left: var(--dl-space-space-sixunits);
+    padding-right: var(--dl-space-space-sixunits);
+  }
+  .whoami-footer1 {
+    gap: var(--dl-space-space-threeunits);
+    width: 401px;
+    padding-left: var(--dl-space-space-unit);
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .whoami-branding {
+    max-width: 80%;
+  }
+  .whoami-heading2 {
+    gap: var(--dl-space-space-unit);
+  }
+  .whoami-caption4 {
+    font-size: 9px;
+  }
+  .whoami-email {
+    border-radius: 90px;
+  }
+  .whoami-call {
+    border-radius: 90px;
+  }
+}
+@media(max-width: 767px) {
+  .whoami-image {
+    height: 270px;
+    padding-top: 0px;
+  }
+  .whoami-image03 {
+    height: 270px;
+    padding-top: 0px;
+  }
+  .whoami-image04 {
+    height: 270px;
+    padding-top: 0px;
+  }
+  .whoami-video {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 105%;
+    height: auto;
+    margin: 0px;
+  }
+  .whoami-video1 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 105%;
+    height: auto;
+    margin: 0px;
+  }
+  .whoami-hero {
+    height: 508px;
+  }
+  .whoami-main {
+    height: 411px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .whoami-content {
+    align-self: center;
+    margin-bottom: var(--dl-space-space-sixunits);
+  }
+  .whoami-navbar {
+    align-items: flex-start;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .whoami-menu {
+    top: 0px;
+    left: 0px;
+    display: flex;
+    position: absolute;
+  }
+  .whoami-hamburger {
+    top: -16px;
+    left: 90px;
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .whoami-icon {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+  }
+  .whoami-mobile-menu {
+    top: var(--dl-space-space-oneandhalfunits);
+    left: 0px;
+    width: var(--dl-size-size-large);
+    bottom: 0px;
+    height: auto;
+    padding: 0px;
+    position: absolute;
+  }
+  .whoami-tangible-logo {
+    position: relative;
+  }
+  .whoami-menu-close {
+    justify-content: flex-end;
+  }
+  .whoami-icon2 {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .whoami-nav1 {
+    position: relative;
+  }
+  .whoami-desaka {
+    margin-top: 0px;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .whoami-title-reference {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 12px;
+  }
+  .whoami-dropdown-list {
+    left: 0%;
+  }
+  .whoami-courses {
+    margin-top: 0px;
+  }
+  .whoami-title-reference1 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 12px;
+  }
+  .whoami-dropdown-list01 {
+    left: 0%;
+  }
+  .whoami-blog {
+    margin-top: 0px;
+  }
+  .whoami-title-reference2 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 12px;
+  }
+  .whoami-dropdown-list02 {
+    left: 0%;
+  }
+  .whoami-contact {
+    margin-top: 0px;
+  }
+  .whoami-title-reference3 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 12px;
+  }
+  .whoami-dropdown-list03 {
+    left: 0%;
+  }
+  .whoami-language {
+    margin-left: 0px;
+  }
+  .whoami-dropdown-toggle04 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .whoami-english {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 4px;
+    font-weight: 400;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+  }
+  .whoami-dropdown-list04 {
+    top: 0;
+    left: 100%;
+  }
+  .whoami-video2 {
+    height: auto;
+  }
+  .whoami-video3 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 105%;
+    height: auto;
+    margin: 0px;
+  }
+  .whoami-video4 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 105%;
+    height: auto;
+    margin: 0px;
+  }
+  .whoami-video5 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 105%;
+    height: auto;
+    margin: 0px;
+  }
+  .whoami-caption {
+    color: var(--dl-color-gray-white);
+    width: auto;
+    height: 123px;
+    font-size: 36px;
+    max-width: auto;
+    margin-top: var(--dl-space-space-sixunits);
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 35px;
+    padding-top: 0px;
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .whoami-navbar1 {
+    align-items: flex-start;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .whoami-menu1 {
+    top: 0px;
+    left: 0px;
+    display: flex;
+    position: absolute;
+  }
+  .whoami-hamburger1 {
+    top: -16px;
+    left: 90px;
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .whoami-icon4 {
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+  }
+  .whoami-home {
+    top: -16px;
+    left: 110px;
+    font-size: 11px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .whoami-mobile-menu1 {
+    top: var(--dl-space-space-oneandhalfunits);
+    left: 0px;
+    width: var(--dl-size-size-large);
+    bottom: 0px;
+    height: auto;
+    padding: 0px;
+    position: absolute;
+  }
+  .whoami-tangible-logo1 {
+    position: relative;
+  }
+  .whoami-menu-close1 {
+    justify-content: flex-end;
+  }
+  .whoami-icon6 {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .whoami-nav3 {
+    position: relative;
+  }
+  .whoami-desaka1 {
+    margin-top: 0px;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .whoami-title-reference4 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 12px;
+  }
+  .whoami-dropdown-list05 {
+    left: 0%;
+  }
+  .whoami-courses1 {
+    margin-top: 0px;
+  }
+  .whoami-title-reference5 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 12px;
+  }
+  .whoami-dropdown-list06 {
+    left: 0%;
+  }
+  .whoami-blog1 {
+    margin-top: 0px;
+  }
+  .whoami-title-reference6 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 12px;
+  }
+  .whoami-dropdown-list07 {
+    left: 0%;
+  }
+  .whoami-contact1 {
+    margin-top: 0px;
+  }
+  .whoami-title-reference7 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 12px;
+  }
+  .whoami-dropdown-list08 {
+    left: 0%;
+  }
+  .whoami-language1 {
+    margin-left: 0px;
+  }
+  .whoami-dropdown-toggle12 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .whoami-english1 {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 4px;
+    font-weight: 400;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+  }
+  .whoami-dropdown-list09 {
+    top: 0;
+    left: 100%;
+  }
+  .whoami-content1 {
+    height: auto;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    margin-bottom: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .whoami-video6 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 105%;
+    height: auto;
+    margin: 0px;
+  }
+  .whoami-video7 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 105%;
+    height: auto;
+    margin: 0px;
+  }
+  .whoami-video8 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 105%;
+    height: auto;
+    margin: 0px;
+  }
+  .whoami-quote {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 30px;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .whoami-text02 {
+    color: rgb(53, 43, 42);
+    height: auto;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 30px;
+    padding-top: var(--dl-space-space-threeunits);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .whoami-image06 {
+    height: 270px;
+    padding-top: 0px;
+  }
+  .whoami-blog2 {
+    height: auto;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .whoami-caption1 {
+    height: auto;
+    font-size: 45px;
+    max-width: 80%;
+    line-height: 54px;
+  }
+  .whoami-image08 {
+    width: 100%;
+    height: auto;
+  }
+  .whoami-content2 {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .whoami-heading {
+    gap: var(--dl-space-space-unit);
+  }
+  .whoami-header {
+    font-size: 32px;
+    line-height: 31px;
+  }
+  .whoami-caption2 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .whoami-content3 {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .whoami-heading1 {
+    gap: var(--dl-space-space-unit);
+  }
+  .whoami-header1 {
+    font-size: 32px;
+    line-height: 30px;
+  }
+  .whoami-caption3 {
+    height: auto;
+    font-size: 16px;
+  }
+  .whoami-content4 {
+    width: 650px;
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .whoami-footer1 {
+    width: 592px;
+  }
+  .whoami-branding {
+    max-width: 70%;
+  }
+  .whoami-caption4 {
+    font-size: 9px;
+  }
+  .whoami-contact-link {
+    gap: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .whoami-image {
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    align-items: center;
+    margin-right: 0px;
+  }
+  .whoami-image01 {
+    width: 0%;
+    height: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .whoami-image02 {
+    width: auto;
+    height: 72px;
+    margin-top: var(--dl-space-space-halfunit);
+    padding-top: 0px;
+  }
+  .whoami-image03 {
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    align-items: center;
+  }
+  .whoami-image04 {
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    align-items: center;
+  }
+  .whoami-video {
+    left: -63PX;
+    right: 0px;
+    width: 270px;
+    bottom: var(--dl-space-space-halfunit);
+    height: auto;
+    margin: 0px;
+    opacity: 1;
+    border-radius: 0px;
+  }
+  .whoami-image05 {
+    width: 72px;
+    height: 72px;
+    margin-top: var(--dl-space-space-halfunit);
+    padding-top: 0px;
+  }
+  .whoami-video1 {
+    left: -63PX;
+    right: 0px;
+    width: 360px;
+    bottom: var(--dl-space-space-halfunit);
+    height: auto;
+    opacity: 1;
+    align-self: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 0px;
+    margin-bottom: 4px;
+  }
+  .whoami-hero {
+    width: 100%;
+    height: 360px;
+    align-self: center;
+    align-items: flex-start;
+    margin-bottom: 0px;
+    background-image: url('https://user-images.githubusercontent.com/127581878/239958351-0257a3e6-afc6-417c-b4ba-e3ca7f2c6b0a.jpeg');
+  }
+  .whoami-main {
+    left: 0px;
+    height: auto;
+    position: absolute;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .whoami-content {
+    top: 0px;
+    left: 0px;
+    height: auto;
+    position: absolute;
+    margin-top: 0px;
+    align-items: center;
+    margin-bottom: 0px;
+    justify-content: flex-start;
+  }
+  .whoami-navbar {
+    height: auto;
+    position: 0px;
+    max-width: 100%;
+    align-self: flex-start;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    justify-content: flex-start;
+  }
+  .whoami-menu {
+    width: 100%;
+    position: static;
+    margin-top: 0px;
+  }
+  .whoami-hamburger {
+    top: 0px;
+    left: 0px;
+    width: var(--dl-size-size-small);
+    height: var(--dl-size-size-small);
+    position: absolute;
+    margin-top: var(--dl-space-space-unit);
+    text-align: left;
+    margin-left: var(--dl-space-space-oneandhalfunits);
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+  .whoami-icon {
+    top: var(--dl-space-space-twounits);
+    fill: var(--dl-color-gray-black);
+    width: 36px;
+    height: 36px;
+  }
+  .whoami-mobile-menu {
+    top: 0px;
+    left: 0px;
+    width: var(--dl-size-size-medium);
+    bottom: 0px;
+    height: 100%;
+    padding: 0px;
+    position: absolute;
+  }
+  .whoami-nav {
+    top: 51px;
+    left: 0px;
+    height: auto;
+    position: absolute;
+  }
+  .whoami-icon2 {
+    margin-top: 0px;
+    margin-left: var(--dl-space-space-oneandhalfunits);
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .whoami-desaka {
+    margin-top: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .whoami-dropdown-toggle {
+    color: var(--dl-color-gray-white);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .whoami-title-reference {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    text-align: left;
+    font-family: Arial;
+    font-weight: 500;
+  }
+  .whoami-dropdown-list {
+    left: 0%;
+    width: 99px;
+  }
+  .whoami-courses {
+    margin-top: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .whoami-dropdown-toggle01 {
+    color: var(--dl-color-gray-white);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .whoami-title-reference1 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    text-align: left;
+    font-family: Arial;
+    font-weight: 500;
+  }
+  .whoami-dropdown-list01 {
+    left: 0%;
+    width: 99px;
+  }
+  .whoami-blog {
+    margin-top: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .whoami-dropdown-toggle02 {
+    color: var(--dl-color-gray-white);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .whoami-title-reference2 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    text-align: left;
+    font-family: Arial;
+    font-weight: 500;
+  }
+  .whoami-dropdown-list02 {
+    left: 0%;
+    width: 99px;
+  }
+  .whoami-contact {
+    margin-top: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .whoami-dropdown-toggle03 {
+    color: var(--dl-color-gray-white);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .whoami-title-reference3 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    text-align: left;
+    font-family: Arial;
+    font-weight: 500;
+  }
+  .whoami-dropdown-list03 {
+    left: 0%;
+    width: 99px;
+  }
+  .whoami-dropdown-toggle04 {
+    margin-top: var(--dl-space-space-twounits);
+    margin-left: var(--dl-space-space-unit);
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0nits;
+    padding-right: 0px;
+    flex-direction: row;
+    padding-bottom: 0px;
+  }
+  .whoami-english {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 4px;
+    font-weight: 400;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+  }
+  .whoami-dropdown-list04 {
+    top: 0;
+    left: 100%;
+    width: 101px;
+    margin-left: var(--dl-space-space-halfunit);
+    border-color: transparent;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  .whoami-chn-tw {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .whoami-chn-cn {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .whoami-vn {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .whoami-video2 {
+    width: 100%;
+    height: auto;
+    margin-top: var(--dl-space-space-fiveunits);
+  }
+  .whoami-video3 {
+    left: -63PX;
+    right: 0px;
+    width: var(--dl-size-size-xxlarge);
+    bottom: var(--dl-space-space-halfunit);
+    height: auto;
+    margin: 0px;
+    opacity: 1;
+    border-radius: 0px;
+  }
+  .whoami-video4 {
+    left: -63PX;
+    right: 0px;
+    width: 270px;
+    bottom: var(--dl-space-space-halfunit);
+    height: auto;
+    margin: 0px;
+    opacity: 1;
+    border-radius: 0px;
+  }
+  .whoami-video5 {
+    left: -63PX;
+    right: 0px;
+    width: 230px;
+    bottom: var(--dl-space-space-halfunit);
+    height: auto;
+    margin: 0px;
+    opacity: 1;
+    border-radius: 0px;
+  }
+  .whoami-caption {
+    color: var(--dl-color-gray-white);
+    width: 100%;
+    height: auto;
+    font-size: 27px;
+    max-width: 100%;
+    align-self: center;
+    font-style: normal;
+    margin-top: 0px;
+    text-align: right;
+    font-family: Cormorant Infant;
+    font-weight: 700;
+    line-height: 26px;
+    margin-left: 0px;
+    margin-right: var(--dl-space-space-oneandhalfunits);
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .whoami-navbar1 {
+    height: auto;
+    position: 0px;
+    max-width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .whoami-menu1 {
+    width: 100%;
+    position: static;
+    margin-top: -45px;
+  }
+  .whoami-hamburger1 {
+    top: -46px;
+    left: 54px;
+    width: var(--dl-size-size-xsmall);
+    height: var(--dl-size-size-xsmall);
+    position: absolute;
+    margin-top: var(--dl-space-space-unit);
+    margin-left: var(--dl-space-space-oneandhalfunits);
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+  .whoami-icon4 {
+    top: var(--dl-space-space-twounits);
+    fill: var(--dl-color-gray-white);
+  }
+  .whoami-home {
+    top: -45px;
+    left: 72px;
+    right: 335px;
+    bottom: 0px;
+    position: absolute;
+    font-size: 11px;
+    margin-top: var(--dl-space-space-unit);
+    margin-left: var(--dl-space-space-oneandhalfunits);
+    padding-top: 0px;
+  }
+  .whoami-mobile-menu1 {
+    top: 0px;
+    left: 0px;
+    width: var(--dl-size-size-medium);
+    bottom: 0px;
+    height: 100%;
+    padding: 0px;
+    position: absolute;
+  }
+  .whoami-nav2 {
+    top: 51px;
+    left: 0px;
+    height: auto;
+    position: absolute;
+  }
+  .whoami-icon6 {
+    margin-top: 0px;
+    margin-left: var(--dl-space-space-oneandhalfunits);
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .whoami-desaka1 {
+    margin-top: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .whoami-dropdown-toggle08 {
+    color: var(--dl-color-gray-white);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .whoami-title-reference4 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    text-align: left;
+    font-family: Arial;
+    font-weight: 500;
+  }
+  .whoami-dropdown-list05 {
+    left: 0%;
+    width: 99px;
+  }
+  .whoami-courses1 {
+    margin-top: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .whoami-dropdown-toggle09 {
+    color: var(--dl-color-gray-white);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .whoami-title-reference5 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    text-align: left;
+    font-family: Arial;
+    font-weight: 500;
+  }
+  .whoami-dropdown-list06 {
+    left: 0%;
+    width: 99px;
+  }
+  .whoami-blog1 {
+    margin-top: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .whoami-dropdown-toggle10 {
+    color: var(--dl-color-gray-white);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .whoami-title-reference6 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    text-align: left;
+    font-family: Arial;
+    font-weight: 500;
+  }
+  .whoami-dropdown-list07 {
+    left: 0%;
+    width: 99px;
+  }
+  .whoami-contact1 {
+    margin-top: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .whoami-dropdown-toggle11 {
+    color: var(--dl-color-gray-white);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: 0px;
+  }
+  .whoami-title-reference7 {
+    color: var(--dl-color-gray-white);
+    font-size: 12px;
+    font-style: normal;
+    text-align: left;
+    font-family: Arial;
+    font-weight: 500;
+  }
+  .whoami-dropdown-list08 {
+    left: 0%;
+    width: 99px;
+  }
+  .whoami-dropdown-toggle12 {
+    margin-top: var(--dl-space-space-twounits);
+    margin-left: var(--dl-space-space-unit);
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0nits;
+    padding-right: 0px;
+    flex-direction: row;
+    padding-bottom: 0px;
+  }
+  .whoami-english1 {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 4px;
+    font-weight: 400;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+  }
+  .whoami-dropdown-list09 {
+    top: 0;
+    left: 100%;
+    width: 101px;
+    margin-left: var(--dl-space-space-halfunit);
+    border-color: transparent;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  .whoami-chn-tw1 {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .whoami-chn-cn1 {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .whoami-vn1 {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .whoami-content1 {
+    height: auto;
+    margin-top: 0px;
+    padding-top: var(--dl-space-space-sixunits);
+    margin-bottom: 0px;
+  }
+  .whoami-video6 {
+    left: -63PX;
+    right: 0px;
+    width: 230px;
+    bottom: var(--dl-space-space-halfunit);
+    height: auto;
+    margin: 0px;
+    opacity: 0;
+    border-radius: 0px;
+  }
+  .whoami-video7 {
+    left: -63PX;
+    right: 0px;
+    width: 230px;
+    bottom: var(--dl-space-space-halfunit);
+    height: auto;
+    margin: 0px;
+    opacity: 0;
+    border-radius: 0px;
+  }
+  .whoami-video8 {
+    left: -63PX;
+    right: 0px;
+    width: 230px;
+    bottom: var(--dl-space-space-halfunit);
+    height: auto;
+    margin: 0px;
+    opacity: 0;
+    border-radius: 0px;
+  }
+  .whoami-quote {
+    height: auto;
+    font-size: 27px;
+    font-style: italic;
+    text-align: left;
+    font-weight: 700;
+    line-height: 27px;
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-unit);
+    margin-bottom: 0px;
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .whoami-text02 {
+    height: auto;
+    font-size: 27px;
+    font-style: italic;
+    text-align: left;
+    font-weight: 700;
+    line-height: 27px;
+    padding-top: var(--dl-space-space-oneandhalfunits);
+    padding-left: var(--dl-space-space-unit);
+    margin-bottom: 0px;
+    padding-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .whoami-image06 {
+    height: auto;
+    margin-top: 0px;
+    align-items: center;
+  }
+  .whoami-image07 {
+    width: var(--dl-size-size-medium);
+    height: var(--dl-size-size-medium);
+    margin-top: var(--dl-space-space-halfunit);
+    padding-top: 0px;
+  }
+  .whoami-blog2 {
+    height: auto;
+    padding-top: var(--dl-space-space-fourunits);
+    padding-bottom: var(--dl-space-space-fourunits);
+  }
+  .whoami-caption1 {
+    color: var(--dl-color-gray-black);
+    width: 458px;
+    height: 141px;
+    font-size: 45px;
+    max-width: 100%;
+    align-self: center;
+    font-style: normal;
+    font-family: Cormorant Infant;
+    font-weight: 800;
+    line-height: 54px;
+  }
+  .whoami-caption2 {
+    padding-right: var(--dl-space-space-fourunits);
+  }
+  .whoami-heading1 {
+    height: 127px;
+    padding-right: 0px;
+  }
+  .whoami-caption3 {
+    height: 83px;
+    padding-right: var(--dl-space-space-fourunits);
+  }
+  .whoami-image11 {
+    width: 100%;
+  }
+  .whoami-content4 {
+    width: 450px;
+  }
+  .whoami-footer1 {
+    width: 300px;
+  }
+  .whoami-caption4 {
+    font-size: 9px;
+  }
+  .whoami-contact-link {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+}
